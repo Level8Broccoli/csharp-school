@@ -8,7 +8,7 @@
 3. Installiere mit Standard-Einstellungen
 4. Sprache **Deutsch** aktivieren (optional über "German Language Pack")
 
-![vs code screenshot](/img/vscode.png)
+![vs code screenshot](img/vscode.png)
 
 ### Schritt 2 - .NET SDK installieren
 Damit C#-Programme ausgeführt werden können, benötigst du das **.NET SDK**.
@@ -19,7 +19,7 @@ Damit C#-Programme ausgeführt werden können, benötigst du das **.NET SDK**.
 4. Installiere mit den Standard-Einstellungen.
 5. Prüfen, ob alles funktioniert:`dotnet --version`
 
-![csharp download site](/img/csharp.png)
+![csharp download site](img/csharp.png)
 
 ### Schritt 3 – VS Code Erweiterungen installieren
 1. Öffne Visual Studio Code.
@@ -38,7 +38,7 @@ Damit C#-Programme ausgeführt werden können, benötigst du das **.NET SDK**.
 2. Installiere Git mit **Standard-Einstellungen**.
 3. Prüfen, ob Git funktioniert: `git --version`
 
-![git download page](/img/git.png)
+![git download page](img/git.png)
 
 ### Schritt 2 – GitHub-Account erstellen
 1. Öffne [https://github.com/](https://github.com/)
@@ -46,7 +46,7 @@ Damit C#-Programme ausgeführt werden können, benötigst du das **.NET SDK**.
 3. Benutzername, E-Mail und Passwort wählen
 4. E-Mail bestätigen
 
-![github page](/img/github.png)
+![github page](img/github.png)
 
 
 ### Schritt 3 – Git konfigurieren
