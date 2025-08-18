@@ -1,0 +1,58 @@
+site_name: Modul 319 – Programmieren Grundlagen in C#
+site_description: Unterrichtsmaterial für das Modul 319 an der BBZW Sursee
+site_author: Dr. Andreas Fischer
+site_url: https://af81.github.io/csharp-school/
+date: 2025-08-11
+copyright: Copyright &copy; 2025 Dr. Andreas Fischer
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+theme:
+  name: material
+  logo: img/csharp-logo.png
+  language: de
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - toc.integrate
+    - content.code.copy
+    - content.tabs.link
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: default
+      primary: yellow
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Dunkelmodus
+    - scheme: slate
+      primary: yellow
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Hellmodus
+nav:
+  - Startseite: index.md
+  - Semesterplan: semesterplan.md
+  - Lernstoff:
+      - "DL1 Einführung & Organisation":
+          - Übersicht: dl1/index.md
+          - Arbeitsauftrag: dl1/arbeitsauftrag.md
+      - "DL2 Theoretische Einführung":
+          - Übersicht: dl2/index.md
+          - Theorie: dl2/theorie.md
+  #         - Arbeitsauftrag: dl2/arbeitsauftrag.md
+  #         - Materialien: dl2/materialien.md
+  #     # Weitere DLs hier ergänzen
+  # - Prüfungen:
+  #     - Prüfung 1: pruefungen/pruefung1.md
+  #     - Prüfung 2: pruefungen/pruefung2.md
+  # - Projekte:
+  #     - Projektideen: projekte/projektideen.md
+  #     - Projektvorgaben: projekte/projektvorgaben.md
+  - Klassenregeln: regeln.md
+  - Ressourcen:
+      - Wichtige Terminal-Befehle: ressourcen/terminal.md
+      #- Nützliche Links: ressourcen/links.md
