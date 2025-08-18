@@ -40,9 +40,9 @@ nav:
       - "DL1 Einführung & Organisation":
           - Übersicht: dl1/index.md
           - Arbeitsauftrag: dl1/arbeitsauftrag.md
-      - "DL2 Theoretische Einführung":
-          - Übersicht: dl2/index.md
-          - Theorie: dl2/theorie.md
+      # - "DL2 Theoretische Einführung":
+      #     - Übersicht: dl2/index.md
+      #     - Theorie: dl2/theorie.md
   #         - Arbeitsauftrag: dl2/arbeitsauftrag.md
   #         - Materialien: dl2/materialien.md
   #     # Weitere DLs hier ergänzen
