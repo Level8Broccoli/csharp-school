@@ -49,3 +49,7 @@ Beantwortet folgende Fragen zum Video:
 3. Frage den Benutzer nach seinem Namen.
 4. Speichere die Eingabe des Benutzers in einer String-Variable "name"
 5. Output: "Hallo XYZ! Herzlich Willkommen zu Modul 319."
+
+!!! Tipp
+
+    Falls VS Code bei dir noch nicht funktioniert, nutze diesen [Online-Editor](https://www.programiz.com/csharp-programming/online-compiler/)
