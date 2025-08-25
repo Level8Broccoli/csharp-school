@@ -47,6 +47,8 @@ Beantwortet folgende Fragen zum Video:
 
     ![](../../img/helloworld-title.png)
 
+**Für C#-Kenner (optional)**
+
 4. Frage den Benutzer nach seinem Namen.
 5. Speichere die Eingabe des Benutzers in einer String-Variable "name"
 6. Output: "Hallo XYZ! Herzlich Willkommen zu Modul 319."
