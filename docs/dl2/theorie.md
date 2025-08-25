@@ -2,7 +2,9 @@
 title: Wie funktioniert ein Computerprogramm? (Theorie)
 ---
 
-# 💻 Wie funktioniert ein Computerprogramm?
+Wird nach der Lektion angezeigt.
+
+<!-- # 💻 Wie funktioniert ein Computerprogramm?
 
 Ein Computerprogramm ist im Kern eine **Anleitung für den Computer**, ähnlich wie ein Rezept in der Küche. Es beschreibt Schritt für Schritt, was der Computer tun soll, um ein bestimmtes Problem zu lösen oder eine Aufgabe auszuführen.
 
@@ -79,4 +81,4 @@ Programme können:
 - Ein Computerprogramm ist eine **formal beschriebene Folge von Anweisungen**, die von der **CPU** schrittweise ausgeführt wird.
 - Der Quelltext wird per **Compiler** oder **Interpreter** in **Maschinencode** überführt.
 - Das Arbeitsmuster bleibt stets: **Eingabe → Verarbeitung → Ausgabe**.
-Wenn du möchtest, packe ich das direkt in eine kleine MkDocs-Struktur (Dateiname, mkdocs.yml-Ausschnitt, Navigation) – sag einfach Bescheid.
+Wenn du möchtest, packe ich das direkt in eine kleine MkDocs-Struktur (Dateiname, mkdocs.yml-Ausschnitt, Navigation) – sag einfach Bescheid. -->
