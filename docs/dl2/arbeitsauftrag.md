@@ -44,7 +44,7 @@ Beantwortet folgende Fragen zum Video:
 1. In VS Code neues Projekt anlegen (dotnet new console -n HelloWorld).
 2. Code so anpassen, dass folgender Output entsteht.
 
-![](../../img/helloworld-title.png)
+    ![](../../img/helloworld-title.png)
 
 3. Frage den Benutzer nach seinem Namen.
 4. Speichere die Eingabe des Benutzers in einer String-Variable "name"
