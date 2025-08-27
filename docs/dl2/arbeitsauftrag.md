@@ -45,7 +45,7 @@ Beantwortet folgende Fragen zum Video:
 2. Das Programm lässt sich ausführen mit `dotnet run`
 3. Code so anpassen, dass folgender Output entsteht.
 
-    ![](../../img/helloworld-title.png)
+    ![](../img/helloworld-title.png)
 
 **Für C#-Kenner (optional)**
 
