@@ -51,6 +51,59 @@ Er enthält:
 
 ---
 
+## 🧠 Struktur einer guten Commit-Message
+
+Eine Commit-Message folgt diesem Aufbau:
+
+```text
+<type>(optional scope): kurze Beschreibung
+```
+
+Beispie:
+
+```text
+chore: add folders for components and assets
+```
+
+## 🔤 Commit-Typen (nach Conventional Commits)
+
+| Typ      | Wann verwenden?                          | Beispiel                             |
+| -------- | ---------------------------------------- | ------------------------------------ |
+| feat     | Neue Funktion                            | feat: add login form with validation |
+| fix      | Bugfix                                   | fix: correct typo in function name   |
+| docs     | Dokumentation                            | docs: update README                  |
+| style    | Nur Formatierung                         | style: format code with Prettier     |
+| refactor | Code-/Strukturumbau ohne neues Verhalten | refactor: move utils to lib folder   |
+| test     | Tests hinzugefügt oder geändert          | test: add tests for login logic      |
+| chore    | Setup, Struktur, Konfiguration           | chore: setup folder structure        |
+| perf     | Performance-Verbesserung                 | perf: cache API responses            |
+
+## 📁 Beispiele für Struktur-Commits
+
+| Aktion                       | Commit Message                      |
+| ---------------------------- | ----------------------------------- |
+| Neue Ordnerstruktur          | chore: add initial folder structure |
+| Dateien verschoben/umbenannt | refactor: move components to /ui/   |
+| Platzhalterdateien angelegt  | chore: add placeholder README files |
+| Assets umorganisiert         | chore: move images to /assets/img/  |
+| Nur Dokumentation            | docs: add API usage guide           |
+
+❌ Vermeide schlechte Messages wie:
+
+- update
+- more files
+- final fix
+- stuff
+- changes (ohne Kontext)
+
+✅ Bonus-Tipps
+
+- Schreibe in Englisch (auch im deutschsprachigen Team)
+- Denk an Leser in 3 Monaten (auch du selbst!)
+- Sag nicht nur, was du gemacht hast, sondern was sich am Projekt ändert
+
+---
+
 ## 🛠️ Git – Wichtige Befehle
 
 | Befehl | Bedeutung | Beispiel |
