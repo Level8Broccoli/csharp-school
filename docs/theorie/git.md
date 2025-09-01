@@ -6,9 +6,9 @@ Ein *Repository* (kurz: "Repo") ist dein **Projekt mit Versionsgeschichte**.
 
 Es enthält:
 
-- Den aktuellen Code
-- Alle bisherigen Versionsstände (Commits)
-- Weitere Infos (z.B. Branches, Merget etc.)
+- Den aktuellen **Code**
+- Alle bisherigen **Versionsstände** (Commits)
+- **Weitere Infos** (z.B. Branches, Merges etc.)
 
 > 📘 Ein Repository ist wie ein Tagebuch deines Codes.
 
