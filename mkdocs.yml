@@ -38,9 +38,11 @@ nav:
   - Theorie:
       - Grundlagen Programmierung: theorie/computer-programm.md
       - Git und GitHub: theorie/git.md
-  - Übungen:
-      - Entwicklungsumgebung: uebungen/entwicklungsumgebung.md
-      - Erste Schritte mit C#: uebungen/helloworld.md
+  - Aufgaben:
+      - Setup - VS Code & .NET SDK: uebungen/vscode-setup.md
+      - Setup - Git & GitHub: uebungen/git-setup.md
+      - Wichtige Begriffe lernen: uebungen/begriffe.md
+      - Hello World mit C#: uebungen/helloworld.md
       - Git - Das erste Repository: uebungen/git.md
       - Git - Änderungen nachvollziehen: uebungen/git-commit.md
       - Git - Änderungen rückgängig machen: uebungen/git-change.md
