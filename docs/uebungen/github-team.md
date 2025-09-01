@@ -71,7 +71,7 @@ git add .
 git commit -m "fix: resolve merge conflict in program.cs"
 ```
 
-✅ Ziel erreicht, wenn …
+✅ **Ziel erreicht, wenn …**
 
 - Du das Team-Repo geklont hast
 - Du deinen eigenen Branch erstellt und Änderungen hochgeladen hast

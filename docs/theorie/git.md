@@ -51,7 +51,7 @@ Er enthält:
 
 ---
 
-## 🧠 Struktur einer guten Commit-Message
+## 🧠 Struktur einer guten Commit-Messagek
 
 Eine Commit-Message folgt diesem Aufbau:
 

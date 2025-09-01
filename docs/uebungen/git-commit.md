@@ -66,7 +66,7 @@ Vergleiche den letzten Commit mit dem vorherigen:
 git diff HEAD~1 HEAD
 ```
 
-✅ Ziel erreicht, wenn …
+✅ **Ziel erreicht, wenn …**
 
 - Du mit *git status* siehst, welche Dateien geändert sind
 - Du mit *git diff* die Änderungen vergleichen kannst

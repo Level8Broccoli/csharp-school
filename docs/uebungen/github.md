@@ -36,7 +36,7 @@ git push -u origin main
 - Lade deine Repository-Seite auf GitHub neu
 - Dein Projekt und die bisherigen Commits sollten jetzt sichtbar sein
 
-✅ Ziel erreicht, wenn …
+✅ **Ziel erreicht, wenn …**
 
 - Dein lokales HelloWorld-Projekt auf GitHub sichtbar ist
 - Du den Zusammenhang zwischen lokalem Repo und Remote Repo verstanden hast

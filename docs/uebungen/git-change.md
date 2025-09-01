@@ -80,7 +80,7 @@ git reset --soft HEAD~1
 
 
 
-✅ Ziel erreicht, wenn …
+✅ **Ziel erreicht, wenn …**
 
 - Du eine Änderung am Code verworfen hast
 - Du eine Datei aus dem Staging-Bereich zurückgeholt hast

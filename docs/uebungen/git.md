@@ -68,7 +68,7 @@ git commit -m "feat: add greeting message"
 git log --oneline
 ```
 
-✅ Du hast dein Ziel erreicht, wenn...
+✅ **Ziel erreicht, wenn...**
 
 - Du dein HelloWorld-Projekt als Repository intialisiert hast
 - Mindestens zwei Commits in der Historie sichtbar sind
