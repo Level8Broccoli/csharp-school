@@ -35,22 +35,26 @@ theme:
 nav:
   - Startseite: index.md
   - Semesterplan: semesterplan.md
-  - Lernstoff:
-      - "DL1 Einführung & Organisation":
-          - Übersicht: dl1/index.md
-          - Arbeitsauftrag: dl1/arbeitsauftrag.md
-      - "DL2 Theoretische Einführung":
-          - Übersicht: dl2/index.md
-          - Theorie: dl2/theorie.md
-          - Arbeitsauftrag: dl2/arbeitsauftrag.md
-  #         - Materialien: dl2/materialien.md
-  #     # Weitere DLs hier ergänzen
-  # - Prüfungen:
-  #     - Prüfung 1: pruefungen/pruefung1.md
-  #     - Prüfung 2: pruefungen/pruefung2.md
-  # - Projekte:
-  #     - Projektideen: projekte/projektideen.md
-  #     - Projektvorgaben: projekte/projektvorgaben.md
+  - Theorie:
+      - Grundlagen Programmierung: theorie/computer-programm.md
+      - Git und GitHub: theorie/git.md
+  - Übungen:
+      - Entwicklungsumgebung: uebungen/entwicklungsumgebung.md
+      - Erste Schritte mit C#: uebungen/helloworld.md
+      - Git - Das erste Repository: uebungen/git.md
+      - Git - Änderungen nachvollziehen: uebungen/git-commit.md
+      - Git - Änderungen rückgängig machen: uebungen/git-change.md
+      - Github - Repository erstellen und verbinden: uebungen/github.md
+      # - Variablen und Datentypen: uebungen/variablen-datentypen.md
+      # - Einfache Ein- und Ausgabe: uebungen/einfach-ein-ausgabe.md
+      # - Bedingungen (if, else, switch): uebungen/bedingungen.md
+      # - Schleifen (for, while, do-while): uebungen/schleifen.md
+      # - Funktionen (Methoden): uebungen/funktionen-methoden.md
+      # - Arrays und Listen: uebungen/arrays-listen.md
+      # - Klassen und Objekte: uebungen/klassen-objekte.md
+      # - Fehlerbehandlung (try-catch): uebungen/fehlerbehandlung.md
+      # - Arbeiten mit Dateien: uebungen/dateien.md
+      # - Einführung in die objektorientierte Programmierung: uebungen/oop-einfuehrung.md-
   - Klassenregeln: regeln.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md

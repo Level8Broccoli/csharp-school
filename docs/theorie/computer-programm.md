@@ -1,4 +1,4 @@
-# Theorie
+# 📗 Theoretische Grundlagen Programmieren
 
 ## Wie funktioniert ein Computerprogramm?
 

@@ -35,22 +35,6 @@ Unter **Windows** kannst du PowerShell oder Git Bash verwenden.
 
 ---
 
-## 🛠️ Git – Wichtige Befehle
-
-| Befehl | Bedeutung | Beispiel |
-|--------|-----------|----------|
-| `git init` | Neues lokales Git-Repo erstellen | `git init` |
-| `git clone <url>` | Repo von GitHub klonen | `git clone https://github.com/user/repo.git` |
-| `git status` | Aktuellen Status anzeigen | `git status` |
-| `git add <datei>` | Datei zur Staging-Area hinzufügen | `git add main.py` |
-| `git add .` | Alle Änderungen hinzufügen | `git add .` |
-| `git commit -m "Nachricht"` | Änderungen speichern (lokal) | `git commit -m "Funktion hinzugefügt"` |
-| `git push` | Änderungen zu GitHub hochladen | `git push` |
-| `git pull` | Änderungen von GitHub herunterladen | `git pull` |
-| `git log` | Commit-Historie anzeigen | `git log` |
-
----
-
 ## 🔍 Nützliche Zusatzbefehle
 
 | Befehl | Bedeutung | Beispiel |
