@@ -40,27 +40,27 @@ nav:
       - Git und GitHub: theorie/git.md
   - Aufgaben:
       - "Setup":
-        - VS Code & .NET SDK: uebungen/vscode-setup.md
-        - Git & GitHub: uebungen/git-setup.md
+        - VS Code & .NET SDK: aufgaben/vscode-setup.md
+        - Git & GitHub: aufgaben/git-setup.md
       - "Erste Schritte":
-        - Wichtige Begriffe lernen: uebungen/begriffe.md
-        - Hello World mit C#: uebungen/helloworld.md
+        - Wichtige Begriffe lernen: aufgaben/begriffe.md
+        - Hello World mit C#: aufgaben/helloworld.md
       - "Git & GitHub":
-        - Das erste Repository: uebungen/git.md
-        - Änderungen nachvollziehen: uebungen/git-commit.md
-        - Änderungen rückgängig machen: uebungen/git-change.md
-        - Github-Repos verbinden: uebungen/github.md
-      #  - GitHub Teamübung: uebungen/github-team.md
-      # - Variablen und Datentypen: uebungen/variablen-datentypen.md
-      # - Einfache Ein- und Ausgabe: uebungen/einfach-ein-ausgabe.md
-      # - Bedingungen (if, else, switch): uebungen/bedingungen.md
-      # - Schleifen (for, while, do-while): uebungen/schleifen.md
-      # - Funktionen (Methoden): uebungen/funktionen-methoden.md
-      # - Arrays und Listen: uebungen/arrays-listen.md
-      # - Klassen und Objekte: uebungen/klassen-objekte.md
-      # - Fehlerbehandlung (try-catch): uebungen/fehlerbehandlung.md
-      # - Arbeiten mit Dateien: uebungen/dateien.md
-      # - Einführung in die objektorientierte Programmierung: uebungen/oop-einfuehrung.md-
+        - Das erste Repository: aufgaben/git.md
+        - Änderungen nachvollziehen: aufgaben/git-commit.md
+        - Änderungen rückgängig machen: aufgaben/git-change.md
+        - Github-Repos verbinden: aufgaben/github.md
+      #  - GitHub Teamübung: aufgaben/github-team.md
+      # - Variablen und Datentypen: aufgaben/variablen-datentypen.md
+      # - Einfache Ein- und Ausgabe: aufgaben/einfach-ein-ausgabe.md
+      # - Bedingungen (if, else, switch): aufgaben/bedingungen.md
+      # - Schleifen (for, while, do-while): aufgaben/schleifen.md
+      # - Funktionen (Methoden): aufgaben/funktionen-methoden.md
+      # - Arrays und Listen: aufgaben/arrays-listen.md
+      # - Klassen und Objekte: aufgaben/klassen-objekte.md
+      # - Fehlerbehandlung (try-catch): aufgaben/fehlerbehandlung.md
+      # - Arbeiten mit Dateien: aufgaben/dateien.md
+      # - Einführung in die objektorientierte Programmierung: aufgaben/oop-einfuehrung.md-
   - Klassenregeln: regeln.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
