@@ -39,14 +39,18 @@ nav:
       - Grundlagen Programmierung: theorie/computer-programm.md
       - Git und GitHub: theorie/git.md
   - Aufgaben:
-      - Setup - VS Code & .NET SDK: uebungen/vscode-setup.md
-      - Setup - Git & GitHub: uebungen/git-setup.md
-      - Wichtige Begriffe lernen: uebungen/begriffe.md
-      - Hello World mit C#: uebungen/helloworld.md
-      - Git - Das erste Repository: uebungen/git.md
-      - Git - Änderungen nachvollziehen: uebungen/git-commit.md
-      - Git - Änderungen rückgängig machen: uebungen/git-change.md
-      - Github - Repository erstellen und verbinden: uebungen/github.md
+      - "Setup":
+        - VS Code & .NET SDK: uebungen/vscode-setup.md
+        - Git & GitHub: uebungen/git-setup.md
+      - "Erste Schritte":
+        - Wichtige Begriffe lernen: uebungen/begriffe.md
+        - Hello World mit C#: uebungen/helloworld.md
+      - "Git & GitHub":
+        - Das erste Repository: uebungen/git.md
+        - Änderungen nachvollziehen: uebungen/git-commit.md
+        - Änderungen rückgängig machen: uebungen/git-change.md
+        - Github-Repos verbinden: uebungen/github.md
+      #  - GitHub Teamübung: uebungen/github-team.md
       # - Variablen und Datentypen: uebungen/variablen-datentypen.md
       # - Einfache Ein- und Ausgabe: uebungen/einfach-ein-ausgabe.md
       # - Bedingungen (if, else, switch): uebungen/bedingungen.md
