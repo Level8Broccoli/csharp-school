@@ -44,7 +44,6 @@ nav:
       - "Setup":
         - VS Code & .NET SDK: aufgaben/vscode-setup.md
         - Git & GitHub: aufgaben/git-setup.md
-        - GitHub im Team: aufgaben/github-team.md
       - "Erste Schritte":
         - Wichtige Begriffe lernen: aufgaben/begriffe.md
         - Hello World mit C#: aufgaben/helloworld.md
@@ -53,6 +52,7 @@ nav:
         - Änderungen nachvollziehen: aufgaben/git-commit.md
         - Änderungen rückgängig machen: aufgaben/git-change.md
         - Github-Repos verbinden: aufgaben/github.md
+        - GitHub im Team: aufgaben/github-team.md
       - "C# Basics":
         - Repo einrichten: aufgaben/csharp-repo.md
         - Block 1: aufgaben/block_1.md
