@@ -40,6 +40,8 @@ nav:
       - Git und GitHub: theorie/git.md
       - "C# Basics":
         - Variablen & Datentypen: theorie/variablen.md
+        - Rechnen: theorie/rechnen.md
+        - Operatoren: theorie/operatoren.md
   - Aufgaben:
       - "Setup":
         - VS Code & .NET SDK: aufgaben/vscode-setup.md

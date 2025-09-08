@@ -218,3 +218,9 @@ Console.WriteLine(name.ToLower()); // ringo
 - Split(' ') – String aufteilen in Array
 
 Offizielle Dokumentation: [https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/)
+
+---
+
+## Coding-Aufgaben "Variablen"
+
+Lösen in Block 1 die **Aufgaben 1, 2 und 3**.
