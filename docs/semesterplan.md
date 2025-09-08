@@ -30,7 +30,7 @@
 | **29.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
 | **05.01.26** | <span style="color:red;">**Prüfung 2 (Projekt)**</span> | Projektpräsentation + Code-Fragen, KI erlaubt | Präsentation + Q&A | Prüfung2 |
 | **12.01.26** | Spezialthema I | z. B. API-Anbindung, Chatbot, Spielentwicklung | Input + Miniprojekt | DL14 |
-| **19.01.26** | Spezialthema II | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | DL15 |
+| **19.01.26** | [Feedback](https://forms.office.com/e/wcz6PvYexx) + Spezialthema II | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | DL15 |
 
 ---
 

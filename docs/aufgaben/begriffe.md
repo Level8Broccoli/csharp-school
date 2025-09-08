@@ -15,9 +15,9 @@ Beantwortet folgende Fragen zum Video:
 
 ## 2. Wichtige Begriffe sichern
 
-1. Erstellt in 2er- oder 3er-Teams eine Skizze, die zeigt, wie ein Programm von der Eingabe in einer IDE bis zur Ausführung in der CPU und Speicherung von Variablen im Speicher funktioniert.
+1. Erstellt in 2er- oder 3er-Teams **eine Skizze**, die zeigt, wie ein Programm von der Eingabe in einer IDE bis zur Ausführung in der CPU und Speicherung von Variablen im Speicher funktioniert.
 
-2. Nutzt die folgenden Begriffe (jeder muss mindestens einmal vorkommen):
+2. Nutzt die folgenden **Begriffe** (jeder muss mindestens einmal vorkommen):
 
     - Syntax
     - Quellcode
@@ -31,10 +31,8 @@ Beantwortet folgende Fragen zum Video:
     - Maschinencode
     - Algorithmus
 
-3. Verbindet die Begriffe mit Pfeilen (z. B. „Compiler → Maschinencode“).
+3. Verbindet die Begriffe **mit Pfeilen** (z. B. „Compiler → Maschinencode“).
 
-4. Erklärt die Begriffe kurz in euren eigenen Worten direkt in der Zeichnung oder in einem kleinen Begleittext.
+4. Erklärt die Begriffe kurz in euren **eigenen Worten** direkt in der Zeichnung oder in einem kleinen Begleittext.
 
 5. Erstellt ein Foto oder einen Screenshot und ladet die Zeichnung (Nachnamen im Dateinamen verwenden) in Teams.
-
----
