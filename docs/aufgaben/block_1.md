@@ -69,3 +69,27 @@
 1. Erstelle ein kleines „Passwortprogramm“:
    - Der Benutzer gibt ein Passwort ein.
    - Das Programm prüft: Ist es länger als 8 Zeichen.
+
+---
+
+## 10. Unterwegs
+
+Erstelle ein Programm, das folgende Aufgabe löst:
+
+- Frage einen Benutzer, wie schnell sein Auto fährt und wie hoch der Verbrauch des Autos in Liter Benzin pro 100km ist.
+- Frage ihn dann nach der zu fahrenden Distanz und gebe die Fahrzeit in Minuten und den gesamten Benzinverbrauch aus.
+
+---
+
+## 11. Body Mass Index
+
+- Recherchiere im Internet die Formel zur Berechnungs des BMI (Body Mass Index).
+- Realisiere danach ein Programm, das nach den nötigen Werten fragt und dann den BMI berechnet.
+
+---
+
+## 12. Around the clock
+
+Ein Benutzer soll drei ganzzahlige Werte für Stunden, Minuten und Sekunden eingeben. Danach rechnet deine App die Werte in das metrische System (Zehnersystem) mit der Masseinheit Stunden um.
+
+z.B. 5 Stunden / 30 Minuten / 0 Sekungen => 5.5 Stunden
