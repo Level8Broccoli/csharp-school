@@ -4,6 +4,7 @@ site_author: Dr. Andreas Fischer
 site_url: https://af81.github.io/csharp-school/
 copyright: Copyright &copy; 2025 Dr. Andreas Fischer
 markdown_extensions:
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -42,6 +43,7 @@ nav:
         - Variablen & Datentypen: theorie/variablen.md
         - Rechnen: theorie/rechnen.md
         - Operatoren: theorie/operatoren.md
+        - Kontrollstrukturen: theorie/kontrollstrukturen.md
   - Aufgaben:
       - "Setup":
         - VS Code & .NET SDK: aufgaben/vscode-setup.md
@@ -58,6 +60,7 @@ nav:
       - "C# Basics":
         - Repo einrichten: aufgaben/csharp-repo.md
         - Block 1: aufgaben/block_1.md
+        - Block 2: aufgaben/block_2.md
       #  - GitHub Teamübung: aufgaben/github-team.md
       # - Variablen und Datentypen: aufgaben/variablen-datentypen.md
       # - Einfache Ein- und Ausgabe: aufgaben/einfach-ein-ausgabe.md
