@@ -17,7 +17,7 @@ Bei vielen Problemstellungen ist die Verarbeitung von Anweisungen von Bedingunge
 ```c#
 if (x > 10)
 {
-    Console.WriteLine("Das wird ausgeführt, wenn die Aussage x > 10 wahr ist.")
+    Console.WriteLine("Das wird ausgeführt, wenn die Aussage x > 10 wahr ist.");
 }
 ```
 
@@ -30,9 +30,9 @@ Im Gegensatz zur einseitigen Auswahl hat die zweiseitige Auswahl noch am Schluss
 ```c#
 if (x > 10)
 {
-    Console.WriteLine("Das wird ausgeführt, wenn die Aussage x > 10 wahr ist.")
+    Console.WriteLine("Das wird ausgeführt, wenn die Aussage x > 10 wahr ist.");
 } else {
-    Console.WriteLine("Das wird ausgeführt, wenn die Aussage x > 10 unwahr ist. ")
+    Console.WriteLine("Das wird ausgeführt, wenn die Aussage x > 10 unwahr ist. ");
 }
 ```
 
@@ -47,11 +47,11 @@ if (x > 10)
 {
     if (x < 15)
     {
-        Console.WriteLine("In diesem Fall muss x gleich 11, 12, 13 oder 14 sein.")
+        Console.WriteLine("In diesem Fall muss x gleich 11, 12, 13 oder 14 sein.");
     }
-    Console.WritLine("In diesem Fall ist x mindestens 16 oder grösser.")
+    Console.WritLine("In diesem Fall ist x mindestens 16 oder grösser.");
 } else {
-    Console.WriteLine("In diesem Fall ist x gleich 10 oder kleiner.")
+    Console.WriteLine("In diesem Fall ist x gleich 10 oder kleiner.");
 }
 ```
 
