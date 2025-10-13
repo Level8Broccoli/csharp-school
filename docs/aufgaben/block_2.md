@@ -146,7 +146,7 @@ Schreibe ein Programm, das den Benutzer zur Eingabe der beiden Informationen **G
 Im Verarbeitungsteil ermittelt deine App, mit Hilfe von Verzweigungen, in welcher Kategorie gerungen werden kann. Die ermittelte Information wird danach dem Benutzer ausgegeben.
 
 	Gibt der Benutzer zum Beispiel folgende Werte ein:
-		Geschlecht [m/w]	: w
+		Geschlecht [m/w]	: m
 	Gewicht [in Kg]	: 75
 		Ausgabe = Gewichtsklasse: Mittelgewicht
 

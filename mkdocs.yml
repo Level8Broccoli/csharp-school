@@ -44,6 +44,8 @@ nav:
         - Rechnen: theorie/rechnen.md
         - Operatoren: theorie/operatoren.md
         - Kontrollstrukturen: theorie/kontrollstrukturen.md
+        - Arrays: theorie/arrays.md
+        - Listen: theorie/lists.md
   - Aufgaben:
       - "Setup":
         - VS Code & .NET SDK: aufgaben/vscode-setup.md
@@ -61,6 +63,7 @@ nav:
         - Repo einrichten: aufgaben/csharp-repo.md
         - Block 1: aufgaben/block_1.md
         - Block 2: aufgaben/block_2.md
+        - Block 3: aufgaben/block_3.md
       #  - GitHub Teamübung: aufgaben/github-team.md
       # - Variablen und Datentypen: aufgaben/variablen-datentypen.md
       # - Einfache Ein- und Ausgabe: aufgaben/einfach-ein-ausgabe.md
