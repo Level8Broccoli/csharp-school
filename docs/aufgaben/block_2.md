@@ -312,3 +312,9 @@ Programmiere ein Würfelspiel, dass du gegen den Computer spielst:
 - Nach jedem Würfeln muss die würfelnde Person entscheiden, ob sie weiterfürfeln und noch mehr Punkte holen möchte oder ob die in dieser Würfelsequenz erspielten Punkte gesichert werden sollen.
 - Achtung!! Wenn man eine 1 würfelt, verliert man alle in der aktuellen Würfelsequenz erspielten Punkte. Nur die bereits gesicherten Punkte gehen nicht verloren, da sie in Sicherheit sind.
 - Wenn man sich für das Sichern der Punkte entscheidet kommt die Gegnerin an die Reihe.
+
+---
+
+## Lösungen
+
+Die Lösungen findest du in diesem [Github-Repo](https://github.com/af81/csharp-aufgaben){ target="_blank" }.
