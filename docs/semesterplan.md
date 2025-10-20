@@ -18,20 +18,19 @@
 | **06.10.25** | Herbstferien | 🏔️ | - | - |
 | **13.10.25** | Übungen II | Block 2 | Selbstlernen + Übungen | [Block 2](aufgaben/block_2.md) |
 | **20.10.25** | Übungen III | Block 2 | Selbstlernen + Übungen | [Block 2](aufgaben/block_2.md) |
-| **27.10.25** | Prüfungsvorbereitung | Repetition, Fragen klären, Übungen lösen | Plenum, WU | - |
 | **03.11.25** | <span style="color:red;">**Prüfung 1 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | LN 1 |
 | **10.11.25** | Arrays/Listen | Index, Iteration, typische Operationen | Selbstlernen + Übungen | [Arrays](theorie/arrays.md), [Listen](theorie/lists.md) |
 | **17.11.25** | Übungen IV | Block 3 | Selbstlernen + Übungen | [Block 3](aufgaben/block_3.md) |
 | **24.11.25** | Funktionen | Parameter, Rückgabewerte, Modularisierung | Selbstlernen + Übungen | DL7 |
 | **01.12.25** | Übungen V | Block 4 | Selbstlernen + Übungen | [Block 4](aufgaben/block_4.md) |
 | **08.12.25** | Feiertag (Mariä Empfängnis) | 🙏 | - | - |
-| **15.12.25** | <span style="color:red;">**Prüfung 2 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | LN 2 |
-| **22.12.25** | Mini-Projekt I | Repos erstellen, Aufgabenverteilung, Start Umsetzung | Gruppenarbeit, WU | DL10 |
+| **15.12.25** | Prüfungsvorbereitung | Repetition, Fragen klären, Übungen lösen | Plenum, WU | - |
 | **22.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
 | **29.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
-| **05.01.25** | Mini-Projekt II | Weiterentwicklung, Tests | Gruppenarbeit | DL12 |
-| **12.01.26** | <span style="color:red;">**Prüfung 3 (Projekt)**</span> | Projektpräsentation + Code-Fragen, KI erlaubt | Präsentation + Q&A | LN 3 |
-| **19.01.26** | [Feedback](https://forms.office.com/e/wcz6PvYexx) + Spezialthema II | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | DL15 |
+| **05.01.25** | <span style="color:red;">**Prüfung 2 (schriftlich)**</span> | Theorie & Codeverständnis,
+Code-Fragen, KI erlaubt | Präsentation + Q&A | LN 2 |
+| **12.01.26** | Mini-Projekt I | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | - |
+| **19.01.26** | Mini-Projekt II + [Feedback](https://forms.office.com/e/wcz6PvYexx) | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | - |
 
 ---
 
