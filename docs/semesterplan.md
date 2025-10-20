@@ -27,8 +27,7 @@
 | **15.12.25** | Prüfungsvorbereitung | Repetition, Fragen klären, Übungen lösen | Plenum, WU | - |
 | **22.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
 | **29.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
-| **05.01.25** | <span style="color:red;">**Prüfung 2 (schriftlich)**</span> | Theorie & Codeverständnis,
-Code-Fragen, KI erlaubt | Präsentation + Q&A | LN 2 |
+| **05.01.25** | <span style="color:red;">**Prüfung 2 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | LN 2 |
 | **12.01.26** | Mini-Projekt I | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | - |
 | **19.01.26** | Mini-Projekt II + [Feedback](https://forms.office.com/e/wcz6PvYexx) | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | - |
 
