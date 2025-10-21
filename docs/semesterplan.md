@@ -1,4 +1,4 @@
-# 📅 Semesterplan – Modul 319 Programmieren Grundlagen
+ # 📅 Semesterplan – Modul 319 Programmieren Grundlagen
 
 **Semester:** Herbst 2025
 **Doppellektionen:** 18 × 90 Minuten
