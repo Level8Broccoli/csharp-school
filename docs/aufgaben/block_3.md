@@ -6,7 +6,7 @@
 
 **Aufgabe**:
 
-1. Schreibe ein Programm, das ein eindimensionales Array erstellt, um die Namen der Gegenstände zu speichern.
+1. Schreibe ein Programm, das eine Liste erstellt, um die Namen der Gegenstände zu speichern.
 2. Lasse den Benutzer 5 Gegenstände eingeben, die er gefunden hat.
 3. Zeige danach die Liste der Gegenstände an.
 4. Füge eine Funktion hinzu, die nach einem Gegenstand sucht (der Benutzer gibt den Namen ein) und mitteilt, ob der Gegenstand in der Liste vorhanden ist oder nicht.
