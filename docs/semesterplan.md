@@ -22,7 +22,7 @@
 | **03.11.25** | <span style="color:red;">**Prüfung 1 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | LN 1 |
 | **10.11.25** | Arrays/Listen | Index, Iteration, typische Operationen | Selbstlernen + Übungen | [Arrays](theorie/arrays.md), [Listen](theorie/lists.md) |
 | **17.11.25** | Übungen IV | Block 3 | Selbstlernen + Übungen | [Block 3](aufgaben/block_3.md) |
-| **24.11.25** | Funktionen | Parameter, Rückgabewerte, Modularisierung | Selbstlernen + Übungen | DL7 |
+| **24.11.25** | Methoden/Unterprogramme | Parameter, Rückgabewerte, Modularisierung | Selbstlernen + Übungen | DL7 |
 | **01.12.25** | Übungen V | Block 4 | Selbstlernen + Übungen | [Block 4](aufgaben/block_4.md) |
 | **08.12.25** | Feiertag (Mariä Empfängnis) | 🙏 | - | - |
 | **15.12.25** | Prüfungsvorbereitung | Repetition, Fragen klären, Übungen lösen | Plenum, WU | - |
