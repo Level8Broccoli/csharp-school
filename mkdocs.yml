@@ -36,6 +36,7 @@ theme:
 nav:
   - Startseite: index.md
   - Semesterplan: semesterplan.md
+  - kompetenzmatrix: kompetenzmatrix.md
   - Theorie:
       - Grundlagen Programmierung: theorie/computer-programm.md
       - Git und GitHub: theorie/git.md
@@ -81,4 +82,5 @@ nav:
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
       - Probeprüfung: test.md
+      - Finale Coding-Prüfung: test2.md
       #- Nützliche Links: ressourcen/links.md
