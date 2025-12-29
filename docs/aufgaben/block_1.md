@@ -93,9 +93,3 @@ Erstelle ein Programm, das folgende Aufgabe löst:
 Ein Benutzer soll drei ganzzahlige Werte für Stunden, Minuten und Sekunden eingeben. Danach rechnet deine App die Werte in das metrische System (Zehnersystem) mit der Masseinheit Stunden um.
 
 z.B. 5 Stunden / 30 Minuten / 0 Sekungen => 5.5 Stunden
-
----
-
-## Lösungen
-
-Die Lösungen findest du in diesem [Github-Repo](https://github.com/af81/csharp-aufgaben){ target="_blank" }.
