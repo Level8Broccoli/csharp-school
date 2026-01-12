@@ -78,6 +78,8 @@ nav:
       # - Fehlerbehandlung (try-catch): aufgaben/fehlerbehandlung.md
       # - Arbeiten mit Dateien: aufgaben/dateien.md
       # - Einführung in die objektorientierte Programmierung: aufgaben/oop-einfuehrung.md-
+  - Arbeitspakete:
+      - B1 - Visuelle Darstellung und Modellierung: arbeitspakete/b1.md
   - Klassenregeln: regeln.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
