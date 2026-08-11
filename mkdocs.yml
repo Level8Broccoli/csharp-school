@@ -34,56 +34,18 @@ theme:
         icon: material/weather-sunny
         name: Hellmodus
 nav:
-  - Startseite: index.md
+  - Übersicht: index.md
   - Semesterplan: semesterplan.md
-  - Kompetenzmatrix: kompetenzmatrix.md
-  - Theorie:
-      - Grundlagen Programmierung: theorie/computer-programm.md
-      - Git und GitHub: theorie/git.md
-      - "C# Basics":
-        - Variablen & Datentypen: theorie/variablen.md
-        - Rechnen: theorie/rechnen.md
-        - Operatoren: theorie/operatoren.md
-        - Kontrollstrukturen: theorie/kontrollstrukturen.md
-        - Arrays: theorie/arrays.md
-        - Listen: theorie/lists.md
-        - Methoden: theorie/methoden.md
-  - Aufgaben:
-      - "Setup":
-        - VS Code & .NET SDK: aufgaben/vscode-setup.md
-        - Git & GitHub: aufgaben/git-setup.md
-      - "Erste Schritte":
-        - Wichtige Begriffe lernen: aufgaben/begriffe.md
-        - Hello World mit C#: aufgaben/helloworld.md
-      - "Git & GitHub":
-        - Das erste Repository: aufgaben/git.md
-        - Änderungen nachvollziehen: aufgaben/git-commit.md
-        - Änderungen rückgängig machen: aufgaben/git-change.md
-        - Github-Repos verbinden: aufgaben/github.md
-        - GitHub im Team: aufgaben/github-team.md
-      - "C# Basics":
-        - Repo einrichten: aufgaben/csharp-repo.md
-        - Block 1: aufgaben/block_1.md
-        - Block 2: aufgaben/block_2.md
-        - Block 3: aufgaben/block_3.md
-        - Block 4: aufgaben/block_4.md
-      #  - GitHub Teamübung: aufgaben/github-team.md
-      # - Variablen und Datentypen: aufgaben/variablen-datentypen.md
-      # - Einfache Ein- und Ausgabe: aufgaben/einfach-ein-ausgabe.md
-      # - Bedingungen (if, else, switch): aufgaben/bedingungen.md
-      # - Schleifen (for, while, do-while): aufgaben/schleifen.md
-      # - Funktionen (Methoden): aufgaben/funktionen-methoden.md
-      # - Arrays und Listen: aufgaben/arrays-listen.md
-      # - Klassen und Objekte: aufgaben/klassen-objekte.md
-      # - Fehlerbehandlung (try-catch): aufgaben/fehlerbehandlung.md
-      # - Arbeiten mit Dateien: aufgaben/dateien.md
-      # - Einführung in die objektorientierte Programmierung: aufgaben/oop-einfuehrung.md-
-  - Arbeitspakete:
-      - B1 - Visuelle Darstellung und Modellierung: arbeitspakete/b1.md
-  - Klassenregeln: regeln.md
+  - Lernstoff:
+      - W1 - Einführung & Setup: schueler/einfuehrung-organisation-handout.md
+      - W2 - Theoretische Einführung: schueler/theoretische-einfuehrung-handout.md
+      - W3 - Git & Github: schueler/git-github-grundlagen-handout.md
+      - W4 - Variablen & Datentypen I: schueler/variablen-1-handout.md
+  - Lehrer-Skripts:
+      - W1 - Einführung & Setup: lehrer/einfuehrung-organisation-skript.md
+      - W2 - Theoretische Einführung: lehrer/theoretische-einfuehrung-skript.md
+      - W3 - Git & Github: lehrer/git-github-grundlagen-skript.md
+      - W4 - Variablen & Datentypen I: lehrer/variablen-1-skript.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
-      - Lösungen zu den Coding-Aufgaben: ressourcen/loesungen.md
-      - Probeprüfung: test.md
-      - Finale Coding-Prüfung: test2.md
-      #- Nützliche Links: ressourcen/links.md
+      - Klassenregeln: ressourcen/regeln.md

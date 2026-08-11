@@ -1,46 +1,38 @@
- # 📅 Semesterplan – Modul 319 Programmieren Grundlagen
+# 📅 Semesterplan – Modul 319 Programmieren Grundlagen
 
-**Semester:** Herbst 2025
-**Doppellektionen:** 18 × 90 Minuten
-**Sprache:** Python oder C#
-
----
-
-| Datum | Thema | Inhalte | Methode | Material |
-|-------|-------|---------|---------|----------|
-| **18.08.25** | Einführung & Organisation | Begrüssung, Modulüberblick, Installation VS Code + Sprache, GitHub-Account, Mini „Hello World“ | Plenum + Hands-on | [Setup](aufgaben/vscode-setup.md) |
-| **25.08.25** | Theoretische Einführung | Wie funktioniert ein Programm? Compiler vs. Interpreter, Begriffe, Programmiersprachen | Vortrag + Diskussion | [Theorie](theorie/computer-programm.md) |
-| **01.09.25** | Git & GitHub Grundlagen | Git-Prinzip, lokale/remote Repos, Commit, Push, Pull | Lehrer-Demo + Partnerarbeit | [Git & GitHub](theorie/git.md) |
-| **08.09.25** | Variablen & Datentypen | Variablen, Datentypen, Ein-/Ausgabe, Casting | Selbstlernen + Coaching, WU | [Variablen & Datentypen](theorie/variablen.md) |
-| **15.09.25** | Übungen I | Block 1 | Selbstlernen + Übungen | [Block 1](aufgaben/block_1.md) |
-| **22.09.25** | Bedingungen & Schleifen | if/else, logische Operatoren, for, while | Selbstlernen + Übungen | [Kontrollstrukturen](theorie/kontrollstrukturen.md) |
-| **29.09.25** | Herbstferien | 🏔️ | - | - |
-| **06.10.25** | Herbstferien | 🏔️ | - | - |
-| **13.10.25** | Übungen II | Block 2 | Selbstlernen + Übungen | [Block 2](aufgaben/block_2.md) |
-| **20.10.25** | Übungen III | Block 2 | Selbstlernen + Übungen | [Block 2](aufgaben/block_2.md) |
-| **27.10.25** | Prüfungsvorbereitung | Repetition, Fragen klären, Übungen lösen | Plenum, WU | - |
-| **03.11.25** | <span style="color:red;">**Prüfung 1 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | LN 1 |
-| **10.11.25** | Arrays/Listen | Index, Iteration, typische Operationen | Selbstlernen + Übungen | [Arrays](theorie/arrays.md), [Listen](theorie/lists.md) |
-| **17.11.25** | Übungen IV | Block 3 | Selbstlernen + Übungen | [Block 3](aufgaben/block_3.md) |
-| **24.11.25** | Methoden/Unterprogramme | Parameter, Rückgabewerte, Modularisierung | Selbstlernen + Übungen | DL7 |
-| **01.12.25** | Übungen V | Block 4 | Selbstlernen + Übungen | [Block 4](aufgaben/block_4.md) |
-| **08.12.25** | Feiertag (Mariä Empfängnis) | 🙏 | - | - |
-| **15.12.25** | Prüfungsvorbereitung | Repetition, Fragen klären, Übungen lösen | Plenum, WU | - |
-| **22.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
-| **29.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
-| **05.01.25** | <span style="color:red;">**Prüfung 2 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | LN 2 |
-| **12.01.26** | Visuelle Darstellung und Modellierung | PAP erstellen und in Code umsetzen | Einzelarbeit | [Arbeitspaket](arbeitspakete/b1.md) |
-| **19.01.26** | noch offen | - | - | - |
+- **Semester:** Herbst 2026
+- **Unterrichtstag:** Montag oder Dienstag
+- **Doppellektionen:** 19 × 90 Minuten
+- **Sprache:** Python
 
 ---
 
-## Legende – Methoden
-- **Plenum**: Gemeinsamer Input mit der ganzen Klasse
-- **Hands-on**: Sofortiges praktisches Ausprobieren
-- **Selbstlernen**: Schüler erarbeiten Inhalte selbstständig (Videos, Aufgaben)
-- **Coaching**: Lehrperson unterstützt individuell
-- **Gruppenarbeit**: Schüler arbeiten gemeinsam an einem Ziel
-- **WU**: Way-Up-Lernende dürfen selbständig aus dem Homeoffice arbeiten
+
+| Datum | Thema | Inhalte | Material |
+|-------|-------|---------|---------|
+| **17.8. / 18.8.** | Einführung & Organisation | Setup, GitHub, Hello World, Diskussion "Programmieren trotz KI" | [W1](schueler/einfuehrung-organisation-handout.md) |
+| **24.8. / 25.8** | Theoretische Einführung | Wie funktioniert ein Programm? Compiler vs. Interpreter, Begriffe, Programmiersprachen | [W2](schueler/theoretische-einfuehrung-handout.md) |
+| **31.8. / 1.9.** | Git & GitHub Grundlagen | Git-Prinzip, lokale/remote Repos, Commit, Push, Pull | [W3](schueler/git-github-grundlagen-handout.md) |
+| **7.9. / 8.9.** | Variablen & Datentypen I | Variablen, Datentypen, Casting, PAP zu einfachen Abläufen | [W4](schueler/variablen-1-handout.md) |
+| **14.9. / 15.9.** | Variablen & Datentypen II | Aufgaben: PAP, Code lesen, Fehler finden, Code schreiben | - | - |
+| **21.9. / 22.9.** | <span style="color:red;">**Prüfung 1 (schriftlich)**</span> | Theorie, Git, EVA-Prinzip, Variablen, Datentypen | - |
+| **28.9. / 29.9.** | Herbstferien | 🏔️ | - | - |
+| **5.10. / 6.10.** | Herbstferien | 🏔️ | - | - |
+| **12.10. / 13.10.** | Bedingungen / Kontrollstrukturen I | if/else, logische Operatoren, PAP mit Verzweigungen | - |
+| **19.10. / 20.10.** | Bedingungen / Kontrollstrukturen II | Aufgaben: PAP, Code lesen, Fehler finden, Code schreiben | - |
+| **26.10. / 27.10.** | Schleifen I | for, while, PAP mit Schleifenkonstrukten | - |
+| **2.11. / 3.11.** | Schleifen II | Aufgaben: PAP, Code lesen, Fehler finden, Code schreiben | - |
+| **9.11. / 10.11.** | <span style="color:red;">**Prüfung 2 (schriftlich)**</span> | Bedingungen & Schleifen | - |
+| **16.11. / 17.11.** | Arrays I | Index, Iteration, Operationen, PAP mit Listenverarbeitung | - |
+| **23.11. / 24.11.** | Arrays II | Aufgaben: PAP, Code lesen, Fehler finden, Code schreiben | - |
+| **30.11. / 01.12.** | Funktionen I | Parameter, Rückgabewerte, Scope, PAP mit Funktionsaufrufen | - |
+| **7.12. / 8.12.** | Funktionen II | Aufgaben: PAP, Code lesen, Fehler finden, Code schreiben | - |
+| **14.12. / 15.12.** | Funktionen III | Vertiefung: komplexere Aufgaben, Kombination mit Listen/Schleifen | - |
+| **21.12. / 22.12.** | Weihnachtsferien | 🎅🏻 | - | - |
+| **28.12. / 29.12.** | Weihnachtsferien | 🎅🏻 | - | - |
+| **4.1. / 5.1.** | Repetition & Prüfungsvorbereitung | Gesamtrepetition Semester | - |
+| **11.1. / 12.1.** | <span style="color:red;">**Prüfung 3 (schriftlich)**</span> | Gesamtprüfung, Schwerpunkt Funktionen | - |
+| **18.1. / 19.1.** | Spezialthema / Spiel | Abschluss-Special | - |
 
 ---
 

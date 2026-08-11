@@ -23,6 +23,7 @@ Damit wir gemeinsam erfolgreich lernen und respektvoll miteinander umgehen, gelt
 
 ## 4. Digitale Geräte
 - Ich bin verantworltich, dass **alle Programme für den Unterricht** funktionieren (z.B. Teams, OneNote, Safe Exam Browser, VS Code etc.).
+- Während eines **Lehrer-Inputs (Vortrag)** sind alle Geräte **zugeklappt** oder **ausgeschaltet**.
 - **Soziale Medien** und **Spiele** sind während des Unterrichts tabu.
 - **Kollaboration** über Teams ist erlaubt.
 - Ich hinterlasse die **Infrastruktur** an meinem Arbeitsplatz ordentlich und melde Defekte.

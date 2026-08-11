@@ -6,31 +6,27 @@ Dieses Wiki begleitet dich durch das ganze Semester – hier findest du alle Inh
 ---
 
 ## 📚 Modulbeschreibung
-In diesem Modul lernst du die **Grundlagen des Programmierens**.
+Das Modul 319 heisst eigentlich **Applikationen entwerfen und implementieren** ([Modulbeschrieb](https://www.modulbaukasten.ch/module/319/1/de-DE?title=Applikationen-entwerfen-und-implementieren)). Hier lernst du die **Grundlagen des Programmierens**.
 Du wirst:
+
 - verstehen, wie ein Programm aufgebaut ist
-- grundlegende Konzepte wie Variablen, Bedingungen, Schleifen und Funktionen anwenden
+- grundlegende Konzepte wie Variablen, Bedingungen, Schleifen, Arrays und Funktionen anwenden
 - Versionskontrolle mit **Git** und **GitHub** nutzen
-- eigene Projekte entwickeln – auch unter Einbezug von KI
 
 ---
 
 ## 📅 Eckdaten
-- **Semester**: Herbst 2025
-- **Doppellektionen**: 18 × 90 Minuten
+- **Semester**: Herbst 2026
+- **Doppellektionen**: 19 × 90 Minuten
 - **Sprache**: C#
-- **Prüfungen**:
-    1. Theorieprüfung (Papier, ohne KI)
-    2. Projektprüfung (mit KI erlaubt, Verständnis wird geprüft)
+- **Prüfungen**: 3 Prüfungen (Theorie, Code lesen, Code schreiben ohne KI, Fehler finden, Programmabläufe visualisieren)
 
 ---
 
 ## 🗺️ Navigation
-- **[Semesterplan](semesterplan.md)** – Überblick über alle Doppellektionen
-- **Doppellektionen** – Inhalte, Theorie und Arbeitsaufträge
-- **Prüfungen** – Termine, Anforderungen, Beispielaufgaben
-- **Projekte** – Ideen, Vorgaben, Beispiele
-- **Ressourcen** – Nützliche Links, Installationsanleitungen
+- **[Semesterplan](semesterplan.md)** – Überblick über alle Doppellektionen und Prüfungstermine
+- **Lernstoff** - Inhalte, Theorie und Arbeitsaufträge
+- **Ressourcen** – Nützliche Links, Installationsanleitungen, Klassenregeln
 
 ---
 
