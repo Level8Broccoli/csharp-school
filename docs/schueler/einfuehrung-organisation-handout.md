@@ -23,7 +23,7 @@ Am Ende dieser Lektion weisst du: wie dieses Modul aufgebaut ist, wie du deine E
 - **GitHub** ist die Plattform, auf der du deinen Code sicherst, später mit anderen zusammenarbeitest und dir ein kleines Portfolio aufbaust.
 
 ```c#
-console.WriteLine("Hello World")
+Console.WriteLine("Hello World")
 ```
 Das ist bereits ein vollständiges C#-Programm: Es gibt den Text "Hello World" aus.
 
