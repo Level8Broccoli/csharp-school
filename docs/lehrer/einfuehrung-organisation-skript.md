@@ -1,10 +1,8 @@
 # Einführung & Organisation
 
-[Folien](../slides/dl1.html)
-
 *Kontext: Berufsschule (Informatik-Grundkurs) · Dauer: 90 Min · Zielgruppe: Lernanfänger ca. 16 Jahre, kein Vorwissen*
 
-**Lernziel:** Die Lernenden kennen den Kursablauf, haben eine funktionierende Entwicklungsumgebung (VS Code + Python) sowie einen GitHub-Account eingerichtet und haben ihr erstes Python-Programm ausgeführt.
+**Lernziel:** Die Lernenden kennen den Kursablauf, haben eine funktionierende Entwicklungsumgebung (VS Code + C#) sowie einen GitHub-Account eingerichtet und haben ihr erstes C#-Programm ausgeführt.
 
 ## 1. Einstieg
 
@@ -19,14 +17,14 @@
 ## 2. Grundlagen
 
 - Den **Modulüberblick** zeigen und erklären, aus welchen Bausteinen das Semester besteht: theoretische Grundlagen, praktisches Programmieren, Arbeiten mit Git und GitHub sowie drei Prüfungen. Kurz erwähnen, dass die Inhalte eng an der Lehrabschlussprüfung orientiert sind.
-- Anhand eines Alltagsbeispiels erklären, was ein **Code-Editor** wie VS Code ist und wozu die Programmiersprache Python dient: Ein **Programm ist wie ein Rezept** – eine Anleitung, die der Computer Schritt für Schritt abarbeitet.
+- Anhand eines Alltagsbeispiels erklären, was ein **Code-Editor** wie VS Code ist und wozu die Programmiersprache C# dient: Ein **Programm ist wie ein Rezept** – eine Anleitung, die der Computer Schritt für Schritt abarbeitet.
 - **GitHub** als Plattform vorstellen und begründen, wozu sie im Kurs gebraucht wird: um eigenen Code zu sichern, später mit anderen zusammenzuarbeiten und sich langfristig ein kleines Portfolio aufzubauen.
 - Den Ablauf der heutigen Doppellektion transparent machen: Zuerst wird die Entwicklungsumgebung gemeinsam eingerichtet, danach arbeiten die Lernenden die ersten Schritte selbständig durch.
 
 ## 3. Anwendung
 
-- **Entwicklungsumgebung einrichten:** Die Lernenden installieren Python und Visual Studio Code und richten die Python-Erweiterung ein. Basic-Niveau folgt der Schritt-für-Schritt-Anleitung im Handout exakt und zieht bei Problemen die Lehrperson bei. Intermediate prüft zusätzlich im Terminal mit `python --version`, dass die Installation korrekt funktioniert. Advanced installiert zusätzlich eine eigene Erweiterung oder ein Theme in VS Code und begründet kurz die Wahl. Erwartetes Ergebnis für alle Niveaus: Die Ausführung von `print("Hello World")` erscheint korrekt im Terminal.
-- **GitHub-Account und erstes Repository:** Die Lernenden erstellen einen GitHub-Account (sofern noch nicht vorhanden) und legen ein erstes Repository für den Kurs an. Basic legt das Repository mit dem vorgegebenen Namen "python-kurs-[Nachname]" an. Intermediate ergänzt zusätzlich ein Profilbild und eine kurze Profilbeschreibung. Advanced versieht das Repository zusätzlich mit einer README-Datei, die kurz beschreibt, was darin im Verlauf des Semesters entstehen wird. Erwartetes Ergebnis: Ein sichtbares, korrekt benanntes Repository im eigenen GitHub-Profil.
+- **Entwicklungsumgebung einrichten:** Die Lernenden installieren die .NET SDK und Visual Studio Code und richten die C# Dev Kit-Erweiterung ein.
+- **GitHub-Account und erstes Repository:** Die Lernenden erstellen einen GitHub-Account (sofern noch nicht vorhanden) und legen ein erstes Repository für den Kurs an ("csharp-kurs-[Nachname]") an. Wer will, ergänzt zusätzlich ein Profilbild und eine kurze Profilbeschreibung. Erwartetes Ergebnis: Ein sichtbares, korrekt benanntes Repository im eigenen GitHub-Profil.
 
 ## 4. Transfer
 
