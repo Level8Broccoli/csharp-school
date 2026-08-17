@@ -1,7 +1,7 @@
 # Einführung & Organisation
 
 ## Lernziel
-Am Ende dieser Lektion weisst du: wie dieses Modul aufgebaut ist, wie du deine Entwicklungsumgebung (VS Code + Python) einrichtest, wie du einen GitHub-Account und dein erstes Repository anlegst – und du hast dein erstes eigenes Python-Programm ausgeführt.
+Am Ende dieser Lektion weisst du: wie dieses Modul aufgebaut ist, wie du deine Entwicklungsumgebung (VS Code + .NET-SDK) einrichtest, wie du einen GitHub-Account und dein erstes Repository anlegst – und du hast dein erstes eigenes C#-Programm ausgeführt.
 
 ## 1. Einstieg
 *Warum ist das wichtig?*
@@ -19,62 +19,43 @@ Am Ende dieser Lektion weisst du: wie dieses Modul aufgebaut ist, wie du deine E
     2. praktisches Programmieren
     3. Arbeiten mit Git und GitHub
     4. drei Prüfungen über das Semester verteilt.
-- Ein Programm ist wie ein **Rezept**: eine Anleitung, die der Computer Schritt für Schritt abarbeitet. VS Code ist der Editor, in dem du diese Anleitung schreibst; Python ist die Sprache, in der du sie formulierst.
+- Ein Programm ist wie ein **Rezept**: eine Anleitung, die der Computer Schritt für Schritt abarbeitet. VS Code ist der Editor, in dem du diese Anleitung schreibst; C# ist die Sprache, in der du sie formulierst.
 - **GitHub** ist die Plattform, auf der du deinen Code sicherst, später mit anderen zusammenarbeitest und dir ein kleines Portfolio aufbaust.
 
-```python
-print("Hello World")
+```c#
+console.WriteLine("Hello World")
 ```
-Das ist bereits ein vollständiges Python-Programm: Es gibt den Text "Hello World" aus.
+Das ist bereits ein vollständiges C#-Programm: Es gibt den Text "Hello World" aus.
 
 ## 3. Anwendung
-*Wie funktioniert es? Schritt für Schritt am Beispiel*
+# 🧑🏼‍💻 Setup: VS Code & .NET SDK
 
-- Schritt 1: Python installieren (Download von python.org, Installation starten, Haken bei "Add to PATH" setzen).
-- Schritt 2: Visual Studio Code installieren und die Python-Erweiterung über den Extensions-Marktplatz hinzufügen.
-- Schritt 3: Eine neue Datei `hello.py` anlegen, den Code oben eintippen und über den "Run"-Button ausführen.
+## Schritt 1 – VS Code installieren
+1. Öffne [https://code.visualstudio.com/](https://code.visualstudio.com/)
+2. Lade die Version für dein Betriebssystem herunter
+3. Installiere mit Standard-Einstellungen
+4. Sprache **Deutsch** aktivieren (optional über "German Language Pack")
 
-Für diejenigen, die mehr Details zur Aufgabe brauchen, können hier den [ausführlichen Setup](../ressourcen/setup.md) nachlesen.
+![vs code screenshot](../img/vscode.png)
 
-```python
-# hello.py
-print("Hello World")
-# Ausgabe im Terminal: Hello World
-```
+## Schritt 2 - .NET SDK installieren
+Damit C#-Programme ausgeführt werden können, benötigst du das **.NET SDK**.
 
-## 4. Üben
-*Aufgaben zum Vertiefen*
+1. Öffne [https://dotnet.microsoft.com/en-us/download](https://dotnet.microsoft.com/en-us/download)
+2. Wähle die aktuelle **Long Term Support (LTS)** Version (z. B. .NET 8 LTS).
+3. Lade das passende Paket für dein Betriebssystem herunter.
+4. Installiere mit den Standard-Einstellungen.
+5. Prüfen, ob alles funktioniert:`dotnet --version`
 
-### Aufgabe 1: Entwicklungsumgebung einrichten
-Installiere **Python** und **Visual Studio Code** auf deinem Gerät und richte die **Python-Erweiterung** ein, sodass du Code ausführen kannst.
+![csharp download site](../img/csharp.png)
 
-1. Folge der **Schritt-für-Schritt-Anleitung** in Kapitel 3 exakt. Bei Problemen: Lehrperson beiziehen.
-2. Führe zusätzlich im Terminal `python --version` aus und kontrolliere, dass eine aktuelle Version angezeigt wird.
-3. Installiere zusätzlich eine **Erweiterung** oder ein **Theme** deiner Wahl in VS Code und notiere kurz, warum du diese gewählt hast.
+## Schritt 3 – VS Code Erweiterungen installieren
+1. Öffne Visual Studio Code.
+2. Drücke `Strg + Shift + X` (Windows/Linux) oder `Cmd + Shift + X` (macOS), um den Erweiterungs-Manager zu öffnen. Alternativ kannst du auch über das Menü mit `Code > Preferences > Erweiterungen`gehen.
+3. Suche nach "C#"
+4. Installiere die Erweiterung "C# Dev Kit" von Microsoft.
 
-*Kontrollgrösse:* Die Ausführung von `hello.py` zeigt "Hello World" im Terminal.
-
-### Aufgabe 2: GitHub-Account & erstes Repository
-Erstelle einen **GitHub-Account** (falls noch nicht vorhanden) und lege ein erstes **Repository** für den Kurs an.
-
-1. Erstelle den **Account** und lege ein **Repository** mit dem Namen "python-kurs-[Nachname]" an.
-2. Ergänze zusätzlich ein **Profilbild** und eine kurze **Profilbeschreibung**.
-3. Versieh dein Repository mit einer **README-Datei**, die kurz beschreibt, was darin im Verlauf des Semesters entstehen wird.
-
-*Kontrollgrösse:* Ein sichtbares Repository mit korrektem Namen ist in deinem GitHub-Profil vorhanden.
-
-## 5. Lösungen
-
-**Entwicklungsumgebung:**
-
-- [ ] Nach korrekter Installation zeigt `python --version` z.B. `Python 3.12.x` an, und `hello.py` gibt beim Ausführen "Hello World" aus.
-- [ ] Es gibt keine "falsche" Wahl bei Theme/Erweiterung – wichtig ist eine nachvollziehbare Begründung (z.B. bessere Lesbarkeit, dunkles Design für die Augen).
-
-**GitHub-Account & Repository:**
-
-- [ ] Repository "python-kurs-[Nachname]" ist im eigenen Profil sichtbar und öffentlich oder privat (je nach Vorgabe) erreichbar.
-- [ ] Profilbild und Beschreibung sind im GitHub-Profil sichtbar.
-- [ ] Beispiel für eine passende README: "In diesem Repository sammle ich meine Python-Übungen aus dem Informatik-Grundkurs."
+![csharp extensions](../img/csharp-ext.png)
 
 ## 6. Weiterführende Beispiele und Gedanken
 *Transfer*

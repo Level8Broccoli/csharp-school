@@ -12,7 +12,7 @@
         <meta name="author" content="Dr. Andreas Fischer">
       
       
-        <link rel="canonical" href="https://af81.github.io/csharp-school/theorie/kontrollstrukturen/">
+        <link rel="canonical" href="https://af81.github.io/csharp-school/lehrer/variablen-2-skript/">
       
       
       
@@ -22,7 +22,7 @@
     
     
       
-        <title>Kontrollstrukturen 🔀🔁 - Modul 319 – Programmieren Grundlagen in C#</title>
+        <title>Variablen & Datentypen (2/2) – Übungen - Modul 319 – Programmieren Grundlagen in C#</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kontrollstrukturen" class="md-skip">
+        <a href="#variablen-datentypen-22-ubungen" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Kontrollstrukturen 🔀🔁
+              Variablen &amp; Datentypen (2/2) – Übungen
             
           </span>
         </div>
@@ -518,102 +518,34 @@
 
 
 
-<h1 id="kontrollstrukturen">Kontrollstrukturen 🔀🔁</h1>
-<h2 id="ubersicht">Übersicht</h2>
-<p>Kontrollstrukturen bestehen aus zwei Kategorien: Verzweigungen (z.B. if-then-else) und Schleifen (z.B. while). Bei Verzweigungen geht es prinzipiell darum, ob eine Anweisung oder ein Block von Anweisungen ausgeführt werden soll oder nicht. Bei Schleifen geht es darum, dass eine Anweisung oder ein Block von Anweisungen unter Umständen mehrmals ausgeführt werden soll.</p>
-<p><img alt="" src="../../img/kontrollstrukturen.png" /></p>
-<hr />
-<h2 id="verzweigungen">Verzweigungen 🔀</h2>
-<h3 id="if-einseitige-auswahl">if | Einseitige Auswahl</h3>
-<p>Bei vielen Problemstellungen ist die Verarbeitung von Anweisungen von Bedingungen abhängig. Nur wenn die Bedingung erfüllt ist, wird die betreffende Anweisung (bzw. der Anweisungsblock) ausgeführt. Anderenfalls wird die Anweisung übersprungen.</p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Das wird ausgeführt, wenn die Aussage x &gt; 10 wahr ist.&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h3 id="if-else-zweiseitige-auswahl">if-else | Zweiseitige Auswahl</h3>
-<p>Im Gegensatz zur einseitigen Auswahl hat die zweiseitige Auswahl noch am Schluss einen else-Teil. Während die einseitigen Auswahl nur entschieden kann, ob eine Anweisung oder ein Block von Anweisungen ausgeführt werden soll oder nicht, kann die zweiseitige Auswahl entscheiden, welcher der beiden Teile (if oder else) ausgeführt werden soll.</p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Das wird ausgeführt, wenn die Aussage x &gt; 10 wahr ist.&quot;</span><span class="p">);</span>
-<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Das wird ausgeführt, wenn die Aussage x &gt; 10 unwahr ist. &quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h3 id="verschachtelung">Verschachtelung</h3>
-<p>Eine mehrstufige Auswahl erreichen Sie in C#, indem Sie mehrere if- bzw. if-else-Anweisungen schachteln. Dazu schreiben Sie innerhalb eines Anweisungsblocks einer if- bzw. if-else-Anweisung eine weitere if- bzw. if-else-Anweisung.</p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">15</span><span class="p">)</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;In diesem Fall muss x gleich 11, 12, 13 oder 14 sein.&quot;</span><span class="p">);</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WritLine</span><span class="p">(</span><span class="s">&quot;In diesem Fall ist x mindestens 16 oder grösser.&quot;</span><span class="p">);</span>
-<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;In diesem Fall ist x gleich 10 oder kleiner.&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h3 id="switch-mehrstufige-auswahl">switch | Mehrstufige Auswahl</h3>
-<p>Bei if-Konstruktionen lassen sich immer nur zwei alternative Programmteile ausführen, da eine Bedingung als logischer Ausdruck nur die Werte true bzw. false ergeben kann. Bei einer mehrseitigen Auswahl testen Sie den Wert einer Variablen oder eines komplexen Ausdrucks. Diese Variable bzw. dieser Ausdruck wird als Selektor bezeichnet. In Abhängigkeit vom Wert des Selektors können fallweise (case) verschiedene Anweisungsblöcke ausgeführt werden. Die mehrseitige Auswahl wird daher auch Selektion genannt.</p>
-<div class="highlight"><pre><span></span><code><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">month</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;Januar&quot;</span><span class="p">:</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;Februar&quot;</span><span class="p">:</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;März&quot;</span><span class="p">:</span>
-<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;1. Quartal&quot;</span><span class="p">);</span>
-<span class="w">        </span><span class="k">break</span><span class="p">;</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;April&quot;</span><span class="p">:</span>
-<span class="w">    </span><span class="p">...</span>
-<span class="w">    </span><span class="k">default</span><span class="p">:</span>
-<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;ungültiger Monatsname&quot;</span><span class="p">);</span>
-<span class="w">        </span><span class="k">break</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h2 id="schleifen-wiederholungen">Schleifen (Wiederholungen) 🔁</h2>
-<p>Eine Schleife besteht aus der <strong>Schleifensteuerung</strong> und dem <strong>Schleifenrumpf</strong>. Der Schleifenrumpf umfasst den Programmteil, der wiederholt werden soll. Die Schleifensteuerung legt fest, wie oft die Anweisungen im Schleifenrumpf wiederholt werden sollen bzw. nach welchen Kriterien entschieden wird, ob eine Wiederholung erfolgen soll.</p>
-<h3 id="while-kopfgesteuerte-schleife">while | Kopfgesteuerte Schleife</h3>
-<p>Bei der while-Anweisung handelt es sich um eine kopfgesteuerte Schleifenstruktur. Die Ausführung der Anweisungen im Schleifenrumpf ist von der Gültigkeit einer Bedingung abhängig, die gleich zu Beginn der Anweisung überprüft wird. Solange (while) die Bedingung erfüllt ist, werden die folgenden Anweisungen (Schleifenrumpf) ausgeführt. Anschliessend folgt der nächste Durchlauf der Schleife und die Bedingung wird erneut geprüft. Ist die Bedingung nicht erfüllt, wird das Programm hinter der while-Anweisung fortgesetzt.</p>
-<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span>
-
-<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">counter</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">counter</span><span class="p">);</span>
-<span class="w">    </span><span class="n">counter</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w">                   </span><span class="c1">// Erhöht die Variable counter jeweils um +2</span>
-<span class="p">}</span>
-
-<span class="c1">// Das Programm gibt die Zahlen 1, 3, 5, 7 und 9 aus.</span>
-</code></pre></div>
-<hr />
-<h3 id="do-while-fussgesteuerte-schleife">do-while | Fussgesteuerte Schleife</h3>
-<p>Die do-while-Anweisung ist eine fussgesteuerte Schleifenstruktur. Die Bedingung wird erst nach dem Durchlauf des Schleifenrumpfes ausgewertet. Dadurch wird der Schleifenkörper mindestens einmal ausgeführt. Wie bei der kopfgesteuerten while-Anweisung wird der Schleifenrumpf ausgeführt, solange die Bedingung erfüllt ist.</p>
-<div class="highlight"><pre><span></span><code><span class="kt">double</span><span class="w"> </span><span class="n">presentValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1000.0</span><span class="p">;</span><span class="w">       </span><span class="c1">// Der aktuelle Werte</span>
-<span class="kt">double</span><span class="w"> </span><span class="n">futureValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10000.0</span><span class="p">;</span><span class="w">       </span><span class="c1">// Wert, den wir erreichen wollen</span>
-<span class="k">const</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">interestRate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4.5</span><span class="w">     </span><span class="c1">// Zinssatz von 4,5%</span>
-<span class="kt">int</span><span class="w"> </span><span class="n">year</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span>
-
-<span class="k">do</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">presentValue</span><span class="w"> </span><span class="o">*=</span><span class="w"> </span><span class="m">1.0</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">interestRate</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">100</span><span class="p">;</span><span class="w">   </span><span class="c1">// Startwert um Zinsen erhöhen</span>
-<span class="w">    </span><span class="n">year</span><span class="o">++</span><span class="p">;</span><span class="w">                                     </span><span class="c1">// Jahr um 1 erhöhen</span>
-<span class="p">}</span>
-<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">presentValue</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">futureValue</span><span class="p">);</span><span class="w">     </span><span class="c1">// Die Schleife wird solange ausgeführt, bis der aktuelle Wert den angestrebten Zukunftswert übersteigt</span>
-
-<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$&quot;Um den Zukunftswert zu erreichen, brauchst du {year} Jahre&quot;</span><span class="p">);</span>
-</code></pre></div>
-<hr />
-<h2 id="for-zahlergesteuerte-wiederholung">for | Zählergesteuerte Wiederholung</h2>
-<p>Wenn bereits zu Begin der Schleife genau bekannt ist, wie oft der Schleifenrumpf (eine Anweisung oder ein Anweisungsblock) wiederholt werden soll, ist die Verwendung der for-Schleife die kompakteste Form.</p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">5</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Hallo!&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-
-<span class="c1">// Hier wird 4x Hallo! ausgegeben</span>
-</code></pre></div>
+<h1 id="variablen-datentypen-22-ubungen">Variablen &amp; Datentypen (2/2) – Übungen</h1>
+<p><strong>Lernziel:</strong> Die Lernenden festigen Variablen, Datentypen, Konvertierung und String-Operationen durch praktisches Üben, zeichnen einen einfachen PAP selbst, lesen und interpretieren fremden Code, finden und beheben typische Fehler, und besprechen die Lösungen anschliessend gemeinsam.</p>
+<h2 id="1-ruckblick-5-min">1. Rückblick (5 Min)</h2>
+<ul>
+<li>Kurz drei Fragen an die Klasse stellen, um das Vorwissen aus DL4 zu aktivieren: Was macht die Funktion <code>type()</code>? Warum muss eine Eingabe mit <code>input()</code> oft konvertiert werden? Welche Grundsymbole hat ein PAP?</li>
+<li>Den Ablauf der Doppellektion transparent machen: Die erste Hälfte arbeiten die Lernenden selbständig an den Aufgaben, in der zweiten Hälfte werden die Lösungen gemeinsam besprochen.</li>
+</ul>
+<h2 id="2-pflichtprogramm-und-zusatzaufgaben-ca-40-min-selbstandige-arbeit">2. Pflichtprogramm und Zusatzaufgaben (ca. 40 Min, selbständige Arbeit)</h2>
+<p>Den Lernenden die Struktur der Aufgaben erklären: Ein Pflichtteil (PAP-Aufgabe, Code lesen, Fehler finden, sowie die Aufgaben 1–6 aus dem Aufgabenblock) und ein Zusatzteil (Aufgaben 7–12) für alle, die schneller vorankommen. Da der Zeitrahmen mit zwölf Coding-Aufgaben plus drei Zusatzaufgaben knapp ist, wird diese Priorisierung offen kommuniziert, damit alle Lernenden zumindest den Pflichtteil sicher schaffen.</p>
+<ul>
+<li><strong>PAP-Aufgabe:</strong> Die Lernenden zeichnen einen PAP für ein Lohnberechnungs-Programm (Bruttolohn und Steuersatz eingeben, Nettolohn berechnen und ausgeben) – siehe Handout für die genaue Aufgabenstellung und Musterlösung.</li>
+<li><strong>Code lesen:</strong> Die Lernenden lesen einen kurzen Code-Ausschnitt und sagen die Ausgabe voraus, bevor sie ihn testen (Fokus: Verwechslung von String- und Zahlen-Multiplikation).</li>
+<li><strong>Fehler finden:</strong> Die Lernenden erhalten einen fehlerhaften Code-Ausschnitt (fehlende Typkonvertierung bei <code>input()</code>) und müssen den Fehler finden und beheben.</li>
+<li><strong>Aufgaben 1–6</strong> (Pflicht): Einfache Ein-/Ausgabe, Variablen &amp; Datentypen, String-Operationen, Grundrechenarten, Inkrementieren/Dekrementieren, Potenzieren/Division/Modulo.</li>
+<li><strong>Aufgaben 7–12</strong> (Zusatz, für schnelle Lernende): Vergleichsoperatoren, logische Operatoren, Passwort-Checker, Unterwegs, Body Mass Index, Around the clock.</li>
+</ul>
+<p><strong>Hinweis zu den Aufgaben 7–9:</strong> Diese setzen bereits einfache <code>if</code>-Bedingungen voraus, die formal erst im nächsten Block behandelt werden. Da in DL4 bereits der Datentyp <code>bool</code> eingeführt wurde, kann kurz und pragmatisch gezeigt werden, wie ein einfaches <code>if ... else</code> aussieht (siehe Lösung im Handout) – als bewusster kleiner Vorgriff für die Lernenden, die bis dorthin vorankommen, nicht als verpflichtender neuer Stoff für alle.</p>
+<h2 id="3-losungsbesprechung-ca-40-min">3. Lösungsbesprechung (ca. 40 Min)</h2>
+<ul>
+<li>Gemeinsam mit der Klasse den Pflichtteil durchgehen: PAP-Aufgabe an der Tafel vergleichen, Code-lesen- und Fehler-finden-Aufgabe auflösen, danach die Aufgaben 1–6 anhand der Musterlösungen im Handout besprechen.</li>
+<li>Je nach Klassenfortschritt einzelne Zusatzaufgaben (7–12) exemplarisch mit denjenigen besprechen, die dazu gekommen sind – nicht zwingend alle im Plenum, um Zeit zu sparen.</li>
+<li>Häufige Fehlerquellen ansprechen, die bei diesen Aufgaben typischerweise auftreten: fehlende Konvertierung bei <code>input()</code>, Verwechslung von <code>/</code> und <code>//</code>, Rundungsfehler bei <code>round()</code>.</li>
+</ul>
+<h2 id="4-transfer">4. Transfer</h2>
+<ul>
+<li>Kurz reflektieren lassen: Welche Aufgabe war am anspruchsvollsten, und warum?</li>
+<li>Ausblick auf die nächste Doppellektion geben: Bedingungen (if/else), die bei den Zusatzaufgaben schon kurz angeschnitten wurden, folgen dort systematisch.</li>
+</ul>
 
 
 

@@ -12,9 +12,13 @@
         <meta name="author" content="Dr. Andreas Fischer">
       
       
-        <link rel="canonical" href="https://af81.github.io/csharp-school/theorie/kontrollstrukturen/">
+        <link rel="canonical" href="https://af81.github.io/csharp-school/schueler/variablen-1-handout/">
       
       
+        <link rel="prev" href="../git-github-grundlagen-handout/">
+      
+      
+        <link rel="next" href="../../ressourcen/terminal/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +26,7 @@
     
     
       
-        <title>Kontrollstrukturen 🔀🔁 - Modul 319 – Programmieren Grundlagen in C#</title>
+        <title>W4 - Variablen & Datentypen I - Modul 319 – Programmieren Grundlagen in C#</title>
       
     
     
@@ -74,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kontrollstrukturen" class="md-skip">
+        <a href="#variablen-datentypen-12" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -109,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Kontrollstrukturen 🔀🔁
+              W4 - Variablen & Datentypen I
             
           </span>
         </div>
@@ -278,18 +282,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -305,7 +311,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Lernstoff
@@ -319,7 +325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../schueler/einfuehrung-organisation-handout/" class="md-nav__link">
+      <a href="../einfuehrung-organisation-handout/" class="md-nav__link">
         
   
   
@@ -342,7 +348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../schueler/theoretische-einfuehrung-handout/" class="md-nav__link">
+      <a href="../theoretische-einfuehrung-handout/" class="md-nav__link">
         
   
   
@@ -365,7 +371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../schueler/git-github-grundlagen-handout/" class="md-nav__link">
+      <a href="../git-github-grundlagen-handout/" class="md-nav__link">
         
   
   
@@ -385,10 +391,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../schueler/variablen-1-handout/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    W4 - Variablen & Datentypen I
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -399,6 +427,104 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lernziel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lernziel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-einstieg" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Einstieg
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-grundlagen" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Grundlagen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-anwendung" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Anwendung
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-uben" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Üben
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Üben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-erstes-eigenes-variablen-programm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe: Erstes eigenes Variablen-Programm
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-losungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Lösungen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-weiterfuhrende-beispiele-und-gedanken" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Weiterführende Beispiele und Gedanken
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -518,102 +644,168 @@
 
 
 
-<h1 id="kontrollstrukturen">Kontrollstrukturen 🔀🔁</h1>
-<h2 id="ubersicht">Übersicht</h2>
-<p>Kontrollstrukturen bestehen aus zwei Kategorien: Verzweigungen (z.B. if-then-else) und Schleifen (z.B. while). Bei Verzweigungen geht es prinzipiell darum, ob eine Anweisung oder ein Block von Anweisungen ausgeführt werden soll oder nicht. Bei Schleifen geht es darum, dass eine Anweisung oder ein Block von Anweisungen unter Umständen mehrmals ausgeführt werden soll.</p>
-<p><img alt="" src="../../img/kontrollstrukturen.png" /></p>
-<hr />
-<h2 id="verzweigungen">Verzweigungen 🔀</h2>
-<h3 id="if-einseitige-auswahl">if | Einseitige Auswahl</h3>
-<p>Bei vielen Problemstellungen ist die Verarbeitung von Anweisungen von Bedingungen abhängig. Nur wenn die Bedingung erfüllt ist, wird die betreffende Anweisung (bzw. der Anweisungsblock) ausgeführt. Anderenfalls wird die Anweisung übersprungen.</p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Das wird ausgeführt, wenn die Aussage x &gt; 10 wahr ist.&quot;</span><span class="p">);</span>
-<span class="p">}</span>
+<h1 id="variablen-datentypen-12">Variablen &amp; Datentypen (1/2)</h1>
+<h2 id="lernziel">Lernziel</h2>
+<p>Am Ende dieser Lektion weisst du: was eine Variable ist und wie du ihr einen Wert zuweist, welche Regeln für Variablennamen gelten, welche Datentypen es gibt und wie du sie mit <code>type()</code> bestimmst, warum <code>input()</code> immer einen String liefert, wie du die wichtigsten String-Operationen anwendest, und wie ein einfacher Programmablauf als PAP aussieht.</p>
+<h2 id="1-einstieg">1. Einstieg</h2>
+<p><em>Warum ist das wichtig?</em></p>
+<ul>
+<li>Ohne Variablen kann ein Programm sich nichts merken – weder deinen Namen, noch einen Punktestand, noch das Ergebnis einer Berechnung.</li>
+<li>Jede App, die sich etwas "merkt" (Kontostand, Highscore, Warenkorb), tut dies mit Variablen im Hintergrund.</li>
+</ul>
+<h2 id="2-grundlagen">2. Grundlagen</h2>
+<p><em>Um was geht es? Was musst du wissen?</em></p>
+<p><strong>Variablen zuweisen</strong></p>
+<p>Eine Variable ist ein benannter Speicherplatz im Arbeitsspeicher (RAM), dessen Inhalt sich ändern kann.</p>
+<div class="highlight"><pre><span></span><code><span class="n">number</span> <span class="o">=</span> <span class="mi">18</span>
 </code></pre></div>
-<hr />
-<h3 id="if-else-zweiseitige-auswahl">if-else | Zweiseitige Auswahl</h3>
-<p>Im Gegensatz zur einseitigen Auswahl hat die zweiseitige Auswahl noch am Schluss einen else-Teil. Während die einseitigen Auswahl nur entschieden kann, ob eine Anweisung oder ein Block von Anweisungen ausgeführt werden soll oder nicht, kann die zweiseitige Auswahl entscheiden, welcher der beiden Teile (if oder else) ausgeführt werden soll.</p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Das wird ausgeführt, wenn die Aussage x &gt; 10 wahr ist.&quot;</span><span class="p">);</span>
-<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Das wird ausgeführt, wenn die Aussage x &gt; 10 unwahr ist. &quot;</span><span class="p">);</span>
-<span class="p">}</span>
+<p>Du kannst auch mehrere Variablen auf einmal zuweisen:</p>
+<div class="highlight"><pre><span></span><code><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span> <span class="mf">3.2</span><span class="p">,</span> <span class="s2">&quot;Hello&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>  <span class="c1"># 5</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>  <span class="c1"># 3.2</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>  <span class="c1"># Hello</span>
 </code></pre></div>
-<hr />
-<h3 id="verschachtelung">Verschachtelung</h3>
-<p>Eine mehrstufige Auswahl erreichen Sie in C#, indem Sie mehrere if- bzw. if-else-Anweisungen schachteln. Dazu schreiben Sie innerhalb eines Anweisungsblocks einer if- bzw. if-else-Anweisung eine weitere if- bzw. if-else-Anweisung.</p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">15</span><span class="p">)</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;In diesem Fall muss x gleich 11, 12, 13 oder 14 sein.&quot;</span><span class="p">);</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WritLine</span><span class="p">(</span><span class="s">&quot;In diesem Fall ist x mindestens 16 oder grösser.&quot;</span><span class="p">);</span>
-<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;In diesem Fall ist x gleich 10 oder kleiner.&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h3 id="switch-mehrstufige-auswahl">switch | Mehrstufige Auswahl</h3>
-<p>Bei if-Konstruktionen lassen sich immer nur zwei alternative Programmteile ausführen, da eine Bedingung als logischer Ausdruck nur die Werte true bzw. false ergeben kann. Bei einer mehrseitigen Auswahl testen Sie den Wert einer Variablen oder eines komplexen Ausdrucks. Diese Variable bzw. dieser Ausdruck wird als Selektor bezeichnet. In Abhängigkeit vom Wert des Selektors können fallweise (case) verschiedene Anweisungsblöcke ausgeführt werden. Die mehrseitige Auswahl wird daher auch Selektion genannt.</p>
-<div class="highlight"><pre><span></span><code><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">month</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;Januar&quot;</span><span class="p">:</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;Februar&quot;</span><span class="p">:</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;März&quot;</span><span class="p">:</span>
-<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;1. Quartal&quot;</span><span class="p">);</span>
-<span class="w">        </span><span class="k">break</span><span class="p">;</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;April&quot;</span><span class="p">:</span>
-<span class="w">    </span><span class="p">...</span>
-<span class="w">    </span><span class="k">default</span><span class="p">:</span>
-<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;ungültiger Monatsname&quot;</span><span class="p">);</span>
-<span class="w">        </span><span class="k">break</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h2 id="schleifen-wiederholungen">Schleifen (Wiederholungen) 🔁</h2>
-<p>Eine Schleife besteht aus der <strong>Schleifensteuerung</strong> und dem <strong>Schleifenrumpf</strong>. Der Schleifenrumpf umfasst den Programmteil, der wiederholt werden soll. Die Schleifensteuerung legt fest, wie oft die Anweisungen im Schleifenrumpf wiederholt werden sollen bzw. nach welchen Kriterien entschieden wird, ob eine Wiederholung erfolgen soll.</p>
-<h3 id="while-kopfgesteuerte-schleife">while | Kopfgesteuerte Schleife</h3>
-<p>Bei der while-Anweisung handelt es sich um eine kopfgesteuerte Schleifenstruktur. Die Ausführung der Anweisungen im Schleifenrumpf ist von der Gültigkeit einer Bedingung abhängig, die gleich zu Beginn der Anweisung überprüft wird. Solange (while) die Bedingung erfüllt ist, werden die folgenden Anweisungen (Schleifenrumpf) ausgeführt. Anschliessend folgt der nächste Durchlauf der Schleife und die Bedingung wird erneut geprüft. Ist die Bedingung nicht erfüllt, wird das Programm hinter der while-Anweisung fortgesetzt.</p>
-<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span>
+<p><strong>Variablennamen</strong></p>
+<p>Variablen beginnen mit einem Kleinbuchstaben, zusammengesetzte Begriffe werden mit <code>_</code> verbunden, keine Sonderzeichen.</p>
+<table>
+<thead>
+<tr>
+<th>✅ Erlaubt</th>
+<th>⛔️ Nicht erlaubt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>number</td>
+<td>Number</td>
+</tr>
+<tr>
+<td>first_name</td>
+<td>first-name</td>
+</tr>
+<tr>
+<td>speed_in_percent</td>
+<td>speedin%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Datentypen</strong></p>
+<p>In Python musst du den Datentyp nicht selbst festlegen – er wird automatisch erkannt.</p>
+<table>
+<thead>
+<tr>
+<th>Typ</th>
+<th>Kurz</th>
+<th>Beispiele</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zeichenkette</td>
+<td>str</td>
+<td>"Hallo", "abc123"</td>
+</tr>
+<tr>
+<td>Ganzzahl</td>
+<td>int</td>
+<td>-5, 0, 54</td>
+</tr>
+<tr>
+<td>Fliesskommazahl</td>
+<td>float</td>
+<td>-1.25, 7.65</td>
+</tr>
+<tr>
+<td>Wahrheitswert</td>
+<td>bool</td>
+<td>True, False</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre><span></span><code><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Naruto&quot;</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>   <span class="c1"># &lt;class &#39;str&#39;&gt;</span>
 
-<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">counter</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">counter</span><span class="p">);</span>
-<span class="w">    </span><span class="n">counter</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w">                   </span><span class="c1">// Erhöht die Variable counter jeweils um +2</span>
-<span class="p">}</span>
-
-<span class="c1">// Das Programm gibt die Zahlen 1, 3, 5, 7 und 9 aus.</span>
+<span class="n">age</span> <span class="o">=</span> <span class="mi">16</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>    <span class="c1"># &lt;class &#39;int&#39;&gt;</span>
 </code></pre></div>
-<hr />
-<h3 id="do-while-fussgesteuerte-schleife">do-while | Fussgesteuerte Schleife</h3>
-<p>Die do-while-Anweisung ist eine fussgesteuerte Schleifenstruktur. Die Bedingung wird erst nach dem Durchlauf des Schleifenrumpfes ausgewertet. Dadurch wird der Schleifenkörper mindestens einmal ausgeführt. Wie bei der kopfgesteuerten while-Anweisung wird der Schleifenrumpf ausgeführt, solange die Bedingung erfüllt ist.</p>
-<div class="highlight"><pre><span></span><code><span class="kt">double</span><span class="w"> </span><span class="n">presentValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1000.0</span><span class="p">;</span><span class="w">       </span><span class="c1">// Der aktuelle Werte</span>
-<span class="kt">double</span><span class="w"> </span><span class="n">futureValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10000.0</span><span class="p">;</span><span class="w">       </span><span class="c1">// Wert, den wir erreichen wollen</span>
-<span class="k">const</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">interestRate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4.5</span><span class="w">     </span><span class="c1">// Zinssatz von 4,5%</span>
-<span class="kt">int</span><span class="w"> </span><span class="n">year</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span>
+<blockquote>
+<p>🤓 Bei langen Zahlen wie 1000000 kannst du zur besseren Lesbarkeit <code>_</code> verwenden: <code>1_000_000</code>. Der Wert ändert sich dadurch nicht.</p>
+</blockquote>
+<p><strong>PAP (Programmablaufplan)</strong></p>
+<p><img alt="" src="../img/pap-basics.png" /></p>
+<p>Beispiel für "zwei Zahlen einlesen und die Summe ausgeben":</p>
+<p><strong>Konvertieren</strong></p>
+<p><code>input()</code> liefert <strong>immer</strong> eine Zeichenkette (String) – auch wenn eine Zahl eingegeben wird.</p>
+<div class="highlight"><pre><span></span><code><span class="n">age</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Wie alt bist du? &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">age</span><span class="p">))</span>   <span class="c1"># &lt;class &#39;str&#39;&gt;</span>
 
-<span class="k">do</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">presentValue</span><span class="w"> </span><span class="o">*=</span><span class="w"> </span><span class="m">1.0</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">interestRate</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">100</span><span class="p">;</span><span class="w">   </span><span class="c1">// Startwert um Zinsen erhöhen</span>
-<span class="w">    </span><span class="n">year</span><span class="o">++</span><span class="p">;</span><span class="w">                                     </span><span class="c1">// Jahr um 1 erhöhen</span>
-<span class="p">}</span>
-<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">presentValue</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">futureValue</span><span class="p">);</span><span class="w">     </span><span class="c1">// Die Schleife wird solange ausgeführt, bis der aktuelle Wert den angestrebten Zukunftswert übersteigt</span>
-
-<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$&quot;Um den Zukunftswert zu erreichen, brauchst du {year} Jahre&quot;</span><span class="p">);</span>
+<span class="n">age</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Wie alt bist du? &quot;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">age</span><span class="p">))</span>   <span class="c1"># &lt;class &#39;int&#39;&gt;</span>
 </code></pre></div>
-<hr />
-<h2 id="for-zahlergesteuerte-wiederholung">for | Zählergesteuerte Wiederholung</h2>
-<p>Wenn bereits zu Begin der Schleife genau bekannt ist, wie oft der Schleifenrumpf (eine Anweisung oder ein Anweisungsblock) wiederholt werden soll, ist die Verwendung der for-Schleife die kompakteste Form.</p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">5</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Hallo!&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-
-<span class="c1">// Hier wird 4x Hallo! ausgegeben</span>
+<p><strong>String-Operationen</strong></p>
+<p>Zeichen und Indizes: Zählung beginnt bei 0.</p>
+<div class="highlight"><pre><span></span><code><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;HACKER&quot;</span>
+<span class="n">text</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>      <span class="c1"># K</span>
+<span class="n">text</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>    <span class="c1"># ACK  (Endindex ist nicht mehr enthalten)</span>
 </code></pre></div>
+<p>Weitere nützliche Operationen:</p>
+<div class="highlight"><pre><span></span><code><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;Erste Zeile.</span><span class="se">\n</span><span class="s2">Zweite Zeile.&quot;</span>   <span class="c1"># \n = Zeilenumbruch</span>
+
+<span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;Der </span><span class="se">\&quot;</span><span class="s2">FCL</span><span class="se">\&quot;</span><span class="s2"> ist mein Lieblingsclub.&quot;</span>   <span class="c1"># \&quot; für Anführungszeichen im String</span>
+
+<span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;Gorilla&quot;</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>            <span class="c1"># 7 (Länge des Strings)</span>
+<span class="n">text</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s2">&quot;r&quot;</span><span class="p">)</span>      <span class="c1"># 2 (Position des ersten &quot;r&quot;)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span> <span class="o">+</span> <span class="s2">&quot; World&quot;</span> <span class="o">+</span> <span class="s2">&quot;!&quot;</span><span class="p">)</span>   <span class="c1"># Verkettung mit +</span>
+
+<span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Kim&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Ich heisse </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>      <span class="c1"># f-String: Variable in {} einbetten</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>   <span class="c1"># KIM</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>   <span class="c1"># kim</span>
+</code></pre></div>
+<h2 id="3-anwendung">3. Anwendung</h2>
+<p><em>Wie funktioniert es? Schritt für Schritt am Beispiel</em></p>
+<ul>
+<li>Schritt 1: Lege eine Variable an: <code>age = input("Wie alt bist du? ")</code> und gib mit <code>print(type(age))</code> den Datentyp aus – du siehst <code>&lt;class 'str'&gt;</code>.</li>
+<li>Schritt 2: Wandle die Eingabe um: <code>age = int(input("Wie alt bist du? "))</code> und gib den Datentyp erneut aus – jetzt siehst du <code>&lt;class 'int'&gt;</code>.</li>
+<li>Schritt 3: Jetzt kannst du mit <code>age</code> rechnen, z.B. <code>print(age + 1)</code>.</li>
+</ul>
+<h2 id="4-uben">4. Üben</h2>
+<p><em>Aufgaben zum Vertiefen</em></p>
+<h3 id="aufgabe-erstes-eigenes-variablen-programm">Aufgabe: Erstes eigenes Variablen-Programm</h3>
+<ol>
+<li>Deklariere drei Variablen (eine Ganzzahl, eine Kommazahl, einen Text) und gib jeweils den Datentyp mit <code>type()</code> aus.</li>
+<li>Lies zusätzlich mit <code>input()</code> eine Zahl ein, wandle sie mit <code>int()</code> um, addiere 10 dazu und gib das Ergebnis aus.</li>
+<li>Baue mit einem f-String einen Satz, der alle drei Variablen (z.B. Name, Alter, Lieblingszahl) enthält.</li>
+</ol>
+<h2 id="5-losungen">5. Lösungen</h2>
+<p><strong>Beispiel zu 1:</strong>
+<div class="highlight"><pre><span></span><code><span class="n">zahl</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="n">kommazahl</span> <span class="o">=</span> <span class="mf">3.5</span>
+<span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;Hallo&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">zahl</span><span class="p">))</span>       <span class="c1"># &lt;class &#39;int&#39;&gt;</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">kommazahl</span><span class="p">))</span>  <span class="c1"># &lt;class &#39;float&#39;&gt;</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">text</span><span class="p">))</span>       <span class="c1"># &lt;class &#39;str&#39;&gt;</span>
+</code></pre></div></p>
+<p><strong>Beispiel zu 2:</strong>
+<div class="highlight"><pre><span></span><code><span class="n">zahl</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Gib eine Zahl ein: &quot;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">zahl</span> <span class="o">+</span> <span class="mi">10</span><span class="p">)</span>
+</code></pre></div></p>
+<p><strong>Beispiel zu 3:</strong>
+<div class="highlight"><pre><span></span><code><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Kim&quot;</span>
+<span class="n">alter</span> <span class="o">=</span> <span class="mi">16</span>
+<span class="n">lieblingszahl</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Ich heisse </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, bin </span><span class="si">{</span><span class="n">alter</span><span class="si">}</span><span class="s2"> Jahre alt und meine Lieblingszahl ist </span><span class="si">{</span><span class="n">lieblingszahl</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>
+</code></pre></div></p>
+<h2 id="6-weiterfuhrende-beispiele-und-gedanken">6. Weiterführende Beispiele und Gedanken</h2>
+<p><em>Transfer</em></p>
+<ul>
+<li>Achtung, typische Stolperfalle: Wer mit einer über <code>input()</code> eingelesenen Zahl direkt rechnet, ohne sie zu konvertieren, bekommt einen Fehler oder ein unerwartetes Ergebnis (Strings werden mit <code>+</code> aneinandergehängt statt addiert).</li>
+<li>Nächste Lektion: Ihr vertieft Variablen und Datentypen anhand einer grösseren Sammlung von Übungsaufgaben – Ein-/Ausgabe, Grundrechenarten, Vergleichsoperatoren, logische Operatoren und mehr.</li>
+<li>Überlege: Welche der heute gezeigten String-Operationen (Verkettung, f-Strings, upper/lower) könntest du bereits jetzt in einem eigenen kleinen Programm einsetzen?</li>
+</ul>
 
 
 

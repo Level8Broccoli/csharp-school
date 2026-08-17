@@ -12,7 +12,7 @@
         <meta name="author" content="Dr. Andreas Fischer">
       
       
-        <link rel="canonical" href="https://af81.github.io/csharp-school/theorie/kontrollstrukturen/">
+        <link rel="canonical" href="https://af81.github.io/csharp-school/lehrer/theoretische-einfuehrung-skript/">
       
       
       
@@ -22,7 +22,7 @@
     
     
       
-        <title>Kontrollstrukturen 🔀🔁 - Modul 319 – Programmieren Grundlagen in C#</title>
+        <title>Theoretische Einführung – Wie funktioniert ein Programm? - Modul 319 – Programmieren Grundlagen in C#</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kontrollstrukturen" class="md-skip">
+        <a href="#theoretische-einfuhrung-wie-funktioniert-ein-programm" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Kontrollstrukturen 🔀🔁
+              Theoretische Einführung – Wie funktioniert ein Programm?
             
           </span>
         </div>
@@ -518,102 +518,34 @@
 
 
 
-<h1 id="kontrollstrukturen">Kontrollstrukturen 🔀🔁</h1>
-<h2 id="ubersicht">Übersicht</h2>
-<p>Kontrollstrukturen bestehen aus zwei Kategorien: Verzweigungen (z.B. if-then-else) und Schleifen (z.B. while). Bei Verzweigungen geht es prinzipiell darum, ob eine Anweisung oder ein Block von Anweisungen ausgeführt werden soll oder nicht. Bei Schleifen geht es darum, dass eine Anweisung oder ein Block von Anweisungen unter Umständen mehrmals ausgeführt werden soll.</p>
-<p><img alt="" src="../../img/kontrollstrukturen.png" /></p>
-<hr />
-<h2 id="verzweigungen">Verzweigungen 🔀</h2>
-<h3 id="if-einseitige-auswahl">if | Einseitige Auswahl</h3>
-<p>Bei vielen Problemstellungen ist die Verarbeitung von Anweisungen von Bedingungen abhängig. Nur wenn die Bedingung erfüllt ist, wird die betreffende Anweisung (bzw. der Anweisungsblock) ausgeführt. Anderenfalls wird die Anweisung übersprungen.</p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Das wird ausgeführt, wenn die Aussage x &gt; 10 wahr ist.&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h3 id="if-else-zweiseitige-auswahl">if-else | Zweiseitige Auswahl</h3>
-<p>Im Gegensatz zur einseitigen Auswahl hat die zweiseitige Auswahl noch am Schluss einen else-Teil. Während die einseitigen Auswahl nur entschieden kann, ob eine Anweisung oder ein Block von Anweisungen ausgeführt werden soll oder nicht, kann die zweiseitige Auswahl entscheiden, welcher der beiden Teile (if oder else) ausgeführt werden soll.</p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Das wird ausgeführt, wenn die Aussage x &gt; 10 wahr ist.&quot;</span><span class="p">);</span>
-<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Das wird ausgeführt, wenn die Aussage x &gt; 10 unwahr ist. &quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h3 id="verschachtelung">Verschachtelung</h3>
-<p>Eine mehrstufige Auswahl erreichen Sie in C#, indem Sie mehrere if- bzw. if-else-Anweisungen schachteln. Dazu schreiben Sie innerhalb eines Anweisungsblocks einer if- bzw. if-else-Anweisung eine weitere if- bzw. if-else-Anweisung.</p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">15</span><span class="p">)</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;In diesem Fall muss x gleich 11, 12, 13 oder 14 sein.&quot;</span><span class="p">);</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WritLine</span><span class="p">(</span><span class="s">&quot;In diesem Fall ist x mindestens 16 oder grösser.&quot;</span><span class="p">);</span>
-<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;In diesem Fall ist x gleich 10 oder kleiner.&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h3 id="switch-mehrstufige-auswahl">switch | Mehrstufige Auswahl</h3>
-<p>Bei if-Konstruktionen lassen sich immer nur zwei alternative Programmteile ausführen, da eine Bedingung als logischer Ausdruck nur die Werte true bzw. false ergeben kann. Bei einer mehrseitigen Auswahl testen Sie den Wert einer Variablen oder eines komplexen Ausdrucks. Diese Variable bzw. dieser Ausdruck wird als Selektor bezeichnet. In Abhängigkeit vom Wert des Selektors können fallweise (case) verschiedene Anweisungsblöcke ausgeführt werden. Die mehrseitige Auswahl wird daher auch Selektion genannt.</p>
-<div class="highlight"><pre><span></span><code><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">month</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;Januar&quot;</span><span class="p">:</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;Februar&quot;</span><span class="p">:</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;März&quot;</span><span class="p">:</span>
-<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;1. Quartal&quot;</span><span class="p">);</span>
-<span class="w">        </span><span class="k">break</span><span class="p">;</span>
-<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s">&quot;April&quot;</span><span class="p">:</span>
-<span class="w">    </span><span class="p">...</span>
-<span class="w">    </span><span class="k">default</span><span class="p">:</span>
-<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;ungültiger Monatsname&quot;</span><span class="p">);</span>
-<span class="w">        </span><span class="k">break</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h2 id="schleifen-wiederholungen">Schleifen (Wiederholungen) 🔁</h2>
-<p>Eine Schleife besteht aus der <strong>Schleifensteuerung</strong> und dem <strong>Schleifenrumpf</strong>. Der Schleifenrumpf umfasst den Programmteil, der wiederholt werden soll. Die Schleifensteuerung legt fest, wie oft die Anweisungen im Schleifenrumpf wiederholt werden sollen bzw. nach welchen Kriterien entschieden wird, ob eine Wiederholung erfolgen soll.</p>
-<h3 id="while-kopfgesteuerte-schleife">while | Kopfgesteuerte Schleife</h3>
-<p>Bei der while-Anweisung handelt es sich um eine kopfgesteuerte Schleifenstruktur. Die Ausführung der Anweisungen im Schleifenrumpf ist von der Gültigkeit einer Bedingung abhängig, die gleich zu Beginn der Anweisung überprüft wird. Solange (while) die Bedingung erfüllt ist, werden die folgenden Anweisungen (Schleifenrumpf) ausgeführt. Anschliessend folgt der nächste Durchlauf der Schleife und die Bedingung wird erneut geprüft. Ist die Bedingung nicht erfüllt, wird das Programm hinter der while-Anweisung fortgesetzt.</p>
-<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span>
-
-<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">counter</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">10</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">counter</span><span class="p">);</span>
-<span class="w">    </span><span class="n">counter</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w">                   </span><span class="c1">// Erhöht die Variable counter jeweils um +2</span>
-<span class="p">}</span>
-
-<span class="c1">// Das Programm gibt die Zahlen 1, 3, 5, 7 und 9 aus.</span>
-</code></pre></div>
-<hr />
-<h3 id="do-while-fussgesteuerte-schleife">do-while | Fussgesteuerte Schleife</h3>
-<p>Die do-while-Anweisung ist eine fussgesteuerte Schleifenstruktur. Die Bedingung wird erst nach dem Durchlauf des Schleifenrumpfes ausgewertet. Dadurch wird der Schleifenkörper mindestens einmal ausgeführt. Wie bei der kopfgesteuerten while-Anweisung wird der Schleifenrumpf ausgeführt, solange die Bedingung erfüllt ist.</p>
-<div class="highlight"><pre><span></span><code><span class="kt">double</span><span class="w"> </span><span class="n">presentValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1000.0</span><span class="p">;</span><span class="w">       </span><span class="c1">// Der aktuelle Werte</span>
-<span class="kt">double</span><span class="w"> </span><span class="n">futureValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10000.0</span><span class="p">;</span><span class="w">       </span><span class="c1">// Wert, den wir erreichen wollen</span>
-<span class="k">const</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">interestRate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4.5</span><span class="w">     </span><span class="c1">// Zinssatz von 4,5%</span>
-<span class="kt">int</span><span class="w"> </span><span class="n">year</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span>
-
-<span class="k">do</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">presentValue</span><span class="w"> </span><span class="o">*=</span><span class="w"> </span><span class="m">1.0</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">interestRate</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">100</span><span class="p">;</span><span class="w">   </span><span class="c1">// Startwert um Zinsen erhöhen</span>
-<span class="w">    </span><span class="n">year</span><span class="o">++</span><span class="p">;</span><span class="w">                                     </span><span class="c1">// Jahr um 1 erhöhen</span>
-<span class="p">}</span>
-<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">presentValue</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">futureValue</span><span class="p">);</span><span class="w">     </span><span class="c1">// Die Schleife wird solange ausgeführt, bis der aktuelle Wert den angestrebten Zukunftswert übersteigt</span>
-
-<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$&quot;Um den Zukunftswert zu erreichen, brauchst du {year} Jahre&quot;</span><span class="p">);</span>
-</code></pre></div>
-<hr />
-<h2 id="for-zahlergesteuerte-wiederholung">for | Zählergesteuerte Wiederholung</h2>
-<p>Wenn bereits zu Begin der Schleife genau bekannt ist, wie oft der Schleifenrumpf (eine Anweisung oder ein Anweisungsblock) wiederholt werden soll, ist die Verwendung der for-Schleife die kompakteste Form.</p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">5</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Hallo!&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-
-<span class="c1">// Hier wird 4x Hallo! ausgegeben</span>
-</code></pre></div>
+<h1 id="theoretische-einfuhrung-wie-funktioniert-ein-programm">Theoretische Einführung – Wie funktioniert ein Programm?</h1>
+<p><em>Kontext: Berufsschule (Informatik-Grundkurs) · Dauer: 90 Min · Zielgruppe: Lernanfänger ca. 16 Jahre, erste Woche mit eingerichtetem Setup</em></p>
+<p><strong>Lernziel:</strong> Die Lernenden verstehen das EVA-Prinzip und den Ablauf eines Programms im Computer, kennen den Algorithmus-Begriff mit seinen vier Eigenschaften, können den Unterschied zwischen Compiler und Interpreter erklären, wissen, dass Computer auf Binärcode basieren, und kennen die zentralen Fachbegriffe (Quellcode, Maschinencode, Syntax, Datentyp, Variable, IDE, CPU, RAM u.a.).</p>
+<h2 id="1-einstieg">1. Einstieg</h2>
+<ul>
+<li>Mit einer kurzen Geschichte einsteigen: Eine Entwicklerin sucht stundenlang einen Fehler, weil sie den Unterschied zwischen einem Syntaxfehler (wird schon beim Übersetzen erkannt) und einem Laufzeitfehler (zeigt sich erst während der Ausführung) nicht kennt.</li>
+<li>Die Klasse fragen, was ihrer Meinung nach passiert, wenn man in VS Code auf "Run" drückt – zwei Minuten mit der Sitznachbarin oder dem Sitznachbarn austauschen lassen, danach zwei bis drei Wortmeldungen sammeln.</li>
+</ul>
+<h2 id="2-grundlagen">2. Grundlagen</h2>
+<ul>
+<li>Das EVA-Prinzip als Grundmuster jedes Programms einführen: Eingabe (Benutzer oder System liefert Daten), Verarbeitung (das Programm führt Schritt für Schritt Berechnungen, Vergleiche und Logik aus) und Ausgabe (das Ergebnis wird angezeigt, gespeichert oder weitergegeben). Am Rezept-Bild aus Lektion 1 anknüpfen und live an einem kleinen Python-Beispiel zeigen: Der Benutzer gibt seinen Namen ein, das Programm setzt eine Begrüssung zusammen, und das Ergebnis wird ausgegeben.</li>
+<li>Den Begriff Algorithmus einführen: eine präzise Abfolge von Schritten, um ein Problem zu lösen. Anhand eines Sortier-Beispiels die vier Eigenschaften guter Algorithmen erklären: Korrektheit (liefert richtige Ergebnisse), Eindeutigkeit (klar definierte Schritte), Endlichkeit (hört irgendwann auf) und Effizienz (benötigt vertretbare Zeit und Ressourcen).</li>
+<li>Den Ablauf eines Programms im Computer skizzieren: Beim Start wird das Programm vom Speicher in den Arbeitsspeicher (RAM) geladen, danach liest die CPU nacheinander die Maschinenbefehle (z.B. "Addiere Wert X zu Wert Y", "Vergleiche A mit B"), und Kontrollstrukturen wie Wenn-Dann oder Wiederhole-Bis steuern, wie das Programm je nach Datenlage unterschiedlich reagiert.</li>
+<li>Den Weg vom Quellcode zur Ausführung erklären: Bei einer kompilierten Sprache wird der gesamte Quellcode im Voraus in Maschinencode übersetzt und dann ausgeführt; bei einer interpretierten Sprache wird der Code Zeile für Zeile übersetzt und direkt ausgeführt. Die Begriffe anhand einer Alltagsanalogie festigen: Ein Simultanübersetzer bei einer Konferenz entspricht einem Interpreter, ein im Voraus übersetztes Buch entspricht einem Compiler. Konkret an Python zeigen, dass es sich um eine interpretierte Sprache handelt, indem ein einfaches Skript im Terminal Zeile für Zeile ausgeführt und die Ausgabe live nachvollzogen wird.</li>
+<li>Binärcode als Grundsprache des Computers kurz einführen: Ein Computer kennt nur elektrische Signale ein (1) und aus (0); mehrere Bits zusammen bilden ein Byte; alles im Computer – Zahlen, Texte, Bilder, Musik – wird letztlich binär dargestellt (Beispiel: die Dezimalzahl 5 entspricht binär 0101, der Buchstabe "A" entspricht im ASCII-Binärcode 01000001). An dieser Stelle bewusst nur das Konzept vermitteln, keine Umrechnungsübung durchführen – die Umrechnungstechnik Dezimal/Binär wird in einem anderen Modul vertieft.</li>
+<li>Die zentralen Fachbegriffe der Lektion als Überblick festigen: IDE, Quellcode, Syntax, Datentyp, Variable, Assembler, Maschinencode, CPU, RAM – als Glossar-Referenz, die auch für die Prüfung relevant ist.</li>
+</ul>
+<h2 id="3-anwendung">3. Anwendung</h2>
+<ul>
+<li><strong>Code von Hand ausführen:</strong> Die Lernenden verfolgen einen gegebenen Python-Code Zeile für Zeile und bestimmen die Ausgabe, bevor sie ihn laufen lassen. Basic sagt die Ausgabe der ersten drei Zeilen korrekt voraus. Intermediate sagt die Ausgabe des gesamten Codes voraus und überprüft sie danach im Terminal. Advanced erweitert den Code um eine eigene Variable und Berechnung, sodass ein selbst gewähltes Ergebnis entsteht, und erklärt den Denkweg.</li>
+<li><strong>Compiler oder Interpreter?:</strong> Die Lernenden ordnen die Sprachen Python, C, Java und JavaScript danach ein, ob sie eher kompiliert oder interpretiert ausgeführt werden, und begründen dies anhand der besprochenen Merkmale. Basic ordnet anhand der vorgegebenen Merkmalsliste im Handout zu. Intermediate nennt zusätzlich für zwei Sprachen einen Vor- und einen Nachteil des jeweiligen Ansatzes. Advanced recherchiert, wie Java als Hybridfall funktioniert (Bytecode und JVM), und erklärt dies in eigenen Worten.</li>
+</ul>
+<h2 id="4-transfer">4. Transfer</h2>
+<ul>
+<li>Als Transferfrage stellen: Welche Programmiersprache würde man für eine mobile App wählen, welche für ein eingebettetes Steuergerät im Auto – und warum?</li>
+<li>Einen Ausblick auf die nächste Lektion geben: Git und GitHub – wie der eigene Code über die Zeit verwaltet wird.</li>
+<li>Zur Reflexion anregen: Wo im bisherigen Alltag mit Apps oder Spielen könnte das Wissen über Compiler und Interpreter relevant sein?</li>
+</ul>
 
 
 
