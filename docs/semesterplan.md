@@ -3,7 +3,7 @@
 - **Semester:** Herbst 2026
 - **Unterrichtstag:** Montag oder Dienstag
 - **Doppellektionen:** 19 × 90 Minuten
-- **Sprache:** Python
+- **Sprache:** C#
 
 ---
 
