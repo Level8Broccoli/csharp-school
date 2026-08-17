@@ -42,7 +42,7 @@ Das ist bereits ein vollständiges C#-Programm: Es gibt den Text "Hello World" a
 Damit C#-Programme ausgeführt werden können, benötigst du das **.NET SDK**.
 
 1. Öffne [https://dotnet.microsoft.com/en-us/download](https://dotnet.microsoft.com/en-us/download)
-2. Wähle die aktuelle **Long Term Support (LTS)** Version (z. B. .NET 8 LTS).
+2. Wähle die aktuelle **Long Term Support (LTS)** Version (z. B. .NET 10 LTS).
 3. Lade das passende Paket für dein Betriebssystem herunter.
 4. Installiere mit den Standard-Einstellungen.
 5. Prüfen, ob alles funktioniert:`dotnet --version`

@@ -2,7 +2,7 @@ site_name: Modul 319 – Programmieren Grundlagen in C#
 site_description: Unterrichtsmaterial für das Modul 319 an der BBZW Sursee
 site_author: Dr. Andreas Fischer
 site_url: https://af81.github.io/csharp-school/
-copyright: Copyright &copy; 2025 Dr. Andreas Fischer
+copyright: Copyright &copy; 2026 Dr. Andreas Fischer
 markdown_extensions:
   - attr_list
   - admonition
@@ -38,14 +38,14 @@ nav:
   - Semesterplan: semesterplan.md
   - Lernstoff:
       - W1 - Einführung & Setup: schueler/einfuehrung-organisation-handout.md
-      # - W2 - Theoretische Einführung: schueler/theoretische-einfuehrung-handout.md
-      # - W3 - Git & Github: schueler/git-github-grundlagen-handout.md
-      # - W4 - Variablen & Datentypen I: schueler/variablen-1-handout.md
-  # - Lehrer-Skripts:
-  #     - W1 - Einführung & Setup: lehrer/einfuehrung-organisation-skript.md
-  #     - W2 - Theoretische Einführung: lehrer/theoretische-einfuehrung-skript.md
-  #     - W3 - Git & Github: lehrer/git-github-grundlagen-skript.md
-  #     - W4 - Variablen & Datentypen I: lehrer/variablen-1-skript.md
+      - W2 - Theoretische Einführung: schueler/theoretische-einfuehrung-handout.md
+      - W3 - Git & Github: schueler/git-github-grundlagen-handout.md
+      - W4 - Variablen & Datentypen I: schueler/variablen-1-handout.md
+  - Lehrer-Skripts:
+      - W1 - Einführung & Setup: lehrer/einfuehrung-organisation-skript.md
+      - W2 - Theoretische Einführung: lehrer/theoretische-einfuehrung-skript.md
+      - W3 - Git & Github: lehrer/git-github-grundlagen-skript.md
+      - W4 - Variablen & Datentypen I: lehrer/variablen-1-skript.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
       - Klassenregeln: ressourcen/regeln.md

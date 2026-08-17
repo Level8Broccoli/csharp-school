@@ -15,29 +15,31 @@ Am Ende dieser Lektion weisst du: was das **EVA-Prinzip** ist und was beim Ausf�
 
 - **EVA-Prinzip:** Jedes Programm folgt dem Muster **Eingabe → Verarbeitung → Ausgabe**. Eingabe: Daten kommen von aussen (Tastatur, Maus, Sensor). Verarbeitung: Das Programm rechnet, vergleicht, wendet Logik an. Ausgabe: Das Ergebnis wird angezeigt, gespeichert oder weitergegeben.
 
-```python
+```csharp
 # 1. Eingabe
-name = input("Wie heisst du? ")
+Console.Write("Wie heisst du?: ");
+string name = Console.ReadLine();
+
 # 2. Verarbeitung
-begruessung = "Hallo, " + name + "! Schön, dich zu sehen."
+string begruessung = "Hallo, " + name + "! Schön, dich zu sehen.";
+
 # 3. Ausgabe
-print(begruessung)
+Console.WriteLine(begruessung);
 ```
 
 - **Algorithmus:** eine präzise Abfolge von Schritten, um ein Problem zu lösen (z.B. ein Programm, das unsortierte Zahlen der Reihe nach ordnet). Ein guter Algorithmus ist: **korrekt** (liefert richtige Ergebnisse), **eindeutig** (klar definierte Schritte), **endlich** (hört irgendwann auf) und **effizient** (braucht vertretbare Zeit/Ressourcen).
 - **Ablauf im Computer:** Beim Start wird das Programm vom Speicher in den Arbeitsspeicher (RAM) geladen. Danach liest die CPU nacheinander die Maschinenbefehle (z.B. "Addiere X zu Y", "Vergleiche A mit B"). Kontrollstrukturen wie Wenn-Dann oder Wiederhole-Bis steuern, wie das Programm je nach Daten unterschiedlich reagiert.
-- **Quellcode** ist der Text, den du selbst schreibst (z.B. dein `.py`-File). **Maschinencode** ist das, was der Prozessor tatsächlich versteht und ausführt.
+- **Quellcode** ist der Text, den du selbst schreibst (z.B. dein `program.cs`-File). **Maschinencode** ist das, was der Prozessor tatsächlich versteht und ausführt.
 - Ein **Compiler** übersetzt den gesamten Quellcode im Voraus vollständig in Maschinencode, bevor das Programm läuft – wie ein Buch, das komplett im Voraus übersetzt wird.
 - Ein **Interpreter** übersetzt den Code Zeile für Zeile und führt jede Zeile sofort aus – wie ein Simultanübersetzer bei einer Konferenz.
-- Python ist eine **interpretierte Sprache**. Das siehst du daran, dass du ein Skript direkt ausführen kannst, ohne einen separaten Übersetzungsschritt.
+- C# ist eine kompilierte Sprache – genauer gesagt eine hybride Sprache. Der C#-Compiler übersetzt deinen Quellcode zuerst in eine Zwischensprache namens Intermediate Language (IL). Erst wenn du das Programm startest, übersetzt die .NET-Laufzeitumgebung (die Common Language Runtime, CLR) diese IL mittels Just-in-Time-Kompilierung (JIT) in echten Maschinencode. Anders als bei Python kannst du eine .cs-Datei deshalb nicht direkt ausführen – sie muss zuerst kompiliert werden (z.B. mit `dotnet build` oder `dotnet run`).
 - **Binärcode:** Ein Computer kennt nur elektrische Signale ein (1) und aus (0). Mehrere Bits ergeben ein Byte. Alles im Computer – Zahlen, Texte, Bilder, Musik – wird letztlich binär dargestellt (Beispiel: Dezimalzahl 5 = Binär `0101`, Buchstabe "A" = ASCII-Binär `01000001`). Wie man zwischen Dezimal- und Binärzahlen umrechnet, lernst du in einem anderen Modul.
 
-```python
-a = 5
-b = 3
-print(a + b)
+```csharp
+int a = 5;
+int b = 3;
+Console.WriteLine(a + b);
 ```
-Python liest Zeile 1, führt sie aus, liest Zeile 2, führt sie aus – und so weiter, bis Zeile 3 "8" ausgibt.
 
 **Glossar zum Nachschlagen:**
 
@@ -56,19 +58,20 @@ Python liest Zeile 1, führt sie aus, liest Zeile 2, führt sie aus – und so w
 
 - Schritt 1: Nimm den Code oben und lies ihn Zeile für Zeile, ohne ihn auszuführen.
 - Schritt 2: Notiere dir, welchen Wert `a` und `b` nach jeder Zeile haben.
-- Schritt 3: Führe den Code danach im Terminal aus und vergleiche mit deiner Vorhersage: `print(a + b)` gibt `8` aus.
+- Schritt 3: Führe den Code danach im Terminal aus und vergleiche mit deiner Vorhersage: `Console.WriteLine(a + b)` gibt `8` aus.
 
 ## 4. Üben
 *Aufgaben zum Vertiefen*
 
 ### Aufgabe 1: Code von Hand ausführen
 Verfolge den folgenden Code Zeile für Zeile und bestimme die Ausgabe, bevor du ihn laufen lässt.
-```python
-a = 5
-b = 3
-print(a + b)
-a = a * 2
-print(a - b)
+
+```csharp
+int a = 5;
+int b = 3;
+Console.WriteLine(a + b);
+a = a * 2;
+Console.WriteLine(a - b)
 ```
 
 1. Sage die Ausgabe der ersten drei Zeilen voraus und notiere sie.
@@ -81,7 +84,7 @@ Ordne die Sprachen Python, C, Java und JavaScript danach ein, ob sie eher kompil
 | Sprache | Merkmal |
 |---|---|
 | Python | wird direkt Zeile für Zeile ausgeführt |
-| C | wird vor der Ausführung vollständig in Maschinencode übersetzt |
+| C# | wird vor der Ausführung vollständig in Maschinencode übersetzt |
 | Java | wird in Bytecode übersetzt und von der JVM ausgeführt |
 | JavaScript | wird vom Browser/der Engine direkt interpretiert |
 
@@ -94,12 +97,12 @@ Ordne die Sprachen Python, C, Java und JavaScript danach ein, ob sie eher kompil
 **Code von Hand ausführen:**
 
 - [ ] Ausgabe Zeile 3: `8`
-- [ ] Ausgabe Zeile 5: `a` ist nach der Verdopplung `10`, also gibt `print(a - b)` den Wert `7` aus.
+- [ ] Ausgabe Zeile 5: `a` ist nach der Verdopplung `10`, also gibt `Console.WriteLine(a - b)` den Wert `7` aus.
 - [ ] Beliebige korrekte Erweiterung ist richtig, solange die eigene Vorhersage nachvollziehbar mit dem tatsächlichen Ergebnis übereinstimmt.
 
 **Compiler oder Interpreter?**
 
-- [ ] Python: interpretiert. C: kompiliert. Java: hybrid (Bytecode, von der JVM interpretiert/just-in-time kompiliert). JavaScript: interpretiert (bzw. JIT-kompiliert durch moderne Engines).
+- [ ] Python: interpretiert. C#: kompiliert. Java: hybrid (Bytecode, von der JVM interpretiert/just-in-time kompiliert). JavaScript: interpretiert (bzw. JIT-kompiliert durch moderne Engines).
 - [ ] Vor-/Nachteile (Beispiel): Kompilierte Sprachen laufen meist schneller, aber jede Änderung erfordert einen neuen Übersetzungsschritt; interpretierte Sprachen sind flexibler zum schnellen Testen, aber tendenziell langsamer zur Laufzeit.
 
 ## 6. Weiterführende Beispiele und Gedanken
