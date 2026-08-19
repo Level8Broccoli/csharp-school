@@ -1,6 +1,7 @@
 # 👩🏻‍💻 Github: Repository nach GitHub hochladen
 
-🎯 **Ziel**: Lerne, wie du dein lokales Projekt mit einem Remote Repository auf GitHub verbindest und es hochlädst.
+🎯 **Ziel**: Lerne, wie du dein lokales Projekt mit einem Remote Repository auf
+GitHub verbindest und es hochlädst.
 
 ---
 
@@ -11,11 +12,13 @@
    - Klicke oben rechts auf **+ → New repository**
    - Repository-Name: `HelloWorld`
    - Sichtbarkeit: **Public** oder **Private**
-   - **Keine README, .gitignore oder License hinzufügen** (wir haben schon ein lokales Repo!)
+   - **Keine README, .gitignore oder License hinzufügen** (wir haben schon ein
+     lokales Repo!)
    - Klicke auf **Create repository**
 
 2. **Remote-URL kopieren**
-   - Auf der Repository-Seite kopiere die **SSH-URL** (z. B. `git@github.com:deinname/HelloWorld.git`)
+   - Auf der Repository-Seite kopiere die **SSH-URL** (z. B.
+     `git@github.com:deinname/HelloWorld.git`)
 
 3. **Lokales Projekt verbinden**
    - Öffne dein HelloWorld-Projekt im Terminal

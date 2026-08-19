@@ -2,17 +2,19 @@
 
 ## 1. Einführung
 
-Programme bestehen oft aus vielen einzelnen Anweisungen.
-Damit der Code **übersichtlicher**, **wiederverwendbar** und **leicht wartbar** bleibt, teilt man ihn in **Methoden** (auch: **Unterprogramme**) auf.
+Programme bestehen oft aus vielen einzelnen Anweisungen. Damit der Code
+**übersichtlicher**, **wiederverwendbar** und **leicht wartbar** bleibt, teilt
+man ihn in **Methoden** (auch: **Unterprogramme**) auf.
 
-➡️ **Definition:**
-Eine **Methode** ist ein benannter Programmabschnitt, der eine bestimmte Aufgabe erfüllt und bei Bedarf aufgerufen werden kann.
+➡️ **Definition:** Eine **Methode** ist ein benannter Programmabschnitt, der
+eine bestimmte Aufgabe erfüllt und bei Bedarf aufgerufen werden kann.
 
 ---
 
 ## 2. Vorteile von Methoden
 
-- 🔁 **Wiederverwendbarkeit:** Einmal geschriebener Code kann mehrfach genutzt werden.
+- 🔁 **Wiederverwendbarkeit:** Einmal geschriebener Code kann mehrfach genutzt
+  werden.
 - 🧩 **Strukturierung:** Programme werden in logische Einheiten aufgeteilt.
 - 🧠 **Lesbarkeit:** Der Code wird verständlicher.
 - 🧰 **Wartbarkeit:** Änderungen können an einer Stelle vorgenommen werden.
@@ -95,7 +97,7 @@ void ZeigeAlter(int alter)
 {
     Console.WriteLine("Du bist " + alter + " Jahre alt.");
 }
-````
+```
 
 Aufruf:
 
@@ -119,7 +121,8 @@ void AusgabePerson(string name, int alter)
 ### c) Parameterübergabe (by value / by reference)
 
 - Standardmässig: Übergabe **by value** (eine Kopie des Wertes wird übergeben)
-- Mit `ref` oder `out`: Übergabe **by reference** (Referenz auf die Originalvariable)
+- Mit `ref` oder `out`: Übergabe **by reference** (Referenz auf die
+  Originalvariable)
 
 Beispiel `ref`:
 
@@ -128,7 +131,7 @@ void Erhoehe(ref int zahl)
 {
     zahl++;
 }
-````
+```
 
 Aufruf:
 
@@ -142,7 +145,8 @@ Console.WriteLine(x); // Ausgabe: 6
 
 ## 7. Überladen von Methoden (Method Overloading)
 
-In C# können mehrere Methoden **denselben Namen** haben, **wenn sich ihre Parameter unterscheiden** (Anzahl oder Typ).
+In C# können mehrere Methoden **denselben Namen** haben, **wenn sich ihre
+Parameter unterscheiden** (Anzahl oder Typ).
 
 Beispiel:
 
@@ -155,7 +159,8 @@ double Addiere(double a, double b) { return a + b; }
 
 ## 8. Lokale Variablen
 
-Variablen, die **innerhalb einer Methode** deklariert werden, sind **nur dort sichtbar** (lokaler Gültigkeitsbereich).
+Variablen, die **innerhalb einer Methode** deklariert werden, sind **nur dort
+sichtbar** (lokaler Gültigkeitsbereich).
 
 ```c#
 void Beispiel()
@@ -169,8 +174,8 @@ void Beispiel()
 
 ## 9. `return`-Anweisung
 
-Mit `return` wird das Ergebnis einer Methode zurückgegeben.
-Danach wird die Methode sofort beendet
+Mit `return` wird das Ergebnis einer Methode zurückgegeben. Danach wird die
+Methode sofort beendet
 
 ```c#
 int Quadrat(int zahl)
@@ -183,9 +188,9 @@ int Quadrat(int zahl)
 
 ## 10. Gute Programmierpraxis
 
-✅ Verwende aussagekräftige Methodennamen
-✅ Jede Methode sollte eine klar definierte Aufgabe haben
-✅ Vermeide zu lange Methoden (max. 20–30 Zeilen als Richtwert)
+✅ Verwende aussagekräftige Methodennamen ✅ Jede Methode sollte eine klar
+definierte Aufgabe haben ✅ Vermeide zu lange Methoden (max. 20–30 Zeilen als
+Richtwert)
 
 ---
 
@@ -200,7 +205,7 @@ int Quadrat(int zahl)
 | **ref/out**      | Übergabe von Variablen als Referenz                             |
 | **Overloading**  | Mehrere Methoden gleichen Namens mit unterschiedlicher Signatur |
 
-
 ✏️ **Merke**:
 
->Methoden sind die „Bausteine“ eines Programms. Sie helfen, Code zu strukturieren, wiederzuverwenden und zu verstehen.
+> Methoden sind die „Bausteine“ eines Programms. Sie helfen, Code zu
+> strukturieren, wiederzuverwenden und zu verstehen.

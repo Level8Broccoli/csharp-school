@@ -1,6 +1,7 @@
 # 👩🏻‍💻 Git: Änderungen rückgängig machen
 
-🎯 **Ziel**: Lerne, wie du Änderungen im Projekt zurücksetzen kannst – bevor oder nachdem du sie committest.
+🎯 **Ziel**: Lerne, wie du Änderungen im Projekt zurücksetzen kannst – bevor
+oder nachdem du sie committest.
 
 ---
 
@@ -72,10 +73,9 @@ git commit -m "feat: add experimental code"
 
 Oh nein! Falsch commited? Gehe zurück zum letzten Zustand:
 
-``bash
-git reset --soft HEAD~1
-```
+``bash git reset --soft HEAD~1
 
+```
 ➝ Der Commit wurde entfernt, die Änderungen bleiben aber erhalten.
 
 
@@ -85,3 +85,4 @@ git reset --soft HEAD~1
 - Du eine Änderung am Code verworfen hast
 - Du eine Datei aus dem Staging-Bereich zurückgeholt hast
 - Du einen Commit rückgängig gemacht hast
+```

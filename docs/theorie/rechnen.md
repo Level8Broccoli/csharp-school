@@ -2,7 +2,8 @@
 
 ## Grundrechenarten
 
-Die vier mathematischen Grundrechenarten **Addition** (+), **Substraktion** (-), **Multiplikation** (*) und **Division** (/) sind auch in C# möglich.
+Die vier mathematischen Grundrechenarten **Addition** (+), **Substraktion** (-),
+**Multiplikation** (*) und **Division** (/) sind auch in C# möglich.
 
 ```c#
 Console.WriteLine(5 + 8);      // 13
@@ -31,11 +32,14 @@ double number = 3.5 / 1.2;   // 2.916666666666667
 
 Console.WriteLine(Math.Round(number, 2)); // 2.92 (Banker's Rounding Standard in .NET)
 ```
-> ⚠️ Standardmässig nutzt C# das Banker's Rounding. Wenn du immer "kaufmännisch" runden willst, kannst du MidpointRounding.AwayFromZero angeben:
+
+> ⚠️ Standardmässig nutzt C# das Banker's Rounding. Wenn du immer "kaufmännisch"
+> runden willst, kannst du MidpointRounding.AwayFromZero angeben:
 
 ## Inkrementieren und Dekrementieren
 
-Eine Variable kannst du mit += oder -= verändern. Ausserdem gibt es die Operatoren ++ und --.
+Eine Variable kannst du mit += oder -= verändern. Ausserdem gibt es die
+Operatoren ++ und --.
 
 ```c#
 int number = 18;
@@ -60,7 +64,8 @@ Console.WriteLine(Math.Pow(2, 5)); // 32   entspricht 2^5
 
 ## Integer-Division und Modulo
 
-Bei der Integer-Division (z. B. 6 / 4) werden die Nachkommastellen automatisch abgeschnitten, wenn beide Operanden **int** sind.
+Bei der Integer-Division (z. B. 6 / 4) werden die Nachkommastellen automatisch
+abgeschnitten, wenn beide Operanden **int** sind.
 
 ```c#
 Console.WriteLine(6 / 4);   // 1

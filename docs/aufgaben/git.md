@@ -1,6 +1,7 @@
 # 👩🏻‍💻 Git: Dein erstes Git-Repository mit Commits
 
-Wir nutzen dein bereits vorhandenes Projekt **HelloWorld** aus der letzten Lektion.
+Wir nutzen dein bereits vorhandenes Projekt **HelloWorld** aus der letzten
+Lektion.
 
 🎯 **Ziel**: Dein Projekt mit Git versionieren und die ersten Commits machen.
 
@@ -15,12 +16,13 @@ Wir nutzen dein bereits vorhandenes Projekt **HelloWorld** aus der letzten Lekti
 ```bash
 cd ~/Projekte/HelloWorld
 ```
-Alternativ kannst du den Ordner auch direkt über das Menü `File -> Open Folder` öffnen und anschliessen das Terminal öffnen.
+
+Alternativ kannst du den Ordner auch direkt über das Menü `File -> Open Folder`
+öffnen und anschliessen das Terminal öffnen.
 
 **2. Git-Repository initialisieren**
 
 Erstelle ein neues lokales Git-Repository:
-
 
 ```bash
 git init
@@ -53,7 +55,8 @@ git commit -m "feat: initial commit with HelloWorld project"
 **6. Neue Änderungen erstellen**
 
 - Öffne die Hauptdatei (programm.cs)
-- Füge einen Kommentar oder eine kleine Änderung hinzu (z. B. einen neuen Text ausgeben)
+- Füge einen Kommentar oder eine kleine Änderung hinzu (z. B. einen neuen Text
+  ausgeben)
 
 **7. Zweite Commit-Runde**
 

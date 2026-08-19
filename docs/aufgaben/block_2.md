@@ -40,7 +40,6 @@ Was gibt das Programm aus, wenn folgende Werte eingegeben würden?
 - c) Note 1 = 3.8, Note 2 = 3.3
 
 ```c#
-
 int anzahl = 0;
 double note1 = 0.0, note2 = 0.0;
 Console.Write("Note 1:");
@@ -80,7 +79,11 @@ Console.ReadLine();
 
 ## 3. Fehler erkennen 💡
 
-Das folgende Programm sollte drei Werte (Wert 1, Wert 2 und Wert 3) vom Benutzer entgegennehmen und den grössten der drei Werte wieder ausgeben. Leider haben sich **zwei Fehler** eingeschlichen. Erkläre am Schluss, bei welcher Zeile (Zeilennummer) es einen Kompilierfehler gibt und warum. Versuche ihn dann zu korrigieren:
+Das folgende Programm sollte drei Werte (Wert 1, Wert 2 und Wert 3) vom Benutzer
+entgegennehmen und den grössten der drei Werte wieder ausgeben. Leider haben
+sich **zwei Fehler** eingeschlichen. Erkläre am Schluss, bei welcher Zeile
+(Zeilennummer) es einen Kompilierfehler gibt und warum. Versuche ihn dann zu
+korrigieren:
 
 - Kompilierfehler bei Zeile: x
 - Grund: y
@@ -142,26 +145,35 @@ Beim Ringen wird in verschiedenen Gewichtsklassen gerungen:
     </tr>
 </table>
 
-Schreibe ein Programm, das den Benutzer zur Eingabe der beiden Informationen **Geschlecht** und **Gewicht** auffordert.
-Im Verarbeitungsteil ermittelt deine App, mit Hilfe von Verzweigungen, in welcher Kategorie gerungen werden kann. Die ermittelte Information wird danach dem Benutzer ausgegeben.
+Schreibe ein Programm, das den Benutzer zur Eingabe der beiden Informationen
+**Geschlecht** und **Gewicht** auffordert. Im Verarbeitungsteil ermittelt deine
+App, mit Hilfe von Verzweigungen, in welcher Kategorie gerungen werden kann. Die
+ermittelte Information wird danach dem Benutzer ausgegeben.
 
-	Gibt der Benutzer zum Beispiel folgende Werte ein:
-		Geschlecht [m/w]	: m
-	Gewicht [in Kg]	: 75
-		Ausgabe = Gewichtsklasse: Mittelgewicht
+    Gibt der Benutzer zum Beispiel folgende Werte ein:
+    	Geschlecht [m/w]	: m
+    Gewicht [in Kg]	: 75
+    	Ausgabe = Gewichtsklasse: Mittelgewicht
 
 ---
 
 ## 5. Jahreszeiten ☀️
 
-Schreibe ein Programm, das den Benutzer zur **Eingabe eines Monats** auffordert (Zahl von 1 bis 12).
-Im Verarbeitungsteil ermittelt deine App mit Hilfe einer **mehrstufigen Verzweigung** (switch -case) ob es sich um einen Frühlings, Sommer- , Herbst- oder Wintermonat handelt. Die ermittelte Information wird danach dem Benutzer ausgegeben.
+Schreibe ein Programm, das den Benutzer zur **Eingabe eines Monats** auffordert
+(Zahl von 1 bis 12). Im Verarbeitungsteil ermittelt deine App mit Hilfe einer
+**mehrstufigen Verzweigung** (switch -case) ob es sich um einen Frühlings,
+Sommer- , Herbst- oder Wintermonat handelt. Die ermittelte Information wird
+danach dem Benutzer ausgegeben.
 
 ---
 
 ## 6. Wochentag ermitteln 📅
 
-Unten steht eine Anleitung in Textform, mit der man zu jedem beliebigen Datum den zugehörigen Wochentag ermitteln kann. Schreibe ein Programm, das vom Benutzer **drei ganzzahlige Werte** t (=Tag), m (=Monat) und j (=Jahr) entgegennimmt und eine Aussage in Textform macht, um welchen Wochentag es sich handelt.
+Unten steht eine Anleitung in Textform, mit der man zu jedem beliebigen Datum
+den zugehörigen Wochentag ermitteln kann. Schreibe ein Programm, das vom
+Benutzer **drei ganzzahlige Werte** t (=Tag), m (=Monat) und j (=Jahr)
+entgegennimmt und eine Aussage in Textform macht, um welchen Wochentag es sich
+handelt.
 
 **Testdaten:**
 
@@ -180,20 +192,23 @@ Anleitung in Textform (Pseudocode):
     - Falls h kleiner 0 ist, erhöhe h um 7
     - Anschliessend hat h einen Wert zwischen 0 und 6, wobei die Werte 0, 1, ..., 6 den Tagen Sonntag, Montag, ..., Samstag entsprechen.
 3) Gib das Ergebnis in der Form "Der 24.12.2001 ist ein Montag" aus.
-
 ```
 
 ---
 
 ## 7. Wann ist Ostersonntag? 🐣
 
-Habt ihr das gewusst? **Ostern** fällt immer auf den Sonntag nach dem ersten Vollmond im Frühling. Es hat also mit den Bewegungen von Erde, Sonne und Mond zu tun.
+Habt ihr das gewusst? **Ostern** fällt immer auf den Sonntag nach dem ersten
+Vollmond im Frühling. Es hat also mit den Bewegungen von Erde, Sonne und Mond zu
+tun.
 
-Klingt komplex? Ist es auch. Zum Glück hat der Mathematiker **Carl Friedrich Gauss** (1777 - 1855) dieses Problem bereits mathematisch für uns gelöst.
+Klingt komplex? Ist es auch. Zum Glück hat der Mathematiker **Carl Friedrich
+Gauss** (1777 - 1855) dieses Problem bereits mathematisch für uns gelöst.
 
 ![](../img/gauss158.jpg){ width="200" height="200" }
 
-Schreibe mit der folgenden Anleitung ein Programm, das vom Benutzer eine **Jahreszahl** entgegennimmt und für das gewählte Jahr das Osterdatum ausgibt.
+Schreibe mit der folgenden Anleitung ein Programm, das vom Benutzer eine
+**Jahreszahl** entgegennimmt und für das gewählte Jahr das Osterdatum ausgibt.
 
 Hier die Anleitung in Pseudocode:
 
@@ -218,26 +233,32 @@ Teil 3 - Nun können Tag und Monat bestimmt werden
 
 11) Ostertag = am (22 + d + e)ten März
 12) Falls der Ostertag > 31 ist, setze den Ostertag = Ostertag % 31 und Ostermonat auf April
-
 ```
 
-Du kannst deine Berechnung überprüfen, indem du im Internet die Ostersonntage für die Jahre 2016, 2019 und 2026 recherchierst.
+Du kannst deine Berechnung überprüfen, indem du im Internet die Ostersonntage
+für die Jahre 2016, 2019 und 2026 recherchierst.
 
 ---
 
 ## 8. Teilbarkeitsregel 🧮
 
-Vielleicht kannst du dich noch an die **Teilbarkeitsregel** aus dem Primarschul- oder Sekundarschulunterricht erinnern:
+Vielleicht kannst du dich noch an die **Teilbarkeitsregel** aus dem Primarschul-
+oder Sekundarschulunterricht erinnern:
 
 - Eine Zahl ist durch 3 teilbar, wenn die Quersumme durch 3 teilbar ist.
 - Eine Zahl ist durch 9 teilbar, wenn die Quersumme durch 9 teilbar ist.
 - etc.
 
-Schreibe ein Programm, bei dem man eine ganze Zahl eingeben kann. Für diese Zahl wird dann die Quersumme berechnet und eine Aussage zur Teilbarkeit durch 3 und 9 gemacht.
+Schreibe ein Programm, bei dem man eine ganze Zahl eingeben kann. Für diese Zahl
+wird dann die Quersumme berechnet und eine Aussage zur Teilbarkeit durch 3 und 9
+gemacht.
 
-Am Ende wird der Benutzer gefragt, ob eine weitere Berechnung erwünscht ist. Falls ja, wird der Bildschirminhlat gelöscht mit `Console.Clear()` und das Programm erneut ausgeführt.
+Am Ende wird der Benutzer gefragt, ob eine weitere Berechnung erwünscht ist.
+Falls ja, wird der Bildschirminhlat gelöscht mit `Console.Clear()` und das
+Programm erneut ausgeführt.
 
 **Beispiel:**
+
 - Zahl: 5989785
 - Quersumme: 51
 - Teilbar durch 3: Ja
@@ -248,23 +269,34 @@ Am Ende wird der Benutzer gefragt, ob eine weitere Berechnung erwünscht ist. Fa
 
 ## 9. LOTTO 🍀💰
 
-Schreiben Sie ein Programm, das dem Benutzer **6 zufällige Zahlen** im Bereich von 1 bis 42 und **eine Glückszahl** im Bereich von 1 bis 6 ausgibt.
+Schreiben Sie ein Programm, das dem Benutzer **6 zufällige Zahlen** im Bereich
+von 1 bis 42 und **eine Glückszahl** im Bereich von 1 bis 6 ausgibt.
 
 Der Lotto-Tipp darf keine doppelten Zahlen enthalten.
 
 **Beispiele:**
-- Aufgabe = 41, 29, 22, 36, 24, 5   Glückszahl = 3
-- Aufgabe = 26, 12, 16, 25, 30, 18   Glückszahl = 5
+
+- Aufgabe = 41, 29, 22, 36, 24, 5 Glückszahl = 3
+- Aufgabe = 26, 12, 16, 25, 30, 18 Glückszahl = 5
 
 ---
 
 ## 10. Der Josefrappen 🪙
 
-Dein Freund **Bonifacius Pfiffikus** erzählt dir von einer Theorie, die er gehört habe. Die **Theorie des Josefsrappens**:
+Dein Freund **Bonifacius Pfiffikus** erzählt dir von einer Theorie, die er
+gehört habe. Die **Theorie des Josefsrappens**:
 
-*Geld, das Zinseszinsen trägt, wächst anfangs langsam; da aber durch den Zinseszinseffekt die Rate fortwährend wächst, wird sie nach einiger Zeit unvorstellbar schnell wachsen. Ein Rappen, ausgeliehen bei der Geburt von Jesus im Jahre 0 zu einem Zinssatz von 5 %, würde heute zu einer grösseren Summe herangewachsen sein, als 70 Milliarden Erden aus purem Gold entsprechen.*
+_Geld, das Zinseszinsen trägt, wächst anfangs langsam; da aber durch den
+Zinseszinseffekt die Rate fortwährend wächst, wird sie nach einiger Zeit
+unvorstellbar schnell wachsen. Ein Rappen, ausgeliehen bei der Geburt von Jesus
+im Jahre 0 zu einem Zinssatz von 5 %, würde heute zu einer grösseren Summe
+herangewachsen sein, als 70 Milliarden Erden aus purem Gold entsprechen._
 
-Du kannst dies kaum glauben und möchtest die Aussage mit einem zu erstellenden Programm überprüfen. Frage den Benutzer nach der Eingabe eines **Start- und Zieljahres**, nach einem **Betrag** und einem **Zinssatz**. Als Antwort liefert ihre App den **Betrag in CHF** und die Entsprechung in **Anzahl Erden aus purem Gold**.
+Du kannst dies kaum glauben und möchtest die Aussage mit einem zu erstellenden
+Programm überprüfen. Frage den Benutzer nach der Eingabe eines **Start- und
+Zieljahres**, nach einem **Betrag** und einem **Zinssatz**. Als Antwort liefert
+ihre App den **Betrag in CHF** und die Entsprechung in **Anzahl Erden aus purem
+Gold**.
 
 ---
 
@@ -274,30 +306,39 @@ Programmiere folgendes **Ratespiel**:
 
 - Der Computer generiert eine zufällige Zahl zwischen 1 und 100.
 - Du hast fünf Rateversuche, um die Zahl zu erraten.
-- Nach jedem Versuch, erhältst du vom Computer ein Feedback, ob dein Rateversuch zu hoch oder zu tief lag.
-- Wenn du es nicht innerhalb von fünf Rateversuchen schaffst, wird dir mitgeteilt, dass du verloren hast.
-- Am Ende jedes Spiels wirst du gefragt, ob du nochmals ein Spiel beginnen möchtest.
+- Nach jedem Versuch, erhältst du vom Computer ein Feedback, ob dein Rateversuch
+  zu hoch oder zu tief lag.
+- Wenn du es nicht innerhalb von fünf Rateversuchen schaffst, wird dir
+  mitgeteilt, dass du verloren hast.
+- Am Ende jedes Spiels wirst du gefragt, ob du nochmals ein Spiel beginnen
+  möchtest.
 
 ---
 
 ## 12. Von Dezimal zu Binär 🧮
 
 - Schreibe ein Programm, dass **Dezimalzahlen** in **Binärzahlen** umrechnet.
-- Tipp: Schaue nochmals in der Theorie die [Umrechnungsarten](../theorie/computer-programm.md) an.
+- Tipp: Schaue nochmals in der Theorie die
+  [Umrechnungsarten](../theorie/computer-programm.md) an.
 
 ---
 
 ## 13. Teiler und Vielfache 🧐
 
-Schreibe ein Programm, dass den **grössten gemeinsamen Teiler (ggT)** und das **kleinste gemeinsame Vielfach (kgV)** einer beliebigen Ganzzahl berechnet.
+Schreibe ein Programm, dass den **grössten gemeinsamen Teiler (ggT)** und das
+**kleinste gemeinsame Vielfach (kgV)** einer beliebigen Ganzzahl berechnet.
 
 Für die Berechnung des ggT greife auf den **Algorithmus von Euklid** zurück:
 
-- Man teilt die grössere durch die kleinere Zahl. Geht die Division auf, ist der Divisor der ggT.
-- Geht die Division nicht auf, bleibt ein Rest. Dieser Rest ist der neue Divisor. Der alte Divisor wird zum Dividenden.
-- Nun setzt man das Verfahren fort. Nach endlich vielen Schritten erhält man den ggT.
+- Man teilt die grössere durch die kleinere Zahl. Geht die Division auf, ist der
+  Divisor der ggT.
+- Geht die Division nicht auf, bleibt ein Rest. Dieser Rest ist der neue
+  Divisor. Der alte Divisor wird zum Dividenden.
+- Nun setzt man das Verfahren fort. Nach endlich vielen Schritten erhält man den
+  ggT.
 
-Da das kgV zweier Zahlen der Quotient aus ihrem Produkt und ihrem ggT ist, kann man auf der Basis des ggT sehr einfach das kgV berechnen.
+Da das kgV zweier Zahlen der Quotient aus ihrem Produkt und ihrem ggT ist, kann
+man auf der Basis des ggT sehr einfach das kgV berechnen.
 
 ---
 
@@ -306,15 +347,23 @@ Da das kgV zweier Zahlen der Quotient aus ihrem Produkt und ihrem ggT ist, kann
 Programmiere ein Würfelspiel, dass du gegen den Computer spielst:
 
 - Die spielende Person muss zuerst den Namen und die Zielpunktzahl eingeben.
-- Ist die Zielpunktzahl z.B. 100, gewinnt die Person, welche zuerst 100 erreicht hat.
+- Ist die Zielpunktzahl z.B. 100, gewinnt die Person, welche zuerst 100 erreicht
+  hat.
 - Das Programm entscheidet zufällig, welche:r Spieler:in beginnen darf.
-- Spieler:in 1 beginnt zu würfeln. Dies wird mit zufallszahlen von 1 bis und mit 6 simuliert.
-- Nach jedem Würfeln muss die würfelnde Person entscheiden, ob sie weiterfürfeln und noch mehr Punkte holen möchte oder ob die in dieser Würfelsequenz erspielten Punkte gesichert werden sollen.
-- Achtung!! Wenn man eine 1 würfelt, verliert man alle in der aktuellen Würfelsequenz erspielten Punkte. Nur die bereits gesicherten Punkte gehen nicht verloren, da sie in Sicherheit sind.
-- Wenn man sich für das Sichern der Punkte entscheidet kommt die Gegnerin an die Reihe.
+- Spieler:in 1 beginnt zu würfeln. Dies wird mit zufallszahlen von 1 bis und mit
+  6 simuliert.
+- Nach jedem Würfeln muss die würfelnde Person entscheiden, ob sie weiterfürfeln
+  und noch mehr Punkte holen möchte oder ob die in dieser Würfelsequenz
+  erspielten Punkte gesichert werden sollen.
+- Achtung!! Wenn man eine 1 würfelt, verliert man alle in der aktuellen
+  Würfelsequenz erspielten Punkte. Nur die bereits gesicherten Punkte gehen
+  nicht verloren, da sie in Sicherheit sind.
+- Wenn man sich für das Sichern der Punkte entscheidet kommt die Gegnerin an die
+  Reihe.
 
 ---
 
 ## Lösungen
 
-Die Lösungen findest du in diesem [Github-Repo](https://github.com/af81/csharp-aufgaben){ target="_blank" }.
+Die Lösungen findest du in diesem
+[Github-Repo](https://github.com/af81/csharp-aufgaben){ target="_blank" }.

@@ -1,20 +1,30 @@
 # Variablen & Datentypen (1/2)
 
 ## Lernziel
-Am Ende dieser Lektion weisst du: was eine Variable ist und wie du ihr einen Wert zuweist, welche Regeln für Variablennamen gelten, welche Datentypen es gibt und wie du sie mit `type()` bestimmst, warum `input()` immer einen String liefert, wie du die wichtigsten String-Operationen anwendest, und wie ein einfacher Programmablauf als PAP aussieht.
+
+Am Ende dieser Lektion weisst du: was eine Variable ist und wie du ihr einen
+Wert zuweist, welche Regeln für Variablennamen gelten, welche Datentypen es gibt
+und wie du sie mit `type()` bestimmst, warum `input()` immer einen String
+liefert, wie du die wichtigsten String-Operationen anwendest, und wie ein
+einfacher Programmablauf als PAP aussieht.
 
 ## 1. Einstieg
-*Warum ist das wichtig?*
 
-- Ohne Variablen kann ein Programm sich nichts merken – weder deinen Namen, noch einen Punktestand, noch das Ergebnis einer Berechnung.
-- Jede App, die sich etwas "merkt" (Kontostand, Highscore, Warenkorb), tut dies mit Variablen im Hintergrund.
+_Warum ist das wichtig?_
+
+- Ohne Variablen kann ein Programm sich nichts merken – weder deinen Namen, noch
+  einen Punktestand, noch das Ergebnis einer Berechnung.
+- Jede App, die sich etwas "merkt" (Kontostand, Highscore, Warenkorb), tut dies
+  mit Variablen im Hintergrund.
 
 ## 2. Grundlagen
-*Um was geht es? Was musst du wissen?*
+
+_Um was geht es? Was musst du wissen?_
 
 **Variablen zuweisen**
 
-Eine Variable ist ein benannter Speicherplatz im Arbeitsspeicher (RAM), dessen Inhalt sich ändern kann.
+Eine Variable ist ein benannter Speicherplatz im Arbeitsspeicher (RAM), dessen
+Inhalt sich ändern kann.
 
 ```python
 number = 18
@@ -31,24 +41,26 @@ print(c)  # Hello
 
 **Variablennamen**
 
-Variablen beginnen mit einem Kleinbuchstaben, zusammengesetzte Begriffe werden mit `_` verbunden, keine Sonderzeichen.
+Variablen beginnen mit einem Kleinbuchstaben, zusammengesetzte Begriffe werden
+mit `_` verbunden, keine Sonderzeichen.
 
-| ✅ Erlaubt | ⛔️ Nicht erlaubt |
-|---|---|
-| number | Number |
-| first_name | first-name |
-| speed_in_percent | speedin% |
+| ✅ Erlaubt       | ⛔️ Nicht erlaubt |
+| ---------------- | ---------------- |
+| number           | Number           |
+| first_name       | first-name       |
+| speed_in_percent | speedin%         |
 
 **Datentypen**
 
-In Python musst du den Datentyp nicht selbst festlegen – er wird automatisch erkannt.
+In Python musst du den Datentyp nicht selbst festlegen – er wird automatisch
+erkannt.
 
-| Typ | Kurz | Beispiele |
-|---|---|---|
-| Zeichenkette | str | "Hallo", "abc123" |
-| Ganzzahl | int | -5, 0, 54 |
-| Fliesskommazahl | float | -1.25, 7.65 |
-| Wahrheitswert | bool | True, False |
+| Typ             | Kurz  | Beispiele         |
+| --------------- | ----- | ----------------- |
+| Zeichenkette    | str   | "Hallo", "abc123" |
+| Ganzzahl        | int   | -5, 0, 54         |
+| Fliesskommazahl | float | -1.25, 7.65       |
+| Wahrheitswert   | bool  | True, False       |
 
 ```python
 name = "Naruto"
@@ -58,7 +70,8 @@ age = 16
 type(age)    # <class 'int'>
 ```
 
-> 🤓 Bei langen Zahlen wie 1000000 kannst du zur besseren Lesbarkeit `_` verwenden: `1_000_000`. Der Wert ändert sich dadurch nicht.
+> 🤓 Bei langen Zahlen wie 1000000 kannst du zur besseren Lesbarkeit `_`
+> verwenden: `1_000_000`. Der Wert ändert sich dadurch nicht.
 
 **PAP (Programmablaufplan)**
 
@@ -66,11 +79,10 @@ type(age)    # <class 'int'>
 
 Beispiel für "zwei Zahlen einlesen und die Summe ausgeben":
 
-
-
 **Konvertieren**
 
-`input()` liefert **immer** eine Zeichenkette (String) – auch wenn eine Zahl eingegeben wird.
+`input()` liefert **immer** eine Zeichenkette (String) – auch wenn eine Zahl
+eingegeben wird.
 
 ```python
 age = input("Wie alt bist du? ")
@@ -111,23 +123,32 @@ print(name.lower())   # kim
 ```
 
 ## 3. Anwendung
-*Wie funktioniert es? Schritt für Schritt am Beispiel*
 
-- Schritt 1: Lege eine Variable an: `age = input("Wie alt bist du? ")` und gib mit `print(type(age))` den Datentyp aus – du siehst `<class 'str'>`.
-- Schritt 2: Wandle die Eingabe um: `age = int(input("Wie alt bist du? "))` und gib den Datentyp erneut aus – jetzt siehst du `<class 'int'>`.
+_Wie funktioniert es? Schritt für Schritt am Beispiel_
+
+- Schritt 1: Lege eine Variable an: `age = input("Wie alt bist du? ")` und gib
+  mit `print(type(age))` den Datentyp aus – du siehst `<class 'str'>`.
+- Schritt 2: Wandle die Eingabe um: `age = int(input("Wie alt bist du? "))` und
+  gib den Datentyp erneut aus – jetzt siehst du `<class 'int'>`.
 - Schritt 3: Jetzt kannst du mit `age` rechnen, z.B. `print(age + 1)`.
 
 ## 4. Üben
-*Aufgaben zum Vertiefen*
+
+_Aufgaben zum Vertiefen_
 
 ### Aufgabe: Erstes eigenes Variablen-Programm
-1. Deklariere drei Variablen (eine Ganzzahl, eine Kommazahl, einen Text) und gib jeweils den Datentyp mit `type()` aus.
-2. Lies zusätzlich mit `input()` eine Zahl ein, wandle sie mit `int()` um, addiere 10 dazu und gib das Ergebnis aus.
-3. Baue mit einem f-String einen Satz, der alle drei Variablen (z.B. Name, Alter, Lieblingszahl) enthält.
+
+1. Deklariere drei Variablen (eine Ganzzahl, eine Kommazahl, einen Text) und gib
+   jeweils den Datentyp mit `type()` aus.
+2. Lies zusätzlich mit `input()` eine Zahl ein, wandle sie mit `int()` um,
+   addiere 10 dazu und gib das Ergebnis aus.
+3. Baue mit einem f-String einen Satz, der alle drei Variablen (z.B. Name,
+   Alter, Lieblingszahl) enthält.
 
 ## 5. Lösungen
 
 **Beispiel zu 1:**
+
 ```python
 zahl = 7
 kommazahl = 3.5
@@ -138,12 +159,14 @@ print(type(text))       # <class 'str'>
 ```
 
 **Beispiel zu 2:**
+
 ```python
 zahl = int(input("Gib eine Zahl ein: "))
 print(zahl + 10)
 ```
 
 **Beispiel zu 3:**
+
 ```python
 name = "Kim"
 alter = 16
@@ -152,8 +175,16 @@ print(f"Ich heisse {name}, bin {alter} Jahre alt und meine Lieblingszahl ist {li
 ```
 
 ## 6. Weiterführende Beispiele und Gedanken
-*Transfer*
 
-- Achtung, typische Stolperfalle: Wer mit einer über `input()` eingelesenen Zahl direkt rechnet, ohne sie zu konvertieren, bekommt einen Fehler oder ein unerwartetes Ergebnis (Strings werden mit `+` aneinandergehängt statt addiert).
-- Nächste Lektion: Ihr vertieft Variablen und Datentypen anhand einer grösseren Sammlung von Übungsaufgaben – Ein-/Ausgabe, Grundrechenarten, Vergleichsoperatoren, logische Operatoren und mehr.
-- Überlege: Welche der heute gezeigten String-Operationen (Verkettung, f-Strings, upper/lower) könntest du bereits jetzt in einem eigenen kleinen Programm einsetzen?
+_Transfer_
+
+- Achtung, typische Stolperfalle: Wer mit einer über `input()` eingelesenen Zahl
+  direkt rechnet, ohne sie zu konvertieren, bekommt einen Fehler oder ein
+  unerwartetes Ergebnis (Strings werden mit `+` aneinandergehängt statt
+  addiert).
+- Nächste Lektion: Ihr vertieft Variablen und Datentypen anhand einer grösseren
+  Sammlung von Übungsaufgaben – Ein-/Ausgabe, Grundrechenarten,
+  Vergleichsoperatoren, logische Operatoren und mehr.
+- Überlege: Welche der heute gezeigten String-Operationen (Verkettung,
+  f-Strings, upper/lower) könntest du bereits jetzt in einem eigenen kleinen
+  Programm einsetzen?

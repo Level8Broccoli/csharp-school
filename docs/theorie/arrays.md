@@ -2,8 +2,8 @@
 
 ## Was ist ein Array?
 
-Ein Array ist eine Datenstruktur, die mehrere Elemente des gleichen Datentyps speichert.
-Jedes Element ist über einen Index erreichbar, der bei 0 beginnt.
+Ein Array ist eine Datenstruktur, die mehrere Elemente des gleichen Datentyps
+speichert. Jedes Element ist über einen Index erreichbar, der bei 0 beginnt.
 
 ```c#
 int[] zahlen = new int[5];
@@ -18,7 +18,7 @@ int[] zahlen = new int[5];
 | Eigenschaft         | Beschreibung                                                                                       |
 | ------------------- | -------------------------------------------------------------------------------------------------- |
 | **Fester Datentyp** | Alle Elemente haben denselben Typ (z. B. `int`, `string`, `double`, …).                            |
-| **Feste Grösse**     | Die Grösse wird bei der Erstellung festgelegt und kann später nicht mehr geändert werden.           |
+| **Feste Grösse**    | Die Grösse wird bei der Erstellung festgelegt und kann später nicht mehr geändert werden.          |
 | **Indexbasiert**    | Der Zugriff erfolgt über Indizes, beginnend bei `0`.                                               |
 | **Referenztyp**     | Arrays sind Referenztypen – sie liegen auf dem Heap, auch wenn sie primitive Datentypen enthalten. |
 
@@ -48,7 +48,8 @@ int[] noten = { 1, 2, 3, 4, 5 };
 
 ## Zugriff auf Arrayelemente
 
-Will man auf ein bestimmtes Element innerhalb eines Arrays zugreifen, benutzt man den Index und []. Zum Beispiel:
+Will man auf ein bestimmtes Element innerhalb eines Arrays zugreifen, benutzt
+man den Index und []. Zum Beispiel:
 
 ```c#
 int[] noten = { 1, 2, 3, 4, 5 };
@@ -58,7 +59,8 @@ Console.WriteLine(noten[2]); // Ausgabe: 3
 noten[2] = 10; // Wert an Index 2 ändern
 ```
 
-> ⚠️ Achtung: Der Zugriff auf einen Index ausserhalb des Bereichs führt zu einer IndexOutOfRangeException.
+> ⚠️ Achtung: Der Zugriff auf einen Index ausserhalb des Bereichs führt zu einer
+> IndexOutOfRangeException.
 
 ---
 

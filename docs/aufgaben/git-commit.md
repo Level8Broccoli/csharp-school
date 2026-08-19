@@ -1,6 +1,7 @@
 # 👩🏻‍💻 Git: Änderungen nachvollziehen
 
-🎯 **Ziel**: Lerne, wie man Änderungen im Projekt erkennt und die Commit-Historie liest.
+🎯 **Ziel**: Lerne, wie man Änderungen im Projekt erkennt und die
+Commit-Historie liest.
 
 ---
 
@@ -68,6 +69,6 @@ git diff HEAD~1 HEAD
 
 ✅ **Ziel erreicht, wenn …**
 
-- Du mit *git status* siehst, welche Dateien geändert sind
-- Du mit *git diff* die Änderungen vergleichen kannst
-- Du im *git log* mindestens drei Commits hast
+- Du mit _git status_ siehst, welche Dateien geändert sind
+- Du mit _git diff_ die Änderungen vergleichen kannst
+- Du im _git log_ mindestens drei Commits hast

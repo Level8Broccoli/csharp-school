@@ -2,7 +2,9 @@
 
 ## Vergleichsoperatoren
 
-Mit **Vergleichsoperatoren** können wir Werte miteinander vergleichen. Das Ergebnis eines Vergleichs ist ein Wahrheitswert vom Datentyp `bool`, also entweder `true` oder `false`.
+Mit **Vergleichsoperatoren** können wir Werte miteinander vergleichen. Das
+Ergebnis eines Vergleichs ist ein Wahrheitswert vom Datentyp `bool`, also
+entweder `true` oder `false`.
 
 <table>
     <tr>

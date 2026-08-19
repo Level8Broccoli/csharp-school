@@ -50,7 +50,6 @@ git push -u origin feature/deinname
 
 **6. Änderungen der anderen holen**
 
-
 ```bash
 git checkout main
 git pull origin main
@@ -76,4 +75,4 @@ git commit -m "fix: resolve merge conflict in program.cs"
 - Du das Team-Repo geklont hast
 - Du deinen eigenen Branch erstellt und Änderungen hochgeladen hast
 - Dein Name in der Datei program.cs im Hauptbranch erscheint
-- Du mindestens einmal *git pull* erfolgreich benutzt hast
+- Du mindestens einmal _git pull_ erfolgreich benutzt hast

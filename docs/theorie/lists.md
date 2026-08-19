@@ -2,8 +2,9 @@
 
 ## Was ist eine Liste?
 
-Eine Liste (List<T>) ist eine dynamische Datenstruktur, die – ähnlich wie ein Array – mehrere Werte gleichen Typs speichern kann.
-Im Gegensatz zu Arrays kann die Grösse einer Liste verändert werden (Elemente hinzufügen oder entfernen).
+Eine Liste (List<T>) ist eine dynamische Datenstruktur, die – ähnlich wie ein
+Array – mehrere Werte gleichen Typs speichern kann. Im Gegensatz zu Arrays kann
+die Grösse einer Liste verändert werden (Elemente hinzufügen oder entfernen).
 
 Beispiel:
 
@@ -17,7 +18,7 @@ List<int> zahlen = new List<int>();
 
 | Eigenschaft                | Beschreibung                                          |
 | -------------------------- | ----------------------------------------------------- |
-| **Dynamische Grösse**       | Die Liste kann wachsen oder schrumpfen.               |
+| **Dynamische Grösse**      | Die Liste kann wachsen oder schrumpfen.               |
 | **Einheitlicher Datentyp** | Alle Elemente haben denselben Typ (`T`).              |
 | **Indexbasiert**           | Zugriff über Indizes, beginnend bei `0`.              |
 | **Enthält viele Methoden** | Zum Hinzufügen, Entfernen und Suchen von Elementen.   |
@@ -99,7 +100,7 @@ foreach (string name in namen)
 
 | Kriterium                  | Array                     | Liste (`List<T>`)                  |
 | -------------------------- | ------------------------- | ---------------------------------- |
-| **Grösse**                  | Fix                       | Dynamisch                          |
+| **Grösse**                 | Fix                       | Dynamisch                          |
 | **Datentyp**               | Einheitlich               | Einheitlich                        |
 | **Leistung (Performance)** | Etwas schneller, da fest  | Etwas langsamer wegen Flexibilität |
 | **Methodenvielfalt**       | Wenige (Sort, Reverse, …) | Viele (Add, Remove, Find, …)       |
