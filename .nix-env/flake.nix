@@ -22,6 +22,7 @@
             markdown-oxide
             mkdocs
             python314Packages.mkdocs-material
+            nushell
           ];
         };
       }

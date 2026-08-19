@@ -8,3 +8,8 @@ update:
 
 build:
     mkdocs build
+
+dev:
+    nu watch.nu &
+    cd site && deno run --allow-net --allow-read --allow-sys jsr:@std/http/file-server
+
