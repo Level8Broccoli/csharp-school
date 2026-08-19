@@ -37,7 +37,7 @@ _Um was geht es? Was musst du wissen?_
   anderen zusammenarbeitest und dir ein kleines Portfolio aufbaust.
 
 ```c#
-Console.WriteLine("Hello World")
+Console.WriteLine("Hello World");
 ```
 
 Das ist bereits ein vollständiges C#-Programm: Es gibt den Text "Hello World"
