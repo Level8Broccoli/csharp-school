@@ -1,4 +1,4 @@
-# Modul 319 – Programmieren Grundlagen in **C#**
+# Modul 319 – Applikationen entwerfen und implementieren
 
 Willkommen im **Modul 319** an der BBZW Sursee. Dieses Wiki begleitet dich durch
 das ganze Semester – hier findest du alle Inhalte, Arbeitsaufträge, Projekte und
@@ -8,7 +8,7 @@ Prüfungsinformationen.
 
 ## 📚 Modulbeschreibung
 
-Das Modul 319 heisst eigentlich **Applikationen entwerfen und implementieren**
+Das Modul 319 heisst **Applikationen entwerfen und implementieren**
 ([Modulbeschrieb](https://www.modulbaukasten.ch/module/319/1/de-DE?title=Applikationen-entwerfen-und-implementieren)).
 Hier lernst du die **Grundlagen des Programmierens**. Du wirst:
 
