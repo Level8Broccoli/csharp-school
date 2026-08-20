@@ -9,7 +9,7 @@ update:
 build:
     mkdocs build
 
-dev:
+dev: build
     nix run .nix-env/#dev &
     cd site && deno run --allow-net --allow-read --allow-sys jsr:@std/http/file-server
 
