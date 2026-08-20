@@ -50,7 +50,6 @@ aus.
 1. Öffne [https://code.visualstudio.com/](https://code.visualstudio.com/)
 2. Lade die Version für dein Betriebssystem herunter
 3. Installiere mit Standard-Einstellungen
-4. Sprache **Deutsch** aktivieren (optional über "German Language Pack")
 
 ![vs code screenshot](../img/vscode.png)
 
@@ -77,6 +76,19 @@ Damit C#-Programme ausgeführt werden können, benötigst du das **.NET SDK**.
 4. Installiere die Erweiterung "C# Dev Kit" von Microsoft.
 
 ![csharp extensions](../img/csharp-ext.png)
+
+### Schritt 4 - Ordner erstellen
+
+1. Erstelle einen Ordner auf deinem Computer für unser Modul.
+2. Öffne diesen Ordner im Editor `File > Open Folder`
+
+### Schritt 5 - Test
+
+1. Erstelle ein Dokument und nenne es z.B. `demo.cs`
+2. Füge die Codezeile `Console.WriteLine("Hello World");` ein.
+3. Führe den Code aus. `Run > Run Without Debugging`.
+4. Prüfe, ob im Terminal "Hello World" ausgegeben wird. Falls ja, wurden alle
+   Schritte korrekt ausgeführt.
 
 ## 4. Weiterführende Beispiele und Gedanken
 
