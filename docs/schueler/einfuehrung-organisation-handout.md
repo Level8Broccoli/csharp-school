@@ -36,7 +36,7 @@ _Um was geht es? Was musst du wissen?_
 - **GitHub** ist die Plattform, auf der du deinen Code sicherst, später mit
   anderen zusammenarbeitest und dir ein kleines Portfolio aufbaust.
 
-```c#
+```csharp
 Console.WriteLine("Hello World");
 ```
 

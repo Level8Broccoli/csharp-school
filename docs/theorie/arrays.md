@@ -5,7 +5,7 @@
 Ein Array ist eine Datenstruktur, die mehrere Elemente des gleichen Datentyps
 speichert. Jedes Element ist über einen Index erreichbar, der bei 0 beginnt.
 
-```c#
+```csharp
 int[] zahlen = new int[5];
 ```
 
@@ -28,19 +28,19 @@ int[] zahlen = new int[5];
 
 Ein Array wird folgendermassen deklariert:
 
-```c#
+```csharp
 int[] zahlen;
 ```
 
 Einen Array mit einer festen Grösse erstellt man so:
 
-```c#
+```csharp
 zahlen = new int[3];
 ```
 
 Ein Array mit definierten Werten wird so erstellt:
 
-```c#
+```csharp
 int[] noten = { 1, 2, 3, 4, 5 };
 ```
 
@@ -51,7 +51,7 @@ int[] noten = { 1, 2, 3, 4, 5 };
 Will man auf ein bestimmtes Element innerhalb eines Arrays zugreifen, benutzt
 man den Index und []. Zum Beispiel:
 
-```c#
+```csharp
 int[] noten = { 1, 2, 3, 4, 5 };
 Console.WriteLine(noten[0]); // Ausgabe: 1
 Console.WriteLine(noten[2]); // Ausgabe: 3
@@ -78,7 +78,7 @@ noten[2] = 10; // Wert an Index 2 ändern
 
 Mit `for`-Schleife:
 
-```c#
+```csharp
 int[] zahlen = { 1, 2, 3, 4 };
 
 for (int i = 0; i < zahlen.Length; i++)
@@ -89,7 +89,7 @@ for (int i = 0; i < zahlen.Length; i++)
 
 Mit `foreach`-Schleife:
 
-```c#
+```csharp
 foreach (int zahl in zahlen)
 {
     Console.WriteLine(zahl);
@@ -102,7 +102,7 @@ foreach (int zahl in zahlen)
 
 2D-Array (Matrix)
 
-```c#
+```csharp
 int[,] matrix = new int[2, 3]
 {
     { 1, 2, 3 },
@@ -113,6 +113,6 @@ Console.WriteLine(matrix[1, 2]); // Ausgabe: 6
 
 3D-Array (optional; kein Prüfungsstoff)
 
-```c#
+```csharp
 int[,,] würfel = new int[2, 2, 2];
 ```

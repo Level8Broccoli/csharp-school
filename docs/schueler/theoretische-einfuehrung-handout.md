@@ -32,14 +32,14 @@ Syntax, Datentyp, Variable, IDE, CPU, RAM u.a.) bedeuten.
   Ergebnis wird angezeigt, gespeichert oder weitergegeben.
 
 ```csharp
-# 1. Eingabe
+// 1. Eingabe
 Console.Write("Wie heisst du?: ");
 string name = Console.ReadLine();
 
-# 2. Verarbeitung
+// 2. Verarbeitung
 string begruessung = "Hallo, " + name + "! Schön, dich zu sehen.";
 
-# 3. Ausgabe
+// 3. Ausgabe
 Console.WriteLine(begruessung);
 ```
 

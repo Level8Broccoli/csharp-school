@@ -6,7 +6,7 @@ Ohne Variablen kommt kein Programm aus. Variablen dienen als **Datenspeicher**
 und werden während der Ausführung des Programms im Arbeitsspeicher (RAM)
 abgelegt. Hier ein Beispiel:
 
-```c#
+```csharp
 int number = 18;
 ```
 
@@ -15,7 +15,7 @@ Variablenname `number`. Diese Variable speicher den Wert `10`.
 
 Ein zweites Beispiel:
 
-```c#
+```csharp
 string modulName = "Applikationen entwerfen und implementieren";
 ```
 
@@ -25,12 +25,12 @@ Hier speichert die String-Variable `modul_name` die Zeichenkette
 Ich kann auch **Werte an mehrere Variablen desselben Datentyps** auf einmal
 vergeben.
 
-```c#
+```csharp
 int a, b, c = 5, 3, 2;
 
-Console.WriteLine(a) // prints 5
-Console.WriteLine(b) // prints 3
-Console.WriteLine(c) // prints 2
+Console.WriteLine(a); // prints 5
+Console.WriteLine(b); // prints 3
+Console.WriteLine(c); // prints 2
 ```
 
 ---
@@ -85,7 +85,7 @@ Folgende **Datentypen** solltest du kennen:
 Um den Datentyp einer Variable herauszufinden, kannst du die **Funktion**
 `.GetType()` verwenden.
 
-```c#
+```csharp
 string name = "Naruto";
 Console.WriteLine(name.GetType()); // System.String
 
@@ -104,7 +104,7 @@ Es ist wichtig zu wissen, dass der **Console.ReadLine()-Befehl** immer einen
 _Zeichenkette_ (String) einliest. Selbst wenn die Eingabe eine _Ganzzahl_
 (Integer), z.B. 16, ist.
 
-```c#
+```csharp
 Console.Write("Wie alt bist du? [in Jahren]: ");
 string age = Console.ReadLine();
 
@@ -116,7 +116,7 @@ Damit wir mit der Variable _age_ rechnen können, müssen wir sie zuerst in eine
 Zahlentyp wie Integer oder Float konvertieren (umwandeln). Das machen wir
 mithilfe der **int.Parse()-** oder **Convert.ToInt32()-Funtkion**.
 
-```c#
+```csharp
 int age = int.Pars(age);
 
 // oder
@@ -138,7 +138,7 @@ zusammenzusetzen.
 
 Strings bestehen aus Zeichen, die ab Index 0 nummeriert sind.
 
-```c#
+```csharp
 string text = "HACKER";
 
 Console.WriteLine(text[0]); // H
@@ -150,7 +150,7 @@ Console.WriteLine(text[5]); // R
 Um einzelne Zeichen oder Teile eines Strings zu erhalten, verwendet man die
 Methode `Substring(startIndex, length)`:
 
-```c#
+```csharp
 string text = "HACKER";
 
 // Einzelnes Zeichen
@@ -166,7 +166,7 @@ Console.WriteLine(sub);
 
 In Strings erzeugst du einen Zeilenumbruch mit `\n` oder `Environment.NewLine`:
 
-```c#
+```csharp
 string text = "Erste Zeile.\nZweite Zeile.";
 Console.WriteLine(text);
 
@@ -179,21 +179,21 @@ Console.WriteLine(text2);
 
 Willst du Anführungszeichen im String, benutzt du `\"`:
 
-```c#
+```csharp
 string text = "Der \"FCL\" ist mein Lieblingsclub.";
 Console.WriteLine(text);
 ```
 
 ### Länge eines Strings
 
-```c#
+```csharp
 string text = "Gorilla";
 Console.WriteLine(text.Length); // 7
 ```
 
 ### Strings zusammensetzen
 
-```c#
+```csharp
 Console.WriteLine("Hello" + " World" + "!"); // Hello World!
 
 string text1 = "Hello";
@@ -205,7 +205,7 @@ Console.WriteLine(text1 + " " + text2);     // Hello World!
 
 In C# nutzt man Interpolated Strings mit `$`:
 
-```c#
+```csharp
 string name = "Kim";
 string language = "C#";
 
@@ -215,7 +215,7 @@ Console.WriteLine($"My name is {name} and I am learning {language}.");
 
 ### Gross- und Kleinschreibung
 
-```c#
+```csharp
 string name = "Ringo";
 
 Console.WriteLine(name.ToUpper()); // RINGO

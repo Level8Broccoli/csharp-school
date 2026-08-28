@@ -26,7 +26,7 @@ eine bestimmte Aufgabe erfüllt und bei Bedarf aufgerufen werden kann.
 
 Allgemeine Syntax einer Methode in C#:
 
-```c#
+```csharp
 <Zugriffsmodifizierer> <Rückgabetyp> <Methodenname>(<Parameterliste>)
 {
     // Methodenrumpf
@@ -35,7 +35,7 @@ Allgemeine Syntax einer Methode in C#:
 
 Beispiel:
 
-```c#
+```csharp
 public int Addiere(int a, int b)
 {
     int summe = a + b;
@@ -57,7 +57,7 @@ public int Addiere(int a, int b)
 
 Eine Methode wird durch ihren **Namen** aufgerufen:
 
-```c#
+```csharp
 int ergebnis = Addiere(5, 7);
 Console.WriteLine(ergebnis); // Ausgabe: 12
 ```
@@ -71,7 +71,7 @@ Console.WriteLine(ergebnis); // Ausgabe: 12
 
 Beispiel (ohne Rückgabewert):
 
-```c#
+```csharp
 void Begruessung()
 {
     Console.WriteLine("Hallo, willkommen im Programm!");
@@ -80,7 +80,7 @@ void Begruessung()
 
 Aufruf:
 
-```c#
+```csharp
 Begruessung();
 ```
 
@@ -92,7 +92,7 @@ Begruessung();
 
 Parameter dienen der Datenübergabe an Methoden.
 
-```c#
+```csharp
 void ZeigeAlter(int alter)
 {
     Console.WriteLine("Du bist " + alter + " Jahre alt.");
@@ -101,7 +101,7 @@ void ZeigeAlter(int alter)
 
 Aufruf:
 
-```c#
+```csharp
 ZeigeAlter(18);
 ```
 
@@ -109,7 +109,7 @@ ZeigeAlter(18);
 
 ### b) Mehrere Parameter
 
-```c#
+```csharp
 void AusgabePerson(string name, int alter)
 {
     Console.WriteLine(name + " ist " + alter + " Jahre alt.");
@@ -126,7 +126,7 @@ void AusgabePerson(string name, int alter)
 
 Beispiel `ref`:
 
-```c#
+```csharp
 void Erhoehe(ref int zahl)
 {
     zahl++;
@@ -135,7 +135,7 @@ void Erhoehe(ref int zahl)
 
 Aufruf:
 
-```c#
+```csharp
 int x = 5;
 Erhoehe(ref x);
 Console.WriteLine(x); // Ausgabe: 6
@@ -150,7 +150,7 @@ Parameter unterscheiden** (Anzahl oder Typ).
 
 Beispiel:
 
-```c#
+```csharp
 int Addiere(int a, int b) { return a + b; }
 double Addiere(double a, double b) { return a + b; }
 ```
@@ -162,7 +162,7 @@ double Addiere(double a, double b) { return a + b; }
 Variablen, die **innerhalb einer Methode** deklariert werden, sind **nur dort
 sichtbar** (lokaler Gültigkeitsbereich).
 
-```c#
+```csharp
 void Beispiel()
 {
     int x = 10; // lokale Variable
@@ -177,7 +177,7 @@ void Beispiel()
 Mit `return` wird das Ergebnis einer Methode zurückgegeben. Danach wird die
 Methode sofort beendet
 
-```c#
+```csharp
 int Quadrat(int zahl)
 {
     return zahl * zahl;

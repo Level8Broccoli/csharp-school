@@ -7,7 +7,7 @@ Was gibt das Programm aus, wenn folgende Werte eingegeben würden?
 - a) Zahl 1 = 6, Zahl 2 = 3
 - b) Zahl 1 = 7, Zahl 2 = 7
 
-```c#
+```csharp
 Console.Write("Zahl 1:");
 int zahl1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Zahl 2:");
@@ -39,7 +39,7 @@ Was gibt das Programm aus, wenn folgende Werte eingegeben würden?
 - b) Note 1 = 5.2, Note 2 = 5.8
 - c) Note 1 = 3.8, Note 2 = 3.3
 
-```c#
+```csharp
 int anzahl = 0;
 double note1 = 0.0, note2 = 0.0;
 Console.Write("Note 1:");
@@ -89,8 +89,8 @@ korrigieren:
 - Grund: y
 - Korrektur: z
 
-```c#
-01      int anzahl = 1;
+```csharp
+01    int anzahl = 1;
 02		double wert1 = 0, wert2 = 0, wert3=0, max= 0;
 03		Console.Write("Wert " + Convert.ToString(anzahl++)  );
 04		wert1 = Convert.ToDouble(Console.ReadLine());
@@ -98,17 +98,17 @@ korrigieren:
 06		wert2 = Convert.ToDouble(Console.ReadLine());
 07		Console.Write("Wert " + Convert.ToString(anzahl++));
 08		wert3 = Convert.ToDouble(Console.ReadLine());
-09		if (wert1 > wert2 && > wert3)
+09		if (wert1 > wert2 && wert1 > wert3) {
 10			max = wert1;
-11		else
-12		{
-13			if (wert2 > wert3)
-14				max = wert2;
-15			else (wert3 > wert2)
-16				max = wert3;
-17		}
-18		Console.WriteLine("Der grösste Wert ist:"+ Convert.ToString(max));
-19		Console.ReadLine();
+11		} else {
+12			if (wert2 > wert3) {
+13				max = wert2;
+14      } else (wert3 > wert2) {
+15				max = wert3;
+16      }
+16		}
+17		Console.WriteLine("Der grösste Wert ist:"+ Convert.ToString(max));
+18		Console.ReadLine();
 ```
 
 ---

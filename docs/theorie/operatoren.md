@@ -39,7 +39,7 @@ entweder `true` oder `false`.
 
 Hier ein paar Beispiele:
 
-```c#
+```csharp
 Console.WriteLine(7.6 > 1);      // True, weil 7.6 grösser als 1 ist
 
 Console.WriteLine(34 >= 34);     // True, weil 34 grösser oder gleich 34 ist
@@ -53,7 +53,7 @@ Console.WriteLine(0.5 < 0.3);    // False, weil 0.5 nicht kleiner als 0.3 ist
 
 Man kann auch **Strings** miteinander vergleichen.
 
-```c#
+```csharp
 Console.WriteLine("Password123" == "Password321");  // False
 Console.WriteLine("Juliana" != "Julianna");         // True
 ```
@@ -68,7 +68,7 @@ Mit **logischen Operatoren** kann man Wahrheitswerte verknüpfen und vergleichen
 
 Das Ergebnis ist true, wenn beide Bedingungen true sind.
 
-```c#
+```csharp
 Console.WriteLine(8 > 5 && 4 != 2);   // True, beide Bedingungen sind True
 
 Console.WriteLine(8 > 5 && 4 == 2);   // False, da 4 == 2 nicht stimmt
@@ -80,7 +80,7 @@ Console.WriteLine(8 < 5 && 4 == 2);   // False, beide Bedingungen sind False
 
 Das Ergebnis ist true, wenn mindestens eine Bedingung true ist.
 
-```c#
+```csharp
 Console.WriteLine(8 > 5 || 4 != 2);   // True, beide Bedingungen True
 
 Console.WriteLine(8 > 5 || 4 == 2);   // True, da 8 > 5 True ist
@@ -92,7 +92,7 @@ Console.WriteLine(8 < 5 || 4 == 2);   // False, beide Bedingungen False
 
 Das Ergebnis ist true, wenn genau eine Bedingung true ist (aber nicht beide).
 
-```c#
+```csharp
 Console.WriteLine(8 > 5 ^ 4 == 2);    // True, da nur 8 > 5 True ist
 
 Console.WriteLine(8 < 5 ^ 4 == 2);    // False, beide False
@@ -104,7 +104,7 @@ Console.WriteLine(8 > 5 ^ 4 != 2);    // False, beide True
 
 Negiert einen Wahrheitswert (true → false, false → true).
 
-```c#
+```csharp
 Console.WriteLine(3 == 3);           // True
 Console.WriteLine("John" == "John"); // True
 

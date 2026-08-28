@@ -21,7 +21,7 @@ Bedingungen abhängig. Nur wenn die Bedingung erfüllt ist, wird die betreffende
 Anweisung (bzw. der Anweisungsblock) ausgeführt. Anderenfalls wird die Anweisung
 übersprungen.
 
-```c#
+```csharp
 if (x > 10)
 {
     Console.WriteLine("Das wird ausgeführt, wenn die Aussage x > 10 wahr ist.");
@@ -38,7 +38,7 @@ Anweisung oder ein Block von Anweisungen ausgeführt werden soll oder nicht, kan
 die zweiseitige Auswahl entscheiden, welcher der beiden Teile (if oder else)
 ausgeführt werden soll.
 
-```c#
+```csharp
 if (x > 10)
 {
     Console.WriteLine("Das wird ausgeführt, wenn die Aussage x > 10 wahr ist.");
@@ -56,7 +56,7 @@ if-else-Anweisungen schachteln. Dazu schreiben Sie innerhalb eines
 Anweisungsblocks einer if- bzw. if-else-Anweisung eine weitere if- bzw.
 if-else-Anweisung.
 
-```c#
+```csharp
 if (x > 10)
 {
     if (x < 15)
@@ -81,7 +81,7 @@ wird als Selektor bezeichnet. In Abhängigkeit vom Wert des Selektors können
 fallweise (case) verschiedene Anweisungsblöcke ausgeführt werden. Die
 mehrseitige Auswahl wird daher auch Selektion genannt.
 
-```c#
+```csharp
 switch (month)
 {
     case "Januar":
@@ -117,7 +117,7 @@ Anweisungen (Schleifenrumpf) ausgeführt. Anschliessend folgt der nächste
 Durchlauf der Schleife und die Bedingung wird erneut geprüft. Ist die Bedingung
 nicht erfüllt, wird das Programm hinter der while-Anweisung fortgesetzt.
 
-```c#
+```csharp
 int counter = 1;
 
 while (counter < 10)
@@ -139,10 +139,10 @@ Schleifenkörper mindestens einmal ausgeführt. Wie bei der kopfgesteuerten
 while-Anweisung wird der Schleifenrumpf ausgeführt, solange die Bedingung
 erfüllt ist.
 
-```c#
+```csharp
 double presentValue = 1000.0;       // Der aktuelle Werte
 double futureValue = 10000.0;       // Wert, den wir erreichen wollen
-const double interestRate = 4.5     // Zinssatz von 4,5%
+const double interestRate = 4.5;     // Zinssatz von 4,5%
 int year = 0;
 
 do
@@ -163,7 +163,7 @@ Wenn bereits zu Begin der Schleife genau bekannt ist, wie oft der Schleifenrumpf
 (eine Anweisung oder ein Anweisungsblock) wiederholt werden soll, ist die
 Verwendung der for-Schleife die kompakteste Form.
 
-```c#
+```csharp
 for (int i = 1; i < 5; i++)
 {
     Console.WriteLine("Hallo!");

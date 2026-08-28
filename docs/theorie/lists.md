@@ -8,7 +8,7 @@ die Grösse einer Liste verändert werden (Elemente hinzufügen oder entfernen).
 
 Beispiel:
 
-```c#
+```csharp
 List<int> zahlen = new List<int>();
 ```
 
@@ -28,7 +28,7 @@ List<int> zahlen = new List<int>();
 
 ## Deklaration & Initialisierung
 
-```c#
+```csharp
 using System.Collections.Generic;
 
 List<string> namen = new List<string>();
@@ -39,7 +39,7 @@ namen.Add("Chris");
 
 Oder direkt mit Werten:
 
-```c#
+```csharp
 List<int> noten = new List<int> { 1, 2, 3, 4, 5 };
 ```
 
@@ -47,7 +47,7 @@ List<int> noten = new List<int> { 1, 2, 3, 4, 5 };
 
 ## Zugriff & Bearbeitung
 
-```c#
+```csharp
 List<string> namen = new List<string> { "Anna", "Ben", "Chris" };
 
 Console.WriteLine(namen[1]); // Ausgabe: Ben
@@ -78,7 +78,7 @@ namen.Remove("Anna");  // Element entfernen
 
 Mit `for`-Schleife:
 
-```c#
+```csharp
 for (int i = 0; i < namen.Count; i++)
 {
     Console.WriteLine(namen[i]);
@@ -87,7 +87,7 @@ for (int i = 0; i < namen.Count; i++)
 
 Mit `foreach`-Schleife:
 
-```c#
+```csharp
 foreach (string name in namen)
 {
     Console.WriteLine(name);

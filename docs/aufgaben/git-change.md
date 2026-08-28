@@ -20,7 +20,7 @@ cd ~/Projekte/HelloWorld
 - Öffne wieder die Hauptdatei (programm.cs)
 - Ergänze eine neue Zeile
 
-```c#
+```csharp
 Console.WriteLine("Oops! Das will ich eigentlich nicht behalten.");
 ```
 
@@ -44,7 +44,7 @@ Prüfe erneut mit `git status`. Die Datei ist wieder unverändert.
 
 Schreibe eine neue Zeile in deine `program.cs`:
 
-```c#
+```csharp
 Console.WriteLine("Diese Zeile stage ich erst und unstage sie dann.");
 ```
 

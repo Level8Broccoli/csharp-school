@@ -28,7 +28,7 @@ git status
 - Öffne wieder die Hauptdatei (programm.cs)
 - Ergänze eine neue Zeile
 
-```c#
+```csharp
 Console.WriteLine("Cool! Git verfolgt meine Änderungen.");
 ```
 
