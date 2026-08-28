@@ -81,6 +81,9 @@ Damit C#-Programme ausgeführt werden können, benötigst du das **.NET SDK**.
 
 1. Erstelle einen Ordner auf deinem Computer für unser Modul.
 2. Öffne diesen Ordner im Editor `File > Open Folder`
+3. Sollte der Editor anzeigen, dass der Order im "Restricted Mode" läuft (links
+   unten), klicke auf den blauen Button "Restricted Mode" und wähle die Option
+   "Trust" ("Vertrauen") für diesen Ordner aus.
 
 ### Schritt 5 - Test
 
