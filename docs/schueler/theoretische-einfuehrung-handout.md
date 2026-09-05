@@ -81,7 +81,7 @@ Console.WriteLine(begruessung);
 
 ---
 
-## 3. Aufgaben
+## 3. Übungen
 
 ### 1. Wie funktioniert Software?
 

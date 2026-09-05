@@ -56,7 +56,7 @@ git reset --soft HEAD~1         # macht einen fehlerhaften Commit rückgängig
 
 ---
 
-## 3. Aufgaben
+## 3. Übungen
 
 ### 🦊 Setup: Git & GitHub einrichten
 
@@ -104,8 +104,10 @@ hast.
 
 #### Schritt 5 – C#-Projekt anlegen
 
-1. Öffne das Terminal im gewünschten Ordner und erstelle ein neues
-   Konsolenprojekt:
+1. Lege (über Explorer oder Finder) einen Ordner an, in dem du alle deine
+   C#-Projekte speichern willst (z.B. "M319")
+2. Öffne diesen Ordner in VS Code
+3. Erstelle ein neues Konsolenprojekt:
 
 ```bash
 dotnet new console -n MeinGitProjekt
@@ -139,10 +141,12 @@ dotnet new gitignore
 Das erstellt automatisch eine `.gitignore`-Datei mit den für .NET-Projekte
 üblichen Ausschlüssen.
 
-#### Schritt 7 – Verbindung testen
+#### Schritt 7 – Verbindung zwischen Lokal und Github erstellen
 
-1. Erstelle ein neues öffentliches (public) Repository auf GitHub
-2. Code lokal commiten und pushen:
+1. Erstelle ein neues öffentliches (public) Repository auf GitHub mit dem Namen
+   `MeinGitProjekt`Ers
+2. Den angezeigten Code kopieren und lokal (über Terminal im VSCode) commiten
+   und pushen. Sieht etwa so aus:
 
 ```bash
 git init
