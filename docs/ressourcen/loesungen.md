@@ -177,8 +177,8 @@ Console.WriteLine($"Restvolumen in GB: {restGB:F2} GB");
 
 ### Aufgabe 2 - Code lesen
 
-- a) Zahl1 = 6, Zahl2 = 3
-- b) Zahl1 = 7, Zahl2 = 7
+- a) Zahl1 = 3, Zahl2 = 6
+- b) Zahl1 = 5, Zahl2 = 8
 
 ---
 
@@ -256,7 +256,7 @@ else
     Console.WriteLine($"Eintritt: CHF {preis}.–");
 }
 ```
-<!--
+
 ---
 
 ## Bedingungen II
@@ -378,7 +378,3 @@ anzahl ist in allen drei Fällen 2.
 
   Console.WriteLine("Ostersonntag " + jahr + ": " + ostertag + ". " + monat);
   ```
-
-  ---
-
--->
