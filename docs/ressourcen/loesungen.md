@@ -350,31 +350,336 @@ anzahl ist in allen drei Fällen 2.
 ### Aufgabe 4 - Ostersonntag 🐣
 
 ```csharp
-  Console.Write("Jahr: ");
-  int jahr = Convert.ToInt32(Console.ReadLine());
+Console.Write("Jahr: ");
+int jahr = Convert.ToInt32(Console.ReadLine());
 
-  int m = (8 * (jahr / 100) + 13) / 25 - 2;
-  int s = jahr / 100 - jahr / 400 - 2;
-  m = (15 + s - m) % 30;
-  int n = (6 + s) % 7;
+int m = (8 * (jahr / 100) + 13) / 25 - 2;
+int s = jahr / 100 - jahr / 400 - 2;
+m = (15 + s - m) % 30;
+int n = (6 + s) % 7;
 
-  int a = jahr % 19;
-  int b = jahr % 4;
-  int c = jahr % 7;
-  int d = (19 * a + m) % 30;
-  if (d == 29)
-      d = 28;
-  else if (d == 28 && a >= 11)
-      d = 27;
-  int e = (2 * b + 4 * c + 6 * d + n) % 7;
+int a = jahr % 19;
+int b = jahr % 4;
+int c = jahr % 7;
+int d = (19 * a + m) % 30;
+if (d == 29)
+    d = 28;
+else if (d == 28 && a >= 11)
+    d = 27;
+int e = (2 * b + 4 * c + 6 * d + n) % 7;
 
-  int ostertag = 22 + d + e;
-  string monat = "März";
-  if (ostertag > 31)
-  {
-      ostertag = ostertag % 31;
-      monat = "April";
-  }
+int ostertag = 22 + d + e;
+string monat = "März";
+if (ostertag > 31)
+{
+    ostertag = ostertag % 31;
+    monat = "April";
+}
 
-  Console.WriteLine("Ostersonntag " + jahr + ": " + ostertag + ". " + monat);
-  ```
+Console.WriteLine("Ostersonntag " + jahr + ": " + ostertag + ". " + monat);
+```
+
+---
+
+## Schleifen I
+
+### Aufgabe 1 - PAP zeichnen
+
+![](../img/schleifen-a1.png)
+
+---
+
+### Aufgabe 2 - Code lesen
+
+a)
+
+```csharp
+1
+2
+4
+8
+16
+32
+Ende: 64
+```
+
+b)
+
+```csharp
+a = -2, b= 22
+```
+
+---
+
+### Aufgabe 3 - Countdown und Summe
+
+```csharp
+// Countdown von 10 bis 1
+int i = 10;
+while (i >= 1)
+{
+    Console.WriteLine(zaehler);
+    i--;
+}
+Console.WriteLine("Start!");
+
+// Summe von 1 bis n
+Console.Write("Gib eine Zahl n ein: ");
+int n = int.Parse(Console.ReadLine());
+
+int summe = 0;
+int i = 1;
+while (i <= n)
+{
+    summe += i;
+    i++;
+}
+
+Console.WriteLine($"Die Summe aller Zahlen von 1 bis {n} ist {summe}.");
+```
+
+---
+
+### Aufgabe 4 - Fehler finden
+
+**Fehler 1: Kompilierfehler in Zeile 02/03**
+
+zahl wird in Zeile 03 in der Bedingung zahl != 0 gelesen, hat aber noch keinen Wert. C# verlangt, dass lokale Variablen vor dem ersten Lesen zugewiesen sind, sonst bricht der Compiler mit CS0165: Verwendung der nicht zugewiesenen lokalen Variablen „zahl“ ab.
+
+F**ehler 2: Logikfehler in Zeile 07**
+
+summe =+ zahl; ist kein Additionsoperator, sondern wird als summe = +zahl; gelesen (Zuweisung mit unärem Plus). summe wird also bei jedem Durchlauf mit der aktuellen Zahl überschrieben. Da die letzte Eingabe immer 0 ist, gibt das Programm stets Summe: 0 aus. Korrekt ist der Verbundoperator +=.
+
+---
+
+### Aufgabe 5 - Eingabeprüfung
+
+```csharp
+int age = 0;
+
+do
+{
+    Console.Write("Bitte gib dein Alter [in Jahren] ein: ");
+    age = int.Parse(Console.ReadLine());
+
+    if (age < 0 || age > 120 )
+    {
+        Console.WriteLine("Deine Eingabe war ungültig.");
+    }
+}
+while (age < 0 || age > 120);
+
+Console.WriteLine($"Gratuliere! Du bist {age} Jahre alt.");
+```
+
+---
+
+### Aufgabe 6 - Zahlenraten 🔮
+
+```csharp
+Random zufall = new Random();
+int geheim = zufall.Next(1, 101);
+
+int tipp = 0;
+int versuche = 0;
+
+Console.WriteLine("An welche Zahl von 1 bis 100 denke ich? Versuche die Zahl in möglicht wenigen Versuchen zu erraten. Viel Glück!");
+
+
+while (tipp != geheim)
+{
+    Console.Write("Dein Tipp: ");
+    tipp = int.Parse(Console.ReadLine());
+
+    if (tipp > geheim)
+    {
+        Console.WriteLine("Zu hoch.");
+    }
+    else if (tipp < geheim)
+    {
+        Console.WriteLine("Zu tief.");
+    }
+    versuche++;
+}
+Console.WriteLine($"Gratulation! Du bist ein Hellseher und hast nur {versuche} Versuche gebraucht.");
+```
+
+---
+
+### Aufgabe 7 - Lotto 🍀
+
+```csharp
+Random zufall = new Random();
+int zahl1, zahl2, zahl3, zahl4, zahl5, zahl6, glüeckszahl;
+
+do
+{
+    zahl1 = zufall.Next(1, 43);
+    zahl2 = zufall.Next(1, 43);
+    zahl3 = zufall.Next(1, 43);
+    zahl4 = zufall.Next(1, 43);
+    zahl5 = zufall.Next(1, 43);
+    zahl6 = zufall.Next(1, 43);
+    glueckszahl = zufall.Next(1, 7);
+}
+while (zahl1 == zahl2 || zahl1 == zahl3 || zahl1 == zahl4 || zahl1 == zahl5 || zahl1 == zahl6 || zahl2 == zahl3 || zahl2 == zahl4 || zahl2 == zahl5 || zahl2 == zahl6 || zahl3 == zahl4 || zahl3 == zahl5 || zahl3 == zahl6 || zahl4 == zahl5 || zahl4 == zahl6 || zahl5 == zahl6);
+
+Console.WriteLine($"Tipp: {zahl1}, {zahl2}, {zahl3}, {zahl4}, {zahl5}, {zahl6}. Glückszahl: {glueckszahl}");
+```
+
+---
+
+### Aufgabe 8 - Josefsrappen 🪙
+
+```csharp
+int startJahr, zielJahr;
+double betrag, zinssatz, goldErden;
+
+Console.Write("Bitte gib ein Startjahr (z.B. 1934) ein: ");
+startJahr = int.Parse(Console.ReadLine());
+
+Console.Write("Bitte gib ein Zieljahr (z.B. 2045) ein: ");
+zielJahr = int.Parse(Console.ReadLine());
+
+Console.Write("Bitte gib einen Betrag in CHF ein, den du anlegen möchtest: ");
+betrag = double.Parse(Console.ReadLine());
+
+Console.Write("Bitte gib einen Zinssatz in % ein, zu dem du anlegen möchtest: ");
+zinssatz = double.Parse(Console.ReadLine());
+
+do
+{
+    betrag = betrag * (1 + zinssatz / 100);
+    startJahr++;
+}
+while (startJahr < zielJahr);
+
+Console.WriteLine($"Der Betrag im {zielJahr} beläuft sich auf CHF {betrag.ToString("E3")}.-");
+
+double wertErde = 2.09e30;
+
+goldErden = Math.Floor(betrag / wertErde);
+
+Console.WriteLine($"Für diesen Betrag könntest du dir {goldErden} Erden aus purem Gold kaufen!");
+```
+
+---
+
+<!--
+
+## Schleifen II
+
+### Aufgabe 1 - Code lesen
+
+a) Die Ausgabe des Codes lautet: **1 2 4 5 7 8**
+
+Schritt-für-Schritt-Ablauf:
+
+Die Schleife läuft mit der Variable i von 1 bis 10. In jedem Durchlauf gelten zwei Bedingungen:
+
+1. if (i % 3 == 0) continue; – Wenn i durch 3 teilbar ist (3, 6, 9), springt das Programm sofort zum nächsten Schleifendurchlauf.
+2. if (i > 8) break; – Wenn i grösser als 8 ist (ab 9), wird die Schleife komplett abgebrochen.
+
+
+b) **30**
+
+Die Schleife startet bei i = 2 und erhöht i in jedem Schritt um 2 (i += 2). Es werden also nur die geraden Zahlen bis einschliesslich 10 addiert.
+
+
+c) Die Ausgabe des Codes lautet: **25,16,9,4,1,**
+
+Die Schleife zählt rückwärts von 5 runter bis 1 (i > 0). In jedem Durchlauf wird das Quadrat der Zahl (i * i) gefolgt von einem Komma ausgegeben
+
+---
+
+### Aufgabe 2 - Einmaleins
+
+```csharp
+Console.Write("Gib eine positive Ganzzahl ein: ");
+int x = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine($"{i} x {x} = {i*x}");
+}
+```
+
+---
+
+### Aufgabe 3 - Fakultät
+
+```csharp
+long fakultaet = 1;
+
+Console.Write("Gib eine positive Ganzzahl ein: ");
+int n = int.Parse(Console.ReadLine());
+
+Console.Write($"{n}! = ");
+for (int i = 1; i <= n; i++)
+{
+    if (i < n)
+    {
+       Console.Write($"{i} x ");
+        fakultaet *= i;
+        continue;
+    }
+
+    if (i == n)
+    {
+        fakultaet *= n;
+        Console.Write($"{n} = {fakultaet}");
+        break;
+    }
+}
+```
+
+---
+
+### Aufgabe 4 - Sternendreieck ⭐️
+
+```csharp
+Console.Write("Gib die Anzahl der Zeilen ein: ");
+int zeilen = int.Parse(Console.ReadLine());
+
+// Äussere Schleife kontrolliert die Zeilen (von 1 bis zur eingegebenen Anzahl)
+for (int i = 1; i <= zeilen; i++)
+{
+    // Innere Schleife druckt die Sterne für die aktuelle Zeile i
+    for (int j = 1; j <= i; j++)
+    {
+        Console.Write("*");
+    }
+
+    // Nach den Sternen springen wir in die nächste Zeile
+    Console.WriteLine();
+}
+```
+
+---
+
+### Aufgabe 5 - Einmaleins-Tabelle 🧮
+
+```csharp
+// Äussere Schleife kontrolliert die Zeilen (Faktor 1)
+for (int zeile = 1; zeile <= 10; zeile++)
+{
+    // Innere Schleife kontrolliert die Spalten (Faktor 2)
+    for (int spalte = 1; spalte <= 10; spalte++)
+    {
+        // Berechne das Produkt für die aktuelle Zelle
+        int produkt = zeile * spalte;
+
+        // Ausgabe des Wertes, rechtsbündig ausgerichtet auf 4 Zeichen
+                Console.Write(produkt.ToString().PadLeft(4));
+    }
+
+    // Am Ende jeder Zeile springen wir in die nächste Zeile
+    Console.WriteLine();
+}
+```
+
+---
+
+
+
+-->

@@ -117,7 +117,7 @@ Zeichne einen PAP für: Der Benutzer gibt so lange Zahlen ein, bis er 0 eingibt.
 ---
 
 ### 2. Code lesen I
-Was gibt das Programm jeweils aus? Erstelle bei b) eine Tabelle mit den Werten von `a` und `b` nach jedem Durchlauf.
+Was gibt das Programm jeweils aus? Du darfst dir Notizen machen.
 
 a)
 ```csharp
@@ -192,8 +192,6 @@ Beispiele:
 - Tipp: 41, 29, 22, 36, 24, 5 · Glückszahl: 3
 - Tipp: 26, 12, 16, 25, 30, 18 · Glückszahl: 5
 
-Hinweis: Ziehe jede Zahl in einer do-while-Schleife und wiederhole die Ziehung, solange die Zahl bereits vorkommt.
-
 ---
 
 ### 8. Der Josefsrappen 🪙 (Zusatz)
@@ -205,9 +203,10 @@ Du kannst das kaum glauben und überprüfst die Aussage mit einem Programm. Der 
 
 Hinweise:
 
-- Der Wert einer Erde aus purem Gold beträgt ca. 2.09 · 10^30 CHF. Berechnung: Volumen der Erde 1.083 · 10^21 m³, Dichte von Gold 19'300 kg/m³, angenommener Goldpreis CHF 100'000 pro kg. In C# schreibst du das als `2.09e30`.
 - Pro Jahr wächst der Betrag um den Zinssatz: `betrag = betrag * (1 + zinssatz / 100)`.
 - Sehr grosse Zahlen gibst du mit `betrag.ToString("E3")` in Exponentialschreibweise aus.
+- Der Wert einer Erde aus purem Gold beträgt ca. 2.09 · 10^30 CHF. Berechnung: Volumen der Erde 1.083 · 10^21 m³, Dichte von Gold 19'300 kg/m³, angenommener Goldpreis CHF 100'000 pro kg. In C# schreibst du das als `2.09e30`.
+- Da der Zahlenbereich von `decimal` oder `int` in dieser Aufgabe schnell gesprengt werden kann, nimm `double` für Betrag, Zinssatz und die Anzahl der Golderden.
 - Teste mit Startjahr 0, Zieljahr 2026, Betrag 0.01 CHF (1 Rappen) und 5 %.
 
 ---
