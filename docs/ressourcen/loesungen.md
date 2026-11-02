@@ -565,8 +565,6 @@ Console.WriteLine($"Für diesen Betrag könntest du dir {goldErden} Erden aus pu
 
 ---
 
-<!--
-
 ## Schleifen II
 
 ### Aufgabe 1 - Code lesen
@@ -677,9 +675,3 @@ for (int zeile = 1; zeile <= 10; zeile++)
     Console.WriteLine();
 }
 ```
-
----
-
-
-
--->
