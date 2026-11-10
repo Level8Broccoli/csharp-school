@@ -36,15 +36,15 @@ nav:
   - Übersicht: index.md
   - Semesterplan: semesterplan.md
   - Lernstoff:
-      - W1 - Einführung & Setup: schueler/einfuehrung-organisation-handout.md
-      - W2 - Theoretische Einführung: schueler/theoretische-einfuehrung-handout.md
-      - W3 - Git & Github: schueler/git-github-grundlagen-handout.md
-      - W4 - Variablen & Datentypen: schueler/variablen-datentypen-handout.md
-      - W5 - Rechnen: schueler/rechnen-handout.md
-      - W6 - Bedingungen (if-else): schueler/bedingungen-handout.md
-      - W7 - Bedingungen (switch): schueler/bedingungen2-handout.md
-      - W8 - Schleifen (while / do-while): schueler/schleifen-handout.md
-      - W9 - Schleifen (for): schueler/schleifen2-handout.md
+      - 1 - Einführung & Setup: schueler/einfuehrung-organisation-handout.md
+      - 2 - Theoretische Einführung: schueler/theoretische-einfuehrung-handout.md
+      - 3 - Git & Github: schueler/git-github-grundlagen-handout.md
+      - 4 - Variablen & Datentypen: schueler/variablen-datentypen-handout.md
+      - 5 - Rechnen: schueler/rechnen-handout.md
+      - 6 - Bedingungen (if-else): schueler/bedingungen-handout.md
+      - 7 - Bedingungen (switch): schueler/bedingungen2-handout.md
+      - 8 - Schleifen (while / do-while): schueler/schleifen-handout.md
+      - 9 - Schleifen (for): schueler/schleifen2-handout.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
       - C#-Programm anlegen und ausführen: ressourcen/csharp-projekt.md
