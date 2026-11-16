@@ -45,7 +45,7 @@ nav:
       - 7 - Bedingungen (switch): schueler/bedingungen2-handout.md
       - 8 - Schleifen (while / do-while): schueler/schleifen-handout.md
       - 9 - Schleifen (for): schueler/schleifen2-handout.md
-      - 10 - Methoden: schueler/methoden-handout.md
+      - 10 - Funktionen: schueler/funktionen-handout.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
       - C#-Programm anlegen und ausführen: ressourcen/csharp-projekt.md
